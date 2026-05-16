@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "date": "Spotlight",
+      "title": "Spotlight of the Week",
+      "details": "All Year 10 students have been excellent this week and have made steady progress for their GCSEs"
+    },
+    {
+      "date": "25 May - 29 May",
+      "title": "Summer Half-Term Holiday",
+      "details": "School closed for all students"
+    },
+    {
+      "date": "25 May",
+      "title": "Spring Bank Holiday",
+      "details": "National public holiday"
+    },
+    {
+      "date": "20 July",
+      "title": "Summer Holiday Begins",
+      "details": "End of academic school term break"
+    },
+    {
+      "date": "31 August",
+      "title": "Summer Bank Holiday",
+      "details": "National public holiday"
+    },
+    {
+      "date": "1 Sept - 2 Sept",
+      "title": "Staff Training Days",
+      "details": "INSET Days - School closed to students"
+    },
+    {
+      "date": "3 September",
+      "title": "Autumn Term Begins",
+      "details": "All students return to school"
+    },
+    {
+      "date": "26 Oct - 30 Oct",
+      "title": "Autumn Half-Term Holiday",
+      "details": "School closed for all students"
+    },
+    {
+      "date": "18 December",
+      "title": "Christmas Holiday Begins",
+      "details": "End of Autumn term afternoon dismissal"
+    }
+  ]
+}
