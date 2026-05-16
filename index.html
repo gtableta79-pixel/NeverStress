@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Revision Engine</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-primary: #3b82f6;
+            --accent-success: #10b981;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --warning-gold: #eab308;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 { margin-bottom: 5px; color: #fff; }
+        h2 { color: #cbd5e1; border-bottom: 2px solid #334155; padding-bottom: 8px; margin-top: 20px; width: 100%; }
+        p { color: var(--text-muted); margin-top: 0; }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        /* Top-Level Section Navigation Tabs */
+        .top-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 15px;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 15px;
+            font-size: 1.1rem;
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            color: var(--text-muted);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .nav-tab.active {
+            background-color: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+        }
+
+        .view-panel {
+            display: none;
+        }
+
+        .view-panel.active {
+            display: block;
+        }
+
+        .sub-section {
+            margin-bottom: 35px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 1px solid #334155;
+            padding: 15px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: rgba(255,255,255,0.05);
+            border-color: #475569;
+            transform: translateY(-2px);
+        }
+
+        .subject-btn:hover {
+            background-color: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: white;
+        }
+
+        /* Alert Callout Note */
+        .info-note {
+            background-color: rgba(234, 179, 8, 0.1);
+            border-left: 4px solid var(--warning-gold);
+            color: #fef08a;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        /* Timetable Display */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #334155;
+        }
+
+        th {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+
+        /* Interactive Feedback Area Component */
+        .feedback-form-box {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-top: 15px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid #334155;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            box-sizing: border-box;
+            resize: vertical;
+            margin-bottom: 8px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+        }
+
+        .form-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .submit-feedback-btn {
+            background-color: var(--accent-primary);
+            color: white;
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            border: none;
+        }
+        .submit-feedback-btn:hover {
+            background-color: #2563eb;
+        }
+
+        .toast-banner {
+            display: none;
+            background-color: rgba(16, 185, 129, 0.15);
+            border: 1px solid var(--accent-success);
+            color: #34d399;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Document/List Layout Styling */
+        .list-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-top: 15px;
+        }
+
+        .list-card ol { margin: 0; padding-left: 20px; }
+        .list-card li { margin-bottom: 12px; line-height: 1.5; }
+        .list-card li strong { color: var(--accent-primary); }
+
+        .reward-highlight {
+            font-size: 1.2rem;
+            border-left: 4px solid var(--accent-success);
+            background: rgba(16, 185, 129, 0.05);
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+
+        /* Quiz Panel UI Layout */
+        #quiz-container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            display: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .config-row {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        select {
+            flex: 1;
+            background-color: var(--bg-color);
+            color: white;
+            border: 1px solid #334155;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn { text-align: left; background-color: rgba(255,255,255,0.03); }
+        .back-btn { background-color: #475569; margin-bottom: 20px; }
+        .back-btn:hover { background-color: #64748b; }
+
+        .feedback {
+            font-weight: 600;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            display: none;
+        }
+        .correct { background-color: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid var(--accent-success); }
+        .wrong { background-color: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+        
+        .hint-box {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+            background: rgba(255,255,255,0.02);
+            padding: 10px;
+            border-left: 3px solid var(--accent-primary);
+            border-radius: 0 4px 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GCSE Student Portal</h1>
+        <p>Access revision modules, enrichment schedules, and school notifications</p>
+    </header>
+
+    <div class="container">
+        
+        <div id="navigation-tabs" class="top-nav">
+            <button id="tab-academics" class="nav-tab active" onclick="switchMainTab('academics')">Academics</button>
+            <button id="tab-extracurricular" class="nav-tab" onclick="switchMainTab('extracurricular')">Extra-Curricular</button>
+            <button id="tab-news" class="nav-tab" onclick="switchMainTab('news')">News</button>
+        </div>
+
+        <div id="menu-view">
+            
+            <div id="panel-academics" class="view-panel active">
+                <div class="sub-section">
+                    <h2>Core Subjects</h2>
+                    <div class="grid" id="core-grid"></div>
+                </div>
+                <div class="sub-section">
+                    <h2>Optional Subjects</h2>
+                    <div class="info-note">
+                        <strong>NOTE:</strong> Some of the subjects do not have higher tiers, so only pick the Foundation option.
+                    </div>
+                    <div class="grid" id="optional-grid"></div>
+                </div>
+            </div>
+
+            <div id="panel-extracurricular" class="view-panel">
+                <div class="sub-section">
+                    <h2>Clubs</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Club Activity</th>
+                                <th>Days Scheduled</th>
+                                <th>Time Slot</th>
+                                <th>Location Venue</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="font-weight:600;">Chess Club</td>
+                                <td>Mondays & Wednesdays</td>
+                                <td>Lunchtime</td>
+                                <td>F45</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:600;">Badminton Club</td>
+                                <td>Wednesdays</td>
+                                <td>After School / Lunch</td>
+                                <td>Main Sports Hall (MPH)</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:600;">Basketball Club</td>
+                                <td>Wednesdays</td>
+                                <td>After School / Lunch</td>
+                                <td>Main Sports Hall (MPH)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="sub-section">
+                    <h2>Exam Techniques</h2>
+                    <div class="list-card">
+                        <ol>
+                            <li><strong>Spaced Repetition Intervals:</strong> Review your subject flashcards 1 day, 3 days, and then 7 days after learning them to push facts into long-term memory.</li>
+                            <li><strong>Active Blurting Method:</strong> Read a syllabus section for 5 minutes, close the textbook, and write down everything you can recall in red ink to instantly spot knowledge gaps.</li>
+                            <li><strong>Pomodoro Energy management:</strong> Study in focused blocks of 25 minutes, followed by a 5-minute break away from screens to prevent cognitive fatigue.</li>
+                            <li><strong>Tackle Blind Spots Early:</strong> Sort your topics using a red, amber, green tracking system. Spend your sharpest morning energy fixing your "red" topics first.</li>
+                            <li><strong>Simulate Untimed Past Papers:</strong> Work through real exam papers without a clock to get comfortable applying formulas and organizing paragraph links safely.</li>
+                            <li><strong>Transition to Timed Conditions:</strong> Once confident, complete past papers using strict structural timers to train yourself not to run out of time on long-form marks.</li>
+                            <li><strong>Create Structural Command Word Maps:</strong> Memorize exactly what examiners want when they use verbs like <em>"Evaluate"</em>, <em>"Explain"</em>, or <em>"Compare"</em>.</li>
+                            <li><strong>Protect Circadian Sleep Cycles:</strong> Aim for 8 hours of sleep before big tests. Your brain processes, organizes, and stores what you learned during deep sleep phases.</li>
+                            <li><strong>Optimize Workspace Clarity:</strong> Keep your revision desk clean and leave your smartphone in another room to prevent your attention from breaking focus.</li>
+                            <li><strong>Utilize Positive Reward Loops:</strong> Schedule guilt-free personal breaks, exercise runs, or gaming sessions directly after completing tough study milestones.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-news" class="view-panel">
+                <div class="sub-section">
+                    <h2>Upcoming Events</h2>
+                    <div id="events-target-container"></div>
+                </div>
+                <div class="sub-section">
+                    <h2>Rewards</h2>
+                    <div class="reward-highlight">
+                        🥇 <strong>500 Positive Points:</strong> Summer Enrichment Trip to <strong>Thorpe Park Resort</strong>.
+                    </div>
+                </div>
+                
+                <div class="sub-section">
+                    <h2>Suggestions & Feedback</h2>
+                    <p>Have an idea for a club, or want a specific topic added to the quiz engine? Submit your thoughts below:</p>
+                    <div class="feedback-form-box">
+                        <textarea id="feedback-input" placeholder="Type your revision suggestions here..." oninput="updateCharCount()"></textarea>
+                        <div class="form-footer">
+                            <span id="char-counter">0 / 300 characters</span>
+                            <button class="submit-feedback-btn" onclick="handleFeedbackSubmit()">Submit Suggestion</button>
+                        </div>
+                    </div>
+                    <div id="toast-success" class="toast-banner">
+                        🎉 Suggestion logged! Thank you for helping improve the portal platform.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="quiz-container">
+            <button class="back-btn" onclick="returnToMenu()">← Back to Dashboard</button>
+            <h3 id="current-subject-title" style="margin-top:0; color: var(--accent-primary);">Subject</h3>
+            
+            <div class="config-row">
+                <select id="tier-select" onchange="initQuizConfig()">
+                    <option value="Foundation">Foundation Tier</option>
+                    <option value="Higher">Higher Tier</option>
+                </select>
+                <select id="difficulty-select" onchange="initQuizConfig()">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Challenger">Challenger</option>
+                </select>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+
+            <div id="quiz-gameplay">
+                <div class="question-text" id="question-box">Loading...</div>
+                <div class="hint-box" id="hint-box"></div>
+                <div class="options-list" id="options-box"></div>
+                <div class="feedback" id="feedback-box"></div>
+                <button id="next-btn" style="display:none; background-color: var(--accent-success);" onclick="nextQuestion()">Next Question →</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const coreSubjects = { 'maths': 'Mathematics', 'english': 'English Literature & Lang', 'science': 'Combined Science' };
+        const optionalSubjects = {
+            'computer_science': 'Computer Science', 'history': 'History', 'geography': 'Geography',
+            'physical_education': 'Physical Education', 'sociology': 'Sociology', 'media_studies': 'Media Studies',
+            'art_and_textiles': 'Art & Textiles', 'photography': 'Photography', 'drama': 'Drama',
+            'music': 'Music', 'spanish': 'Spanish'
+        };
+
+        let currentSubjectData = null;
+        let currentSubjectKey = "";
+        let activeQuestionsPool = [];
+        let currentQuestionIndex = 0;
+
+        function initAppDashboard() {
+            const coreGrid = document.getElementById('core-grid');
+            const optionalGrid = document.getElementById('optional-grid');
+
+            Object.keys(coreSubjects).forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = 'subject-btn';
+                btn.textContent = coreSubjects[key];
+                btn.onclick = () => launchQuizEngine(key, coreSubjects[key]);
+                coreGrid.appendChild(btn);
+            });
+
+            Object.keys(optionalSubjects).forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = 'subject-btn';
+                btn.textContent = optionalSubjects[key];
+                btn.onclick = () => launchQuizEngine(key, optionalSubjects[key]);
+                optionalGrid.appendChild(btn);
+            });
+
+            loadUpcomingEvents();
+        }
+
+        function switchMainTab(targetTab) {
+            document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById(`tab-${targetTab}`).classList.add('active');
+            document.getElementById(`panel-${targetTab}`).classList.add('active');
+        }
+
+        async function loadUpcomingEvents() {
+            const container = document.getElementById('events-target-container');
+            try {
+                const response = await fetch('events.json');
+                if (!response.ok) throw new Error("No file footprint");
+                const data = await response.json();
+                
+                if(data.events && data.events.length > 0) {
+                    let htmlList = '<ul style="padding-left:20px; margin:0; color:var(--text-main);">';
+                    data.events.forEach(ev => {
+                        htmlList += `<li style="margin-bottom:8px;"><strong>${ev.date}:</strong> ${ev.title} (${ev.details})</li>`;
+                    });
+                    htmlList += '</ul>';
+                    container.innerHTML = htmlList;
+                }
+            } catch(e) {
+                container.innerHTML = `<p style="color:var(--text-muted); margin:0;">Create <code>events.json</code> to view calendar data entries.</p>`;
+            }
+        }
+
+        function updateCharCount() {
+            const input = document.getElementById('feedback-input');
+            const counter = document.getElementById('char-counter');
+            counter.textContent = `${input.value.length} / 300 characters`;
+            
+            if(input.value.length > 300) {
+                counter.style.color = '#f87171';
+            } else {
+                counter.style.color = 'var(--text-muted)';
+            }
+        }
+
+        function handleFeedbackSubmit() {
+            const input = document.getElementById('feedback-input');
+            const toast = document.getElementById('toast-success');
+            const submitBtn = document.querySelector('.submit-feedback-btn');
+
+            if(input.value.trim() === "") {
+                alert("Please type a suggestion before submitting!");
+                return;
+            }
+
+            submitBtn.textContent = "Sending...";
+            submitBtn.disabled = true;
+
+            const webAppUrl = "https://script.google.com/macros/s/AKfycbxg5Ax4hib7tUDi7daqociJVpqp3fx735HWqD7NlkrnxLiepJ6krr8hE1LoCZLDWFGJRA/exec";
+
+            const payload = {
+                suggestion: input.value
+            };
+
+            fetch(webAppUrl, {
+                method: "POST",
+                mode: "no-cors",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(() => {
+                toast.style.display = 'block';
+                input.value = ""; 
+                document.getElementById('char-counter').textContent = "0 / 300 characters";
+                
+                submitBtn.textContent = "Submit Suggestion";
+                submitBtn.disabled = false;
+
+                setTimeout(() => { toast.style.display = 'none'; }, 4000);
+            })
+            .catch(err => {
+                alert("Something went wrong with the connection. Try again.");
+                submitBtn.textContent = "Submit Suggestion";
+                submitBtn.disabled = false;
+                console.error(err);
+            });
+        }
+
+        async function launchQuizEngine(subjectKey, subjectName) {
+            try {
+                const response = await fetch(`${subjectKey}.json`);
+                if (!response.ok) throw new Error(`HTTP Error status code: ${response.status}`);
+                currentSubjectData = await response.json();
+                currentSubjectKey = subjectKey;
+                
+                document.getElementById('current-subject-title').textContent = subjectName;
+                document.getElementById('navigation-tabs').style.display = 'none';
+                document.getElementById('menu-view').style.display = 'none';
+                document.getElementById('quiz-container').style.display = 'block';
+                
+                initQuizConfig();
+            } catch (err) {
+                alert(`Could not open study data metrics for ${subjectName}. Ensure ${subjectKey}.json is uploaded correctly.`);
+            }
+        }
+
+        function initQuizConfig() {
+            const tier = document.getElementById('tier-select').value;
+            const diff = document.getElementById('difficulty-select').value;
+            activeQuestionsPool = (currentSubjectData && currentSubjectData[tier]) ? currentSubjectData[tier][diff] || [] : [];
+            currentQuestionIndex = 0;
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            const qBox = document.getElementById('question-box');
+            const hBox = document.getElementById('hint-box');
+            const oBox = document.getElementById('options-box');
+            const fBox = document.getElementById('feedback-box');
+            const nextBtn = document.getElementById('next-btn');
+
+            fBox.style.display = 'none'; nextBtn.style.display = 'none'; oBox.innerHTML = '';
+
+            if (activeQuestionsPool.length === 0) {
+                qBox.textContent = "No questions configured yet for this tier/difficulty selection.";
+                hBox.style.display = 'none'; return;
+            }
+
+            const activeQ = activeQuestionsPool[currentQuestionIndex];
+            qBox.textContent = `Q${currentQuestionIndex + 1}: ${activeQ.q}`;
+            hBox.style.display = activeQ.hint ? 'block' : 'none';
+            if(activeQ.hint) hBox.textContent = `Hint: ${activeQ.hint}`;
+
+            activeQ.options.forEach((opt, idx) => {
+                const oBtn = document.createElement('button');
+                oBtn.className = 'option-btn'; oBtn.textContent = opt;
+                oBtn.onclick = () => verifyChoiceSelection(idx, activeQ.correct);
+                oBox.appendChild(oBtn);
+            });
+        }
+
+        function verifyChoiceSelection(selectedIndex, correctIndex) {
+            const fBox = document.getElementById('feedback-box');
+            const nextBtn = document.getElementById('next-btn');
+            document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+
+            if (selectedIndex === correctIndex) {
+                fBox.className = "feedback correct"; fBox.textContent = "✓ Correct Answer!";
+            } else {
+                fBox.className = "feedback wrong"; fBox.textContent = `✗ Incorrect. Correct: "${activeQuestionsPool[currentQuestionIndex].options[correctIndex]}"`;
+            }
+            fBox.style.display = 'block'; nextBtn.style.display = 'inline-block';
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex = (currentQuestionIndex + 1) % activeQuestionsPool.length;
+            displayQuestion();
+        }
+
+        function returnToMenu() {
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('navigation-tabs').style.display = 'flex';
+            document.getElementById('menu-view').style.display = 'block';
+        }
+
+        window.onload = initAppDashboard;
+    </script>
+</body>
+</html>
