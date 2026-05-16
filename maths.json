@@ -1,0 +1,84 @@
+{
+  "Foundation": {
+    "Easy": [
+      { "q": "Write 3/5 as a percentage.", "options": ["35%", "53%", "60%", "30%"], "correct": 2, "hint": "3/5 is the same as 6/10." },
+      { "q": "What is 15% of £60?", "options": ["£6", "£9", "£10", "£12"], "correct": 1, "hint": "Find 10% first (£6), then add half of that (£3)." },
+      { "q": "Simplify the expression: 3x + 4y + x - 2y", "options": ["4x + 2y", "3x + 2y", "4x - 2y", "4x + 6y"], "correct": 0, "hint": "Group the x terms together and the y terms together." }
+    ],
+    "Medium": [
+      { "q": "Work out the value of 2³.", "options": ["5", "6", "8", "9"], "correct": 2, "hint": "2³ means 2 × 2 × 2" },
+      { "q": "Solve the equation: 4x - 3 = 13", "options": ["x = 2.5", "x = 4", "x = 5", "x = 3.5"], "correct": 1, "hint": "Add 3 to both sides, then divide by 4." },
+      { "q": "Find the median of these numbers: 3, 8, 2, 5, 6", "options": ["2", "5", "6", "4.8"], "correct": 2, "hint": "Put them in numerical order first: 2, 3, 5, 6, 8." },
+      { "q": "What is the area of a triangle with base 6cm and height 4cm?", "options": ["24 cm²", "10 cm²", "12 cm²", "16 cm²"], "correct": 2, "hint": "Area = 0.5 × base × height." },
+      { "q": "Express 72 as a product of its prime factors.", "options": ["2 × 3 × 12", "2³ × 3²", "2² × 3³", "8 × 9"], "correct": 1, "hint": "Break down 72 using a factor tree until only primes remain." }
+    ],
+    "Hard": [
+      { "q": "A map has a scale of 1:25000. How many kilometers long is a 10cm line on the map?", "options": ["0.25 km", "2.5 km", "25 km", "250 km"], "correct": 1, "hint": "10cm on map = 250,000cm in reality. Convert cm to meters, then to km." },
+      { "q": "Calculate the size of an exterior angle of a regular hexagon.", "options": ["60°", "120°", "90°", "45°"], "correct": 0, "hint": "Exterior angles of any polygon always add up to 360°." },
+      { "q": "A car travels 120 miles in 2 hours and 30 minutes. What is its average speed?", "options": ["60 mph", "48 mph", "52 mph", "55 mph"], "correct": 1, "hint": "Speed = Distance ÷ Time. Remember 2 hours 30 mins is 2.5 hours." },
+      { "q": "Increase £240 by 17.5%.", "options": ["£282", "£257.50", "£274", "£268"], "correct": 0, "hint": "Find 10%, 5%, and 2.5%, add them up, then add to the original £240." },
+      { "q": "Factorise fully: 12x²y + 18xy²", "options": ["6xy(2x + 3y)", "3xy(4x + 6y)", "6x(2xy + 3y²)", "2xy(6x + 9y)"], "correct": 0, "hint": "Find the highest common factor for the numbers, the x terms, and the y terms." },
+      { "q": "The ratio of boys to girls in a class is 3:5. If there are 40 students in total, how many are girls?", "options": ["15", "25", "20", "30"], "correct": 1, "hint": "Total parts = 3 + 5 = 8. Find the value of 1 part, then multiply by 5." },
+      { "q": "Find the nth term of the sequence: 5, 8, 11, 14, ...", "options": ["3n + 2", "5n - 2", "3n + 5", "2n + 3"], "correct": 0, "hint": "Find the common difference first, then see what adjustment is needed." },
+      { "q": "What is the total surface area of a cube with a side length of 5cm?", "options": ["125 cm²", "150 cm²", "100 cm²", "25 cm²"], "correct": 1, "hint": "A cube has 6 faces. Find the area of one face and multiply by 6." }
+    ],
+    "Challenger": [
+      { "q": "Solve the simultaneous equations: 3x + 2y = 18 and x - 2y = 2. Find x and y.", "options": ["x=5, y=1.5", "x=4, y=3", "x=5, y=2", "x=6, y=0"], "correct": 0, "hint": "Add the equations together to eliminate y." },
+      { "q": "A cylindrical tank has a radius of 3m and a height of 7m. Calculate its volume using π = 22/7.", "options": ["198 m³", "66 m³", "138 m³", "462 m³"], "correct": 0, "hint": "Volume of a cylinder = π × r² × h." },
+      { "q": "Given that y is inversely proportional to x, and y = 8 when x = 3, find y when x = 6.", "options": ["16", "4", "2", "24"], "correct": 1, "hint": "Inverse proportion means y = k/x. Find k first by multiplying x and y." },
+      { "q": "Calculate the length of the hypotenuse of a right-angled triangle with sides 7cm and 24cm.", "options": ["25 cm", "31 cm", "26 cm", "28 cm"], "correct": 0, "hint": "Use Pythagoras' theorem: a² + b² = c²." },
+      { "q": "Work out: 3/4 ÷ 2/5. Give your answer in its simplest form.", "options": ["6/20", "1 7/8", "1 1/2", "15/8"], "correct": 1, "hint": "Flip the second fraction and multiply: 3/4 × 5/2." },
+      { "q": "A jacket costs £85 after a 15% discount. What was its original price?", "options": ["£100", "£97.75", "£115", "£105"], "correct": 0, "hint": "£85 represents 85% of the original price. Divide by 85 to find 1%." },
+      { "q": "Expand and simplify: (2x - 3)(x + 4)", "options": ["2x² + 5x - 12", "2x² - 5x - 12", "2x² + 11x - 12", "2x² + 5x + 12"], "correct": 0, "hint": "Multiply every term in the first bracket by every term in the second." },
+      { "q": "Calculate the size of an interior angle of a regular octagon.", "options": ["135°", "108°", "120°", "140°"], "correct": 0, "hint": "Find the exterior angle first (360 ÷ 8), then subtract it from 180°." },
+      { "q": "Change 45 miles per hour into kilometers per hour. (Use 5 miles = 8 km).", "options": ["72 km/h", "28 km/h", "60 km/h", "80 km/h"], "correct": 0, "hint": "Divide 45 by 5 to find how many 5-mile units there are, then multiply by 8." },
+      { "q": "Solve: 3(2x - 1) = 2(x + 4)", "options": ["x = 2.75", "x = 1.25", "x = 2.25", "x = 1.75"], "correct": 2, "hint": "Expand both brackets first: 6x - 3 = 2x + 8, then rearrange." },
+      { "q": "A bag contains 4 red, 3 blue, and 5 green marbles. Two marbles are drawn without replacement. What is the probability that both are red?", "options": ["12/144", "1/11", "4/33", "16/144"], "correct": 1, "hint": "First pick is 4/12. Second pick leaves 3 red out of 11 total marbles remaining." },
+      { "q": "What is the bearing of South-West?", "options": ["225°", "135°", "045°", "315°"], "correct": 0, "hint": "Bearings are measured clockwise from North (000°). East is 090°, South is 180°." },
+      { "q": "Calculate the value of (3.2 × 10⁵) × (2 × 10⁻³). Give your answer in standard form.", "options": ["6.4 × 10²", "6.4 × 10⁸", "6.4 × 10⁻²", "5.2 × 10²"], "correct": 0, "hint": "Multiply the numbers together, then add the index powers of 10 together." },
+      { "q": "Find the value of x if 2 to the power of x equals 64.", "options": ["5", "6", "7", "8"], "correct": 1, "hint": "Multiply 2 by itself repeatedly until you reach 64." },
+      { "q": "A straight line passes through points (0,3) and (2,11). What is the gradient of the line?", "options": ["4", "3", "8", "2"], "correct": 0, "hint": "Gradient = (Change in y) ÷ (Change in x)." }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      { "q": "Simplify fully: (2x²y³)^4", "options": ["8x⁶y⁷", "16x⁸y¹²", "16x⁶y⁷", "8x⁸y¹²"], "correct": 1, "hint": "Multiply the powers inside by the power outside, and remember 2⁴ = 16." },
+      { "q": "Solve the inequality: 5x - 7 > 3x + 5", "options": ["x > 6", "x > -1", "x > 1", "x > 3"], "correct": 0, "hint": "Subtract 3x from both sides, then add 7, and solve for x." },
+      { "q": "Find the equation of a straight line that passes through the origin and has a gradient of -3.", "options": ["y = -3x", "y = 3x", "y = x - 3", "y = -3x + 1"], "correct": 0, "hint": "The general form is y = mx + c. Passing through the origin means c = 0." }
+    ],
+    "Medium": [
+      { "q": "Solve the quadratic equation: x² - 5x - 6 = 0", "options": ["x = 6 or x = -1", "x = -6 or x = 1", "x = 3 or x = 2", "x = -3 or x = -2"], "correct": 0, "hint": "Find two numbers that multiply to -6 and add to -5." },
+      { "q": "Work out the value of 16^(-3/4) without a calculator.", "options": ["1/8", "1/4", "8", "-8"], "correct": 0, "hint": "Find the 4th root of 16 first, cube it, then take the reciprocal because of the negative sign." },
+      { "q": "The dynamic pressure P varies directly as the square of velocity v. If P = 24 when v = 2, find P when v = 3.", "options": ["36", "54", "48", "72"], "correct": 1, "hint": "Set up P = kv². Find k first, then substitute v = 3." },
+      { "q": "Expand and simplify: (x + 2)(x - 3)(x + 4)", "options": ["x³ + 3x² - 10x - 24", "x³ + 3x² - 14x - 24", "x³ - 3x² - 10x + 24", "x³ + 3x² + 10x - 24"], "correct": 0, "hint": "Expand the first two brackets together first, then multiply the result by the third bracket." },
+      { "q": "Rationalise the denominator of: 6 / √3", "options": ["2√3", "6√3", "√3", "3√3"], "correct": 0, "hint": "Multiply the top and the bottom of the fraction by √3." }
+    ],
+    "Hard": [
+      { "q": "Find the coordinates of the turning point of the curve with equation y = x² - 6x + 11 by completing the square.", "options": ["(3, 2)", "(-3, 2)", "(3, 11)", "(6, 11)"], "correct": 0, "hint": "Rewrite the expression in the form (x - a)² + b. The turning point is (a, b)." },
+      { "q": "Solve the simultaneous equations: y = x² - 3x + 4 and y = 2x + 1. Find the possible x values.", "options": ["x = 1 or x = 4", "x = 2 or x = 3", "x = -1 or x = -4", "x = 0 or x = 5"], "correct": 0, "hint": "Set the two equations equal to each other: x² - 3x + 4 = 2x + 1, rearrange to form a quadratic, and solve." },
+      { "q": "A sector of a circle has a radius of 6cm and an angle of 120°. Calculate the exact area of the sector in terms of π.", "options": ["12π cm²", "6π cm²", "18π cm²", "4π cm²"], "correct": 0, "hint": "Area of a sector = (angle / 360) × π × r²." },
+      { "q": "Vector a = [[3], [-2]] and Vector b = [[-1], [4]]. Work out the magnitude of vector 2a + b.", "options": ["5", "√26", "7", "√29"], "correct": 0, "hint": "Calculate the resultant vector components first, then use Pythagoras' theorem to find the magnitude." },
+      { "q": "Simplify fully: (2x² - 5x - 3) / (x² - 9)", "options": ["(2x + 1) / (x + 3)", "(2x - 1) / (x - 3)", "(2x + 1) / (x - 3)", "(2x - 3) / (x + 3)"], "correct": 0, "hint": "Factorise both the numerator and the denominator completely, then cancel out the common bracket." },
+      { "q": "A histogram shows frequencies. One bar has a width representing 5 units and a height (frequency density) of 2.4. What is the frequency of this class interval?", "options": ["12", "0.48", "7.4", "2.4"], "correct": 0, "hint": "Frequency = Frequency Density × Class Width (Area of the bar)." },
+      { "q": "Find the missing length of a triangle where side a=8cm, b=10cm, and the included angle C=60°. Use the cosine rule.", "options": ["2√21 cm", "√84 cm", "9 cm", "2√19 cm"], "correct": 0, "hint": "Cosine Rule: c² = a² + b² - 2ab cos(C). Remember cos(60°) = 0.5." },
+      { "q": "Prove algebraically that the recurring decimal 0.2818181... can be written as a fraction in its simplest form.", "options": ["31/110", "281/990", "14/55", "279/990"], "correct": 0, "hint": "Let x = 0.28181... Find 10x and 1000x, subtract them to clear the recurring trail, then solve for x." }
+    ],
+    "Challenger": [
+      { "q": "Solve the equation: 3 / (x + 1) + 1 / (x - 2) = 2", "options": ["x = 3.5 or x = 0", "x = 4 or x = -0.5", "x = 3 or x = 0.5", "x = 2.5 or x = -1"], "correct": 0, "hint": "Multiply every term by the common denominator (x + 1)(x - 2) to eliminate the fractions, then rearrange into a standard quadratic." },
+      { "q": "A sphere has a volume of 36π cm³. Calculate its total surface area in terms of π.", "options": ["36π cm²", "18π cm²", "24π cm²", "48π cm²"], "correct": 0, "hint": "Use Volume = (4/3)πr³ to find the radius r first. Then plug r into the Surface Area formula = 4πr²." },
+      { "q": "The functions f and g are such that f(x) = 2x + 3 and g(x) = x² - 1. Find the composite function fg(x) fully simplified.", "options": ["2x² + 1", "4x² + 12x + 8", "2x² - 1", "2x² + 2"], "correct": 0, "hint": "fg(x) means substitute the entire expression of g(x) into every 'x' inside f(x)." },
+      { "q": "Find the coordinates of the points of intersection of the line y = 2x + 5 and the circle x² + y² = 25.", "options": ["(0,5) and (-4,-3)", "(0,5) and (4,3)", "(3,4) and (-3,-4)", "(1,7) and (-2,1)"], "correct": 0, "hint": "Substitute y = 2x + 5 into the circle equation, expand carefully, solve for x, then find the matching y values." },
+      { "q": "The table shows information about a conditional probability selection without replacement. A box contains 5 red counters and 3 blue counters. Two counters are taken at random. Find the probability that they are different colors.", "options": ["15/28", "15/56", "30/56", "25/56"], "correct": 0, "hint": "Calculate Probability(Red then Blue) + Probability(Blue then Red). Remember the denominator drops to 7 on the second draw." },
+      { "q": "Find the equation of the tangent to the circle x² + y² = 25 at the point (3, 4).", "options": ["y = -3/4x + 25/4", "y = 3/4x + 7/4", "y = -4/3x + 8", "y = -3/4x + 5"], "correct": 0, "hint": "Find the gradient of the radius from (0,0) to (3,4). The tangent is perpendicular to this radius, so its gradient is the negative reciprocal." },
+      { "q": "The area of a triangle ABC is 24 cm². Side AB = 8cm and side BC = 12cm. Calculate the two possible sizes of the obtuse angle ABC.", "options": ["150°", "120°", "135°", "105°"], "correct": 0, "hint": "Use Area = 0.5 × a × c × sin(B). Solve for sin(B), find the acute angle, then subtract from 180° for the obtuse alternative." },
+      { "q": "Solve the quadratic inequality: 2x² - 5x - 3 < 0", "options": ["-0.5 < x < 3", "x < -0.5 or x > 3", "-3 < x < 0.5", "x < -3 or x > 0.5"], "correct": 0, "hint": "Find the critical values by factorising to solve 2x² - 5x - 3 = 0. Determine if the region is between or outside those critical values." },
+      { "q": "In a geometric progression, the 2nd term is 6 and the 5th term is 48. Find the sum of the first 8 terms of this sequence.", "options": ["765", "510", "1023", "381"], "correct": 0, "hint": "Use ar = 6 and ar⁴ = 48 to find the common ratio 'r' and first term 'a'. Then apply the geometric series sum formula." },
+      { "q": "A curve has the equation y = x³ - 3x² + 4. Find the x-coordinates of the stationary points using differentiation.", "options": ["x = 0 and x = 2", "x = 1 and x = 3", "x = 0 and x = 3", "x = -1 and x = 2"], "correct": 0, "hint": "Find the derivative dy/dx, set it equal to 0 (since stationary points have a gradient of zero), and solve for x." },
+      { "q": "Using vector proofs, if OABC is a parallelogram, M is the midpoint of AB and N is a point on AC such that AN:NC = 1:2. Prove that M, N, and O lie on a straight line by finding the relationship between vectors ON and OM.", "options": ["ON = 2/3 OM", "ON = 1/2 OM", "ON = 3/4 OM", "ON = 1/3 OM"], "correct": 0, "hint": "Express vectors OM and ON in terms of base vectors a and c. Show that ON is a direct scalar multiple of OM." },
+      { "q": "Simplify algebraic fractions involving indices: (3x^2 / y)^(-2) * (9x^4 / y^3)", "options": ["y / x", "1 / y", "x / y", "y² / x"], "correct": 0, "hint": "Apply the negative power to invert the first fraction, square its components, and then multiply across." },
+      { "q": "Calculate the length of the longest diagonal inside a cuboid with dimensions 3cm by 4cm by 12cm.", "options": ["13 cm", "14 cm", "15 cm", "12.5 cm"], "correct": 0, "hint": "Use 3D Pythagoras' Theorem: d² = x² + y² + z²." },
+      { "q": "Convert the recurring decimal 0.4575757... into a fraction in its simplest form.", "options": ["75.5/165", "151/330", "453/990", "226/495"], "correct": 1, "hint": "Separate the non-recurring part from the recurring loop or set up equations for 10x and 1000x." },
+      { "q": "Given that log_a(x) = 2 and log_a(y) = 3, find the value of log_a(x²y³).", "options": ["13", "12", "18", "10"], "correct": 0, "hint": "Use log laws: log(x²y³) = 2log(x) + 3log(y). Substitute the known log values." }
+    ]
+  }
+}
