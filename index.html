@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Revision Engine</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-primary: #3b82f6;
+            --accent-success: #10b981;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --warning-gold: #eab308;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 { margin-bottom: 5px; color: #fff; }
+        h2 { color: #cbd5e1; border-bottom: 2px solid #334155; padding-bottom: 8px; margin-top: 20px; width: 100%; }
+        p { color: var(--text-muted); margin-top: 0; }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            padding-bottom: 80px;
+        }
+
+        /* Top-Level Section Navigation Tabs */
+        .top-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 15px;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 15px;
+            font-size: 1.1rem;
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            color: var(--text-muted);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .nav-tab.active {
+            background-color: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+        }
+
+        .view-panel {
+            display: none;
+        }
+
+        .view-panel.active {
+            display: block;
+        }
+
+        .sub-section {
+            margin-bottom: 35px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        /* Subject Button Blocks with Integrated Progress Trackers */
+        .subject-card {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .subject-card:hover {
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .subject-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+
+        /* Progress Bar Graphics */
+        .progress-container {
+            width: 100%;
+            background-color: #334155;
+            border-radius: 50px;
+            height: 6px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .progress-bar {
+            background-color: var(--accent-success);
+            height: 100%;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .progress-text {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: right;
+            margin-top: 4px;
+            display: block;
+        }
+
+        /* Alert Callout Note */
+        .info-note {
+            background-color: rgba(234, 179, 8, 0.1);
+            border-left: 4px solid var(--warning-gold);
+            color: #fef08a;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        /* Timetable Display */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #334155;
+        }
+
+        th {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+
+        /* Interactive Feedback Area Component */
+        .feedback-form-box {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-top: 15px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid #334155;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            box-sizing: border-box;
+            resize: vertical;
+            margin-bottom: 8px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+        }
+
+        .form-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .submit-feedback-btn {
+            background-color: var(--accent-primary);
+            color: white;
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s ease;
+        }
+        .submit-feedback-btn:hover {
+            background-color: #2563eb;
+        }
+
+        button.action-btn {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 1px solid #334155;
+            padding: 12px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        button.action-btn:hover {
+            background-color: rgba(255,255,255,0.05);
+            border-color: #475569;
+        }
+
+        .toast-banner {
+            display: none;
+            background-color: rgba(16, 185, 129, 0.15);
+            border: 1px solid var(--accent-success);
+            color: #34d399;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Document/List Layout Styling */
+        .list-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-top: 15px;
+            position: relative;
+        }
+
+        .list-card ol { margin: 0; padding-left: 20px; }
+        .list-card li { margin-bottom: 12px; line-height: 1.5; }
+        .list-card li strong { color: var(--accent-primary); }
+
+        .reward-highlight {
+            font-size: 1.2rem;
+            border-left: 4px solid var(--accent-success);
+            background: rgba(16, 185, 129, 0.05);
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+
+        /* Peer-to-Peer Upvote Element Styling */
+        .board-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .upvote-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid #334155;
+            padding: 6px 10px;
+            border-radius: 6px;
+        }
+        .upvote-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+            transition: color 0.2s ease;
+        }
+        .upvote-btn:hover {
+            color: var(--warning-gold);
+        }
+        .upvote-count {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-top: 2px;
+        }
+
+        /* Quiz Panel UI Layout */
+        #quiz-container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            display: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .config-row {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        select {
+            flex: 1;
+            min-width: 150px;
+            background-color: var(--bg-color);
+            color: white;
+            border: 1px solid #334155;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        /* Mode Selector Toggle Element */
+        .mode-toggle-box {
+            display: flex;
+            background: var(--bg-color);
+            border: 1px solid #334155;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 10px 15px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .mode-btn.active {
+            background: var(--accent-primary);
+            color: white;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn { text-align: left; background-color: rgba(255,255,255,0.03); border: 1px solid #334155; color: white; padding: 15px; border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600; transition: all 0.2s ease; }
+        .option-btn:hover { background-color: rgba(255,255,255,0.08); }
+        
+        .back-btn { background-color: #475569; margin-bottom: 20px; color: white; border: none; padding: 10px 15px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+        .back-btn:hover { background-color: #64748b; }
+
+        .feedback {
+            font-weight: 600;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            display: none;
+        }
+        .correct { background-color: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid var(--accent-success); }
+        .wrong { background-color: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+        
+        .hint-box {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+            background: rgba(255,255,255,0.02);
+            padding: 10px;
+            border-left: 3px solid var(--accent-primary);
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* Flashcard Component Modular Styling */
+        #flashcard-box {
+            display: none;
+            perspective: 1000px;
+            margin-bottom: 25px;
+            width: 100%;
+            height: 200px;
+        }
+        .fc-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+        .fc-inner.flipped {
+            transform: rotateY(180deg);
+        }
+        .fc-front, .fc-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            border: 2px dashed #475569;
+        }
+        .fc-front {
+            background-color: rgba(255,255,255,0.02);
+            color: var(--text-main);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .fc-back {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-color: var(--accent-primary);
+            color: #93c5fd;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transform: rotateY(180deg);
+        }
+        .fc-controls-row {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        /* Revision Resources View Layout */
+        .resource-card {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .resource-category {
+            margin-bottom: 12px;
+        }
+        .resource-category strong {
+            color: var(--accent-primary);
+            display: block;
+            margin-bottom: 6px;
+            font-size: 1.05rem;
+        }
+        .resource-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .resource-link {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid #334155;
+            color: var(--text-main);
+            padding: 6px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .resource-link:hover {
+            background-color: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        /* Floating Theme Swapper Styles */
+        .theme-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .theme-trigger-btn {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 1px solid var(--accent-primary);
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .theme-panel {
+            display: none;
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            padding: 12px;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            gap: 8px;
+        }
+
+        .color-dot {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 2px solid #1e293b;
+            cursor: pointer;
+            transition: transform 0.15s ease;
+        }
+
+        .color-dot:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GCSE Student Portal</h1>
+        <p>Access revision modules, enrichment schedules, and school notifications</p>
+    </header>
+
+    <div class="container">
+        
+        <div id="navigation-tabs" class="top-nav">
+            <button id="tab-academics" class="nav-tab active" onclick="switchMainTab('academics')">Academics</button>
+            <button id="tab-extracurricular" class="nav-tab" onclick="switchMainTab('extracurricular')">Extra-Curricular</button>
+            <button id="tab-news" class="nav-tab" onclick="switchMainTab('news')">News</button>
+        </div>
+
+        <div id="menu-view">
+            
+            <div id="panel-academics" class="view-panel active">
+                <div class="sub-section">
+                    <h2>Core Subjects</h2>
+                    <div class="grid" id="core-grid"></div>
+                </div>
+                <div class="sub-section">
+                    <h2>Optional Subjects</h2>
+                    <div class="info-note">
+                        <strong>NOTE:</strong> Some of the subjects do not have higher tiers, so only pick the Foundation option.
+                    </div>
+                    <div class="grid" id="optional-grid"></div>
+                </div>
+                
+                <div class="sub-section">
+                    <h2>Revision Resources</h2>
+                    <div class="resource-card">
+                        <div class="resource-category">
+                            <strong>Core Hubs & General Practice</strong>
+                            <div class="resource-links">
+                                <a href="https://senecalearning.com/" target="_blank" class="resource-link">Seneca Learning</a>
+                                <a href="https://www.bbc.co.uk/bitesize/levels/z98jmp3" target="_blank" class="resource-link">BBC Bitesize GCSE</a>
+                                <a href="https://www.physicsandmathstutor.com/" target="_blank" class="resource-link">Physics & Maths Tutor (PMT)</a>
+                            </div>
+                        </div>
+                        <div class="resource-category" style="margin-top: 15px;">
+                            <strong>Mathematics</strong>
+                            <div class="resource-links">
+                                <a href="https://www.mathsgenie.co.uk/" target="_blank" class="resource-link">Maths Genie</a>
+                                <a href="https://mathswatch.co.uk/" target="_blank" class="resource-link">MathsWatch</a>
+                                <a href="https://corbettmaths.com/" target="_blank" class="resource-link">Corbettmaths</a>
+                            </div>
+                        </div>
+                        <div class="resource-category" style="margin-top: 15px;">
+                            <strong>Sciences (Combined & Triple)</strong>
+                            <div class="resource-links">
+                                <a href="https://www.freesciencelessons.co.uk/" target="_blank" class="resource-link">Freesciencelessons</a>
+                                <a href="https://www.cognitoedu.org/" target="_blank" class="resource-link">Cognito Engine</a>
+                            </div>
+                        </div>
+                        <div class="resource-category" style="margin-top: 15px;">
+                            <strong>Humanities & Electives</strong>
+                            <div class="resource-links">
+                                <a href="https://www.teach-ict.com/" target="_blank" class="resource-link">Teach-ICT (Computer Science)</a>
+                                <a href="https://www.tutor2u.net/business" target="_blank" class="resource-link">Tutor2u (Business & Sociology)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-extracurricular" class="view-panel">
+                <div class="sub-section">
+                    <h2>Clubs</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Club Activity</th>
+                                <th>Days Scheduled</th>
+                                <th>Time Slot</th>
+                                <th>Location Venue</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="font-weight:600;">Chess Club</td>
+                                <td>Mondays & Wednesdays</td>
+                                <td>Lunchtime</td>
+                                <td>F45</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:600;">Badminton Club</td>
+                                <td>Wednesdays</td>
+                                <td>After School / Lunch</td>
+                                <td>Main Sports Hall (MPH)</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight:600;">Basketball Club</td>
+                                <td>Thursdays</td>
+                                <td>After School / Lunch</td>
+                                <td>Main Sports Hall (MPH)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="sub-section">
+                    <h2>Exam Techniques</h2>
+                    <div class="list-card">
+                        <ol>
+                            <li><strong>Spaced Repetition Intervals:</strong> Review your subject flashcards 1 day, 3 days, and then 7 days after learning them to push facts into long-term memory.</li>
+                            <li><strong>Active Blurting Method:</strong> Read a syllabus section for 5 minutes, close the textbook, and write down everything you can recall in red ink to instantly spot knowledge gaps.</li>
+                            <li><strong>Pomodoro Energy management:</strong> Study in focused blocks of 25 minutes, followed by a 5-minute break away from screens to prevent cognitive fatigue.</li>
+                            <li><strong>Tackle Blind Spots Early:</strong> Sort your topics using a red, amber, green tracking system. Spend your sharpest morning energy fixing your "red" topics first.</li>
+                            <li><strong>Simulate Untimed Past Papers:</strong> Work through real exam papers without a clock to get comfortable applying formulas and organizing paragraph links safely.</li>
+                            <li><strong>Transition to Timed Conditions:</strong> Once confident, complete past papers using strict structural timers to train yourself not to run out of time on long-form marks.</li>
+                            <li><strong>Create Structural Command Word Maps:</strong> Memorize exactly what examiners want when they use verbs like <em>"Evaluate"</em>, <em>"Explain"</em>, or <em>"Compare"</em>.</li>
+                            <li><strong>Protect Circadian Sleep Cycles:</strong> Aim for 8 hours of sleep before big tests. Your brain processes, organizes, and stores what you learned during deep sleep phases.</li>
+                            <li><strong>Optimize Workspace Clarity:</strong> Keep your revision desk clean and leave your smartphone in another room to prevent your attention from breaking focus.</li>
+                            <li><strong>Utilize Positive Reward Loops:</strong> Schedule guilt-free personal breaks, exercise runs, or gaming sessions directly after completing tough study milestones.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="sub-section">
+                    <h2>"Ask a Peer" Help Board</h2>
+                    <p>Stuck on a tricky concept or homework question? Ask anonymously, or help a classmate out by answering!</p>
+                    
+                    <div class="feedback-form-box" style="margin-bottom: 25px;">
+                        <h3 style="margin-top:0; color:var(--accent-primary); font-size:1.1rem;">Ask a New Question</h3>
+                        <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:10px;">
+                            <select id="board-subject-select" style="width:100%; max-width:250px;">
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="English">English</option>
+                                <option value="Science">Science</option>
+                                <option value="History/Geo">History/Geography</option>
+                                <option value="Other Electives">Other Subject</option>
+                            </select>
+                            <textarea id="board-question-input" placeholder="What concept are you stuck on? Be specific so your peers can help answer..." style="height:60px; margin-bottom:0;"></textarea>
+                        </div>
+                        <div style="text-align:right;">
+                            <button class="submit-feedback-btn" id="ask-btn" onclick="submitPeerQuestion()">Post Anonymously</button>
+                        </div>
+                    </div>
+
+                    <h3 style="font-size:1.1rem; color:var(--text-main);">Active Community Questions</h3>
+                    <div id="peer-board-container">
+                        <p style="color:var(--text-muted); font-style:italic;">Syncing community board feed...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-news" class="view-panel">
+                <div class="sub-section">
+                    <h2>Upcoming Events</h2>
+                    <div id="events-target-container"></div>
+                </div>
+                <div class="sub-section">
+                    <h2>Rewards</h2>
+                    <div class="reward-highlight">
+                        🥇 <strong>500 Positive Points:</strong> Summer Enrichment Trip to <strong>Thorpe Park Resort</strong>.
+                    </div>
+                </div>
+                
+                <div class="sub-section">
+                    <h2>Suggestions & Feedback</h2>
+                    <p>Have an idea for a club, or want a specific topic added to the quiz engine? Submit your thoughts below:</p>
+                    <div class="feedback-form-box">
+                        <textarea id="feedback-input" placeholder="Type your revision suggestions here..." oninput="updateCharCount()"></textarea>
+                        <div class="form-footer">
+                            <span id="char-counter">0 / 300 characters</span>
+                            <button class="submit-feedback-btn" onclick="handleFeedbackSubmit()">Submit Suggestion</button>
+                        </div>
+                    </div>
+                    <div id="toast-success" class="toast-banner">
+                        🎉 Suggestion logged! Thank you for helping improve the portal platform.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="quiz-container">
+            <button class="back-btn" onclick="returnToMenu()">← Back to Dashboard</button>
+            
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; flex-wrap:wrap; gap:10px;">
+                <h3 id="current-subject-title" style="margin:0; color: var(--accent-primary);">Subject</h3>
+                
+                <div class="mode-toggle-box">
+                    <button id="mode-quiz-btn" class="mode-btn active" onclick="setEngineMode('quiz')">Quiz Mode</button>
+                    <button id="mode-fc-btn" class="mode-btn" onclick="setEngineMode('flashcard')">Flashcards</button>
+                </div>
+            </div>
+            
+            <div class="config-row">
+                <select id="tier-select" onchange="initQuizConfig()">
+                    <option value="Foundation">Foundation Tier</option>
+                    <option value="Higher">Higher Tier</option>
+                </select>
+                <select id="difficulty-select" onchange="initQuizConfig()">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Challenger">Challenger</option>
+                </select>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+
+            <div id="quiz-gameplay">
+                <div class="hint-box" id="hint-box"></div>
+                
+                <div id="standard-quiz-view">
+                    <div class="question-text" id="question-box">Loading...</div>
+                    <div class="options-list" id="options-box"></div>
+                </div>
+
+                <div id="flashcard-box">
+                    <div class="fc-inner" id="fc-card" onclick="flipFlashcard()">
+                        <div class="fc-front" id="fc-question-target">Question loading...</div>
+                        <div class="fc-back" id="fc-answer-target">Answer loading...</div>
+                    </div>
+                    <div class="fc-controls-row">
+                        <button id="fc-reveal-btn" class="action-btn" style="border-color:var(--accent-primary);" onclick="flipFlashcard()">👁 Reveal Answer</button>
+                        <button id="fc-know-btn" class="action-btn" style="display:none; background-color:rgba(16,185,129,0.15); border-color:var(--accent-success); color:#34d399;" onclick="rateFlashcard(true)">Got it right! ✓</button>
+                        <button id="fc-retry-btn" class="action-btn" style="display:none; background-color:rgba(239,68,68,0.15); border-color:#ef4444; color:#f87171;" onclick="rateFlashcard(false)">Needs practice ✗</button>
+                    </div>
+                </div>
+
+                <div class="feedback" id="feedback-box"></div>
+                <button id="next-btn" style="display:none; background-color: var(--accent-success);" class="option-btn" onclick="nextQuestion()">Next Question →</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-container">
+        <div class="theme-panel" id="theme-color-picker">
+            <div class="color-dot" style="background:#3b82f6;" title="Default Blue" onclick="changeAccentTheme('#3b82f6')"></div>
+            <div class="color-dot" style="background:#10b981;" title="Emerald Green" onclick="changeAccentTheme('#10b981')"></div>
+            <div class="color-dot" style="background:#a855f7;" title="Amethyst Purple" onclick="changeAccentTheme('#a855f7')"></div>
+            <div class="color-dot" style="background:#f59e0b;" title="Amber Gold" onclick="changeAccentTheme('#f59e0b')"></div>
+            <div class="color-dot" style="background:#ef4444;" title="Coral Red" onclick="changeAccentTheme('#ef4444')"></div>
+        </div>
+        <button class="theme-trigger-btn" onclick="toggleThemePanel()">
+            <span>🎨</span> Change Layout Colours
+        </button>
+    </div>
+
+    <script>
+        const coreSubjects = { 'maths': 'Mathematics', 'english': 'English Literature & Lang', 'science': 'Combined Science' };
+        
+        const optionalSubjects = {
+            'computer_science': 'Computer Science', 'history': 'History', 'geography': 'Geography',
+            'religious_studies': 'Religious Studies', 'health_social_care': 'Health & Social Care',
+            'business_studies': 'Business Studies',
+            'physical_education': 'Physical Education', 'sociology': 'Sociology', 'media_studies': 'Media Studies',
+            'art_and_textiles': 'Art & Textiles', 'photography': 'Photography', 'drama': 'Drama',
+            'music': 'Music', 'spanish': 'Spanish'
+        };
+
+        let currentSubjectData = null;
+        let currentSubjectKey = "";
+        let activeQuestionsPool = [];
+        let currentQuestionIndex = 0;
+        let engineMode = "quiz"; 
+
+        // UPDATED: Placed your accurate live Google Web App Deployment End Point here
+        const webAppUrl = "https://script.google.com/macros/s/AKfycbxg5Ax4hib7tUDi7daqociJVpqp3fx735HWqD7NlkrnxLiepJ6krr8hE1LoCZLDWFGJRA/exec";
+
+        function initAppDashboard() {
+            const coreGrid = document.getElementById('core-grid');
+            const optionalGrid = document.getElementById('optional-grid');
+            
+            coreGrid.innerHTML = '';
+            optionalGrid.innerHTML = '';
+
+            Object.keys(coreSubjects).forEach(key => {
+                coreGrid.appendChild(createSubjectBlock(key, coreSubjects[key]));
+            });
+
+            Object.keys(optionalSubjects).forEach(key => {
+                optionalGrid.appendChild(createSubjectBlock(key, optionalSubjects[key]));
+            });
+
+            loadUpcomingEvents();
+            loadPeerBoard();
+        }
+
+        function createSubjectBlock(key, title) {
+            const container = document.createElement('div');
+            container.className = 'subject-card';
+            container.onclick = () => launchQuizEngine(key, title);
+
+            const masterScore = localStorage.getItem(`mastery_${key}`) || 0;
+
+            container.innerHTML = `
+                <div class="subject-title">${title}</div>
+                <div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: ${masterScore}%;"></div>
+                    </div>
+                    <span class="progress-text">${masterScore}% Mastery</span>
+                </div>
+            `;
+            return container;
+        }
+
+        function switchMainTab(targetTab) {
+            document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById(`tab-${targetTab}`).classList.add('active');
+            document.getElementById(`panel-${targetTab}`).classList.add('active');
+        }
+
+        async function loadUpcomingEvents() {
+            const container = document.getElementById('events-target-container');
+            try {
+                const response = await fetch('events.json');
+                if (!response.ok) throw new Error("No file footprints");
+                const data = await response.json();
+                
+                if(data.events && data.events.length > 0) {
+                    let htmlList = '<ul style="padding-left:20px; margin:0; color:var(--text-main);">';
+                    data.events.forEach(ev => {
+                        htmlList += `<li style="margin-bottom:8px;"><strong>${ev.date}:</strong> ${ev.title} (${ev.details})</li>`;
+                    });
+                    htmlList += '</ul>';
+                    container.innerHTML = htmlList;
+                }
+            } catch(e) {
+                container.innerHTML = `<p style="color:var(--text-muted); margin:0;">Create <code>events.json</code> to view calendar data entries.</p>`;
+            }
+        }
+
+        function updateCharCount() {
+            const input = document.getElementById('feedback-input');
+            const counter = document.getElementById('char-counter');
+            counter.textContent = `${input.value.length} / 300 characters`;
+            if(input.value.length > 300) counter.style.color = '#f87171';
+            else counter.style.color = 'var(--text-muted)';
+        }
+
+        function handleFeedbackSubmit() {
+            const input = document.getElementById('feedback-input');
+            const toast = document.getElementById('toast-success');
+            const submitBtn = document.querySelector('.submit-feedback-btn');
+
+            if(input.value.trim() === "") return alert("Please type a suggestion before submitting!");
+
+            submitBtn.textContent = "Sending...";
+            submitBtn.disabled = true;
+
+            fetch(webAppUrl, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ type: "suggestion", suggestion: input.value })
+            })
+            .then(() => {
+                toast.style.display = 'block';
+                input.value = ""; 
+                document.getElementById('char-counter').textContent = "0 / 300 characters";
+                submitBtn.textContent = "Submit Suggestion";
+                submitBtn.disabled = false;
+                setTimeout(() => { toast.style.display = 'none'; }, 4000);
+            })
+            .catch(err => {
+                alert("Something went wrong with the connection. Try again.");
+                submitBtn.textContent = "Submit Suggestion";
+                submitBtn.disabled = false;
+            });
+        }
+
+        /* "ASK A PEER" BOARD COMMUNITY INTERACTION ENGINES */
+        async function loadPeerBoard() {
+            const container = document.getElementById('peer-board-container');
+            try {
+                const response = await fetch(webAppUrl);
+                const questions = await response.json();
+                
+                if(!questions || questions.length === 0) {
+                    container.innerHTML = `<p style="color:var(--text-muted); font-style:italic; margin: 10px 0 0 0;">No active questions on the board right now. Be the first to post!</p>`;
+                    return;
+                }
+                
+                let html = "";
+                questions.forEach(q => {
+                    let answersHtml = "";
+                    if (q.answers && q.answers.length > 0) {
+                        q.answers.forEach(ans => {
+                            answersHtml += `<div style="background:rgba(255,255,255,0.02); padding:10px; border-radius:6px; margin-top:8px; border-left:3px solid var(--accent-success); font-size:0.95rem;">💡 ${ans}</div>`;
+                        });
+                    }
+                    
+                    const upvotesVal = q.upvotes || 0;
+                    
+                    html += `
+                        <div class="list-card" style="margin-bottom:15px; border-top:3px solid var(--accent-primary);">
+                            <div class="board-card-header">
+                                <span style="background:var(--accent-primary); color:white; padding:2px 8px; font-size:0.75rem; font-weight:700; border-radius:4px; text-transform:uppercase;">${q.subject}</span>
+                                
+                                <div class="upvote-container">
+                                    <button class="upvote-btn" onclick="handleUpvoteRow('${q.id}')" id="upvote-btn-${q.id}">▲</button>
+                                    <span class="upvote-count" id="upvote-val-${q.id}">${upvotesVal}</span>
+                                </div>
+                            </div>
+                            
+                            <p style="font-size:1.1rem; font-weight:500; margin:10px 0;">${q.text}</p>
+                            <div style="margin-bottom:15px;">${answersHtml || '<span style="color:var(--text-muted); font-size:0.9rem; font-style:italic;">No responses approved yet. Know the solution? Help them out below!</span>'}</div>
+                            <div style="display:flex; gap:10px; margin-top:10px;">
+                                <input type="text" id="ans-input-${q.id}" placeholder="Type an explanation/reply..." style="flex:1; background:var(--bg-color); color:white; border:1px solid #334155; padding:10px; border-radius:6px; font-size:0.95rem;">
+                                <button style="padding:10px 20px; font-size:0.9rem; background:#334155; border:none; border-radius:6px; font-weight:600; color:white; cursor:pointer;" onclick="submitPeerAnswer('${q.id}')">Reply</button>
+                            </div>
+                        </div>
+                    `;
+                });
+                container.innerHTML = html;
+            } catch (e) {
+                container.innerHTML = `<p style="color:var(--text-muted); font-style:italic;">Could not synchronize live community question feed.</p>`;
+            }
+        }
+
+        function handleUpvoteRow(questionId) {
+            const upvoteBtn = document.getElementById(`upvote-btn-${questionId}`);
+            const upvoteText = document.getElementById(`upvote-val-${questionId}`);
+            
+            if (upvoteBtn.disabled) return;
+            
+            upvoteBtn.disabled = true;
+            upvoteBtn.style.color = 'var(--warning-gold)';
+            
+            let currentCount = parseInt(upvoteText.textContent) || 0;
+            upvoteText.textContent = currentCount + 1;
+            
+            fetch(webAppUrl, {
+                method: "POST",
+                mode: "no-cors",
+                body: JSON.stringify({ type: "upvote", questionID: questionId })
+            }).catch(err => {
+                console.error("Failed handling data increment safely.", err);
+            });
+        }
+
+        function submitPeerQuestion() {
+            const subj = document.getElementById('board-subject-select').value;
+            const txt = document.getElementById('board-question-input');
+            const btn = document.getElementById('ask-btn');
+            if(txt.value.trim() === "") return alert("Please type your question content first!");
+            
+            btn.textContent = "Posting...";
+            btn.disabled = true;
+            
+            fetch(webAppUrl, {
+                method: "POST",
+                mode: "no-cors",
+                body: JSON.stringify({ type: "new_question", subject: subj, questionText: txt.value })
+            }).then(() => {
+                alert("Question logged! It will appear once checked by a moderator.");
+                txt.value = ""; btn.textContent = "Post Anonymously"; btn.disabled = false;
+            }).catch(err => {
+                alert("Connection problem."); btn.textContent = "Post Anonymously"; btn.disabled = false;
+            });
+        }
+
+        function submitPeerAnswer(qID) {
+            const input = document.getElementById(`ans-input-${qID}`);
+            if(input.value.trim() === "") return alert("Please type a descriptive answer explanation first!");
+            
+            fetch(webAppUrl, {
+                method: "POST",
+                mode: "no-cors",
+                body: JSON.stringify({ type: "new_answer", questionID: qID, answerText: input.value })
+            }).then(() => {
+                alert("Answer received! It will show up once approved.");
+                input.value = "";
+            }).catch(err => {
+                alert("Failed to submit reply node.");
+            });
+        }
+
+        /* REVISION CORE CONFIGURATION ENVIRONMENT SELECTION SETUPS */
+        async function launchQuizEngine(subjectKey, subjectName) {
+            try {
+                const response = await fetch(`${subjectKey}.json`);
+                if (!response.ok) throw new Error(`HTTP Error status code: ${response.status}`);
+                currentSubjectData = await response.json();
+                currentSubjectKey = subjectKey;
+                
+                document.getElementById('current-subject-title').textContent = subjectName;
+                document.getElementById('navigation-tabs').style.display = 'none';
+                document.getElementById('menu-view').style.display = 'none';
+                document.getElementById('quiz-container').style.display = 'block';
+                
+                initQuizConfig();
+            } catch (err) {
+                alert(`Could not open data metrics for ${subjectName}. Ensure ${subjectKey}.json is uploaded correctly.`);
+            }
+        }
+
+        function setEngineMode(mode) {
+            engineMode = mode;
+            document.getElementById('mode-quiz-btn').classList.toggle('active', mode === 'quiz');
+            document.getElementById('mode-fc-btn').classList.toggle('active', mode === 'flashcard');
+            displayQuestion();
+        }
+
+        function initQuizConfig() {
+            const tier = document.getElementById('tier-select').value;
+            const diff = document.getElementById('difficulty-select').value;
+            activeQuestionsPool = (currentSubjectData && currentSubjectData[tier]) ? currentSubjectData[tier][diff] || [] : [];
+            currentQuestionIndex = 0;
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            const hintBox = document.getElementById('hint-box');
+            const feedbackBox = document.getElementById('feedback-box');
+            const nextBtn = document.getElementById('next-btn');
+            
+            feedbackBox.style.display = 'none'; 
+            nextBtn.style.display = 'none';
+
+            if (activeQuestionsPool.length === 0) {
+                document.getElementById('question-box').textContent = "No materials configured yet for this category selection.";
+                document.getElementById('options-box').innerHTML = '';
+                hintBox.style.display = 'none';
+                document.getElementById('standard-quiz-view').style.display = 'block';
+                document.getElementById('flashcard-box').style.display = 'none';
+                return;
+            }
+
+            const currentQ = activeQuestionsPool[currentQuestionIndex];
+            
+            if (engineMode === "quiz") {
+                document.getElementById('standard-quiz-view').style.display = 'block';
+                document.getElementById('flashcard-box').style.display = 'none';
+                
+                document.getElementById('question-box').textContent = `Q${currentQuestionIndex + 1}: ${currentQ.q}`;
+                const optionsBox = document.getElementById('options-box');
+                optionsBox.innerHTML = '';
+
+                currentQ.options.forEach((opt, idx) => {
+                    const oBtn = document.createElement('button');
+                    oBtn.className = 'option-btn'; oBtn.textContent = opt;
+                    oBtn.onclick = () => verifyChoiceSelection(idx, currentQ.correct);
+                    optionsBox.appendChild(oBtn);
+                });
+            } else {
+                document.getElementById('standard-quiz-view').style.display = 'none';
+                document.getElementById('flashcard-box').style.display = 'block';
+                
+                const card = document.getElementById('fc-card');
+                card.classList.remove('flipped');
+                
+                document.getElementById('fc-question-target').textContent = currentQ.q;
+                document.getElementById('fc-answer-target').textContent = currentQ.options[currentQ.correct];
+                
+                document.getElementById('fc-reveal-btn').style.display = 'inline-block';
+                document.getElementById('fc-know-btn').style.display = 'none';
+                document.getElementById('fc-retry-btn').style.display = 'none';
+            }
+
+            hintBox.style.display = currentQ.hint ? 'block' : 'none';
+            if(currentQ.hint) hintBox.textContent = `Hint: ${currentQ.hint}`;
+        }
+
+        function verifyChoiceSelection(selectedIndex, correctIndex) {
+            const fBox = document.getElementById('feedback-box');
+            document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+
+            if (selectedIndex === correctIndex) {
+                fBox.className = "feedback correct"; fBox.textContent = "✓ Correct Answer!";
+                updateMasteryPoints(10); 
+            } else {
+                fBox.className = "feedback wrong"; fBox.textContent = `✗ Incorrect. Correct: "${activeQuestionsPool[currentQuestionIndex].options[correctIndex]}"`;
+            }
+            fBox.style.display = 'block'; 
+            document.getElementById('next-btn').style.display = 'inline-block';
+        }
+
+        /* FLASHCARD ACTIVE RECALL ACTION CONTROLLERS */
+        function flipFlashcard() {
+            document.getElementById('fc-card').classList.add('flipped');
+            document.getElementById('fc-reveal-btn').style.display = 'none';
+            document.getElementById('fc-know-btn').style.display = 'inline-block';
+            document.getElementById('fc-retry-btn').style.display = 'inline-block';
+        }
+
+        function rateFlashcard(knewIt) {
+            if(knewIt) {
+                updateMasteryPoints(15); 
+                alert("Awesome job! Progress metrics incremented.");
+            }
+            nextQuestion();
+        }
+
+        function updateMasteryPoints(amt) {
+            let score = parseInt(localStorage.getItem(`mastery_${currentSubjectKey}`)) || 0;
+            score = Math.min(100, score + amt); 
+            localStorage.setItem(`mastery_${currentSubjectKey}`, score);
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex = (currentQuestionIndex + 1) % activeQuestionsPool.length;
+            displayQuestion();
+        }
+
+        function returnToMenu() {
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('navigation-tabs').style.display = 'flex';
+            document.getElementById('menu-view').style.display = 'block';
+            initAppDashboard(); 
+        }
+
+        /* GLOBAL THEME CONTROL SYSTEMS */
+        function toggleThemePanel() {
+            const panel = document.getElementById('theme-color-picker');
+            panel.style.display = (panel.style.display === 'flex') ? 'none' : 'flex';
+        }
+
+        function changeAccentTheme(hexColor) {
+            document.documentElement.style.setProperty('--accent-primary', hexColor);
+            const currentActiveTab = document.querySelector('.nav-tab.active');
+            if(currentActiveTab) {
+                currentActiveTab.style.backgroundColor = hexColor;
+                currentActiveTab.style.borderColor = hexColor;
+            }
+        }
+
+        window.onload = initAppDashboard;
+    </script>
+</body>
+</html>
