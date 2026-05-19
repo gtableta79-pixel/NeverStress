@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "Which major global conflict took place between 1914 and 1918?",
+        "options": ["The Napoleonic Wars", "World War I", "World War II", "The Cold War"],
+        "correct": 1,
+        "hint": "This conflict was widely known at the time as 'The Great War'."
+      },
+      {
+        "q": "Who was the King of England during the Norman Conquest of 1066?",
+        "options": ["Henry VIII", "William the Conqueror", "Harold Godwinson", "Edward the Confessor"],
+        "correct": 1,
+        "hint": "He was originally the Duke of Normandy before winning the Battle of Hastings."
+      },
+      {
+        "q": "What name was given to the ideological conflict between the USA and the USSR after World War II?",
+        "options": ["The Cold War", "The Vietnam War", "The Hundred Years' War", "The Crusades"],
+        "correct": 0,
+        "hint": "It was called this because the two superpowers never fought each other in direct military warfare."
+      },
+      {
+        "q": "Which famous English monarch had six wives?",
+        "options": ["Henry V", "Henry VIII", "Edward VI", "Charles I"],
+        "correct": 1,
+        "hint": "He broke away from the Catholic Church in Rome to secure his first divorce."
+      },
+      {
+        "q": "What killed an estimated third of the European population during the 14th century?",
+        "options": ["The Great Famine", "The Black Death", "The Spanish Flu", "The Cholera Outbreak"],
+        "correct": 1,
+        "hint": "This devastating bubonic plague was carried across trade routes by fleas on rats."
+      },
+      {
+        "q": "Which country did Germany invade in September 1939, triggering the start of World War II?",
+        "options": ["France", "Russia", "Poland", "Belgium"],
+        "correct": 2,
+        "hint": "This country borders Germany to the east; Britain had guaranteed its independence."
+      },
+      {
+        "q": "Who was the long-reigning Queen of England during the defeat of the Spanish Armada in 1588?",
+        "options": ["Mary I", "Elizabeth I", "Queen Victoria", "Queen Anne"],
+        "correct": 1,
+        "hint": "She was the daughter of Henry VIII and Anne Boleyn, often called the 'Virgin Queen'."
+      },
+      {
+        "q": "What was the name of the German secret state police during the Nazi regime?",
+        "options": ["The Gestapo", "The Reichstag", "The Wehrmacht", "The Luftwaffe"],
+        "correct": 0,
+        "hint": "This organization was feared for its brutal methods of crushing political opposition."
+      },
+      {
+        "q": "In which city was a famous wall built in 1961 that divided East and West during the Cold War?",
+        "options": ["Moscow", "Berlin", "Paris", "Washington D.C."],
+        "correct": 1,
+        "hint": "This city was deep inside the Soviet zone of Germany but split into four allied sectors."
+      },
+      {
+        "q": "What major historic event happened in London in 1666, destroying thousands of wooden homes?",
+        "options": ["The Peasants' Revolt", "The Great Plague", "The Great Fire of London", "The Blitz"],
+        "correct": 2,
+        "hint": "It started in a bakery on Pudding Lane during a dry summer."
+      },
+      {
+        "q": "Which famous Roman general invaded Britain in 55 and 54 BC?",
+        "options": ["Julius Caesar", "Mark Antony", "Augustus", "Nero"],
+        "correct": 0,
+        "hint": "He famously crossed the Rubicon and was later assassinated on the Ides of March."
+      },
+      {
+        "q": "What was the main reason people built castles in England after 1066?",
+        "options": ["To host grand royal parties", "To control the local population and secure territory", "To store farming grain safely", "To house traveling monks"],
+        "correct": 1,
+        "hint": "The Normans were a small occupying force needing quick, secure military strongholds."
+      },
+      {
+        "q": "Which country did the United States fight a long, controversial war against during the 1960s and 1970s?",
+        "options": ["Vietnam", "Korea", "Cuba", "Japan"],
+        "correct": 0,
+        "hint": "This jungle conflict sparked widespread anti-war protests across American universities."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What was the main purpose of the Domesday Book, commissioned by William I in 1085?",
+        "options": ["To record a list of all royal laws", "To survey landownership and wealth for tax purposes", "To plan military invasions of Scotland", "To map out new trade routes to Asia"],
+        "correct": 1,
+        "hint": "William wanted to find out exactly how much the land in his new kingdom was worth."
+      },
+      {
+        "q": "Which 1919 treaty imposed harsh financial and military punishments on Germany after World War I?",
+        "options": ["Treaty of Berlin", "Treaty of Versailles", "Treaty of Rome", "Treaty of Brest-Litovsk"],
+        "correct": 1,
+        "hint": "It included the infamous Article 231, the 'War Guilt Clause'."
+      },
+      {
+        "q": "Who discovered the first effective antibiotic, penicillin, in 1928?",
+        "options": ["Louis Pasteur", "Alexander Fleming", "Edward Jenner", "Robert Koch"],
+        "correct": 1,
+        "hint": "He accidentally left a petri dish open in his lab, noticing mold killing off bacteria."
+      },
+      {
+        "q": "What was the name of the political protest in Manchester in 1819 where cavalry charged a crowd demanding parliamentary reform?",
+        "options": ["The Peterloo Massacre", "The Cato Street Conspiracy", "The Rebecca Riots", "The Tolpuddle Protest"],
+        "correct": 0,
+        "hint": "The name was a ironic play on the famous battle fought against Napoleon four years earlier."
+      },
+      {
+        "q": "Which US policy, introduced in 1947, aimed to contain the global spread of communism?",
+        "options": ["The Marshall Plan", "The Truman Doctrine", "The New Deal", "The Monroe Doctrine"],
+        "correct": 1,
+        "hint": "Named after the US President who promised military and economic aid to nations resisting subjugation."
+      },
+      {
+        "q": "What did the 1215 document 'Magna Carta' aim to do?",
+        "options": ["Give the King absolute power over the law", "Limit the power of the monarchy and protect barons' rights", "Abolish the feudal system entirely", "Declare war on the French kingdom"],
+        "correct": 1,
+        "hint": "King John was forced by rebel barons to sign it at Runnymede."
+      },
+      {
+        "q": "Who was the leader of the Soviet Union during the Cuban Missile Crisis of 1962?",
+        "options": ["Joseph Stalin", "Nikita Khrushchev", "Leonid Brezhnev", "Mikhail Gorbachev"],
+        "correct": 1,
+        "hint": "He squared off against John F. Kennedy, famously agreeing to dismantle the missile sites."
+      },
+      {
+        "q": "What did Edward Jenner develop in 1796 to combat the deadly disease smallpox?",
+        "options": ["An antibiotic pill", "The first successful vaccine using cowpox", "The concept of germ theory", "A chemical antiseptic spray"],
+        "correct": 1,
+        "hint": "He noticed milkmaids who caught a milder cattle disease never caught smallpox."
+      },
+      {
+        "q": "Which event in 1929 caused severe economic hardship across Germany and helped the Nazi party gain votes?",
+        "options": ["The Wall Street Crash", "The French Occupation of the Ruhr", "The Spartacist Uprising", "The Munich Putsch"],
+        "correct": 0,
+        "hint": "This American financial collapse led to US banks withdrawing their loans from Germany."
+      },
+      {
+        "q": "What was the name of the religious settlement created by Elizabeth I in 1559?",
+        "options": ["The Act of Supremacy and Uniformity", "The Edict of Nantes", "The Council of Trent", "The Treaty of Edinburgh"],
+        "correct": 0,
+        "hint": "It aimed to find a 'Middle Way' between English Catholics and Protestants."
+      },
+      {
+        "q": "Which invention by Johannes Gutenberg in the 15th century dramatically accelerated the spread of ideas?",
+        "options": ["The Steam Engine", "The Printing Press", "The Mechanical Clock", "The Magnetic Compass"],
+        "correct": 1,
+        "hint": "It allowed books to be mass-produced quickly rather than copied by hand by monks."
+      },
+      {
+        "q": "What was the primary aim of the Chartist movement in 19th-century Britain?",
+        "options": ["To abolish the British Empire", "To win the right to vote for all adult men", "To stop the introduction of factories", "To ban religious education in schools"],
+        "correct": 1,
+        "hint": "They published a 'People's Charter' containing six distinct political demands."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Why was the League of Nations ineffective at preventing international aggression in the 1930s?",
+        "options": ["It lacked its own army and the USA refused to join", "It was completely bankrupt from its inception", "It only allowed European countries to become members", "It was controlled entirely by the Soviet Union"],
+        "correct": 0,
+        "hint": "Without economic or military backing from major powers, it could only issue verbal warnings."
+      },
+      {
+        "q": "What did the 1351 Statute of Laborers attempt to do after the Black Death?",
+        "options": ["Give peasants ownership of their farmland", "Fix peasant wages at pre-plague levels", "Ban peasants from traveling to towns entirely", "Force all children to attend school"],
+        "correct": 1,
+        "hint": "With a massive labor shortage, peasants demanded higher pay, which angry landlords tried to block."
+      },
+      {
+        "q": "Which decree allowed Adolf Hitler to suspend civil liberties in Germany after February 1933?",
+        "options": ["The Reichstag Fire Decree", "The Nuremberg Laws", "The Locarno Pact", "The Dawes Plan"],
+        "correct": 0,
+        "hint": "It was passed using Article 48 of the constitution immediately after the parliament building burned."
+      },
+      {
+        "q": "What did the 1848 Public Health Act achieve in Britain?",
+        "options": ["It made free healthcare available to all citizens", "It set up a General Board of Health to encourage clean water supply", "It forced all cities to install modern sewers within one year", "It banned the use of coal in industrial factories"],
+        "correct": 1,
+        "hint": "It was the first time the government stepped in, though local town compliance was largely voluntary."
+      },
+      {
+        "q": "What was the historical significance of the 1954 Battle of Dien Bien Phu?",
+        "options": ["It led to the defeat of French colonial forces in Vietnam", "It marked the start of the Korean War conflict", "It forced the British out of their Malaysian territories", "It was the first tactical nuclear deployment site"],
+        "correct": 0,
+        "hint": "This communist victory ended direct French involvement in Indochina."
+      },
+      {
+        "q": "Why did the Pilgrimage of Grace take place in 1536?",
+        "options": ["Protestants wanted to remove Catholic bishops", "Catholics were protesting against the Dissolution of the Monasteries", "Barons wanted to overthrow King Henry VIII", "Peasants were protesting against heavy farming taxes"],
+        "correct": 1,
+        "hint": "This massive northern uprising was led by lawyer Robert Aske to defend traditional religion."
+      },
+      {
+        "q": "How did the 1924 Dawes Plan help the German Weimar economy?",
+        "options": ["It abolished reparations payments completely", "It provided massive US loans to restructure reparations payments", "It forced France to return Alsace-Lorraine", "It nationalized all major German industries"],
+        "correct": 1,
+        "hint": "It brought a period of economic stability and recovery known as the 'Golden Years'."
+      },
+      {
+        "q": "What did the medical work of Andreas Vesalius in the 16th century prove?",
+        "options": ["That bacteria cause infectious diseases", "That many of Galen's anatomical theories were incorrect", "That blood circulates continuously around the human body", "That carbolic acid acts as a powerful antiseptic"],
+        "correct": 1,
+        "hint": "He performed meticulous human dissections to create his book 'The Fabric of the Human Body'."
+      },
+      {
+        "q": "What was the primary purpose of the 'Thirteen Days' during the October 1962 Cold War crisis?",
+        "options": ["To negotiate the safe division of Berlin", "To resolve the secret deployment of Soviet nuclear missiles in Cuba", "To sign the Strategic Arms Limitation Treaty", "To coordinate the allied landings at Normandy"],
+        "correct": 1,
+        "hint": "This tense political standoff brought the world to the brink of a major nuclear war."
+      },
+      {
+        "q": "What was a major consequence of the 1381 Peasants' Revolt?",
+        "options": ["The immediate execution of King Richard II", "The eventual decline of the feudal system and serfdom", "The complete abolition of all taxes in England", "The establishment of a democratic peasant parliament"],
+        "correct": 1,
+        "hint": "Although the leaders were executed, landlords realized they could no longer push peasants too far."
+      },
+      {
+        "q": "Which 1972 agreement marked the start of 'Détente' between the USA and the USSR?",
+        "options": ["The SALT I Agreement", "The Helsinki Accords", "The Warsaw Pact", "The Nuclear Non-Proliferation Treaty"],
+        "correct": 0,
+        "hint": "This agreement placed a temporary cap on the number of strategic ballistic missiles allowed."
+      },
+      {
+        "q": "What did John Snow discover during the 1854 London Broad Street cholera outbreak?",
+        "options": ["Cholera was spread through contaminated water, not bad air", "The disease was caused by a specific airborne virus", "Penicillin could cure the infection within hours", "Vaccinating patients with weakened cholera cured them"],
+        "correct": 0,
+        "hint": "He meticulously mapped out cases and traced the infection source back to a specific water pump."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Analyze the long-term impact of the 1975 Helsinki Accords on the Soviet Union.",
+        "options": ["They legitimized Soviet borders but forced them to accept human rights clauses", "They led to an immediate economic alliance with the United States", "They caused the immediate dissolution of the Warsaw Pact military alliance", "They banned the Soviet Union from testing any nuclear devices"],
+        "correct": 0,
+        "hint": "These agreements became a tool for dissident groups inside Eastern Europe to criticize Soviet control."
+      },
+      {
+        "q": "What was the main socio-economic consequence of the Enclosure Acts passed in 18th/19th century Britain?",
+        "options": ["Peasants became wealthy landowners", "Common land was divided up, forcing many poor farmers into factory work", "It led to a massive increase in small family-owned farms", "It caused a collapse in total agricultural food production"],
+        "correct": 1,
+        "hint": "Fencing off shared land took away resources from poor families, driving them to industrial towns."
+      },
+      {
+        "q": "How did the 1662 Act of Uniformity impact religious life across England?",
+        "options": ["It made Catholicism the mandatory national religion", "It forced all clergy to use the Book of Common Prayer, driving out Puritans", "It granted complete freedom of worship to all religious groups", "It banned the monarchy from interfering in church selections"],
+        "correct": 1,
+        "hint": "Over 2,000 ministers refused to comply and were driven out of their church positions."
+      },
+      {
+        "q": "What did the 1934 'Night of the Long Knives' achieve for Adolf Hitler?",
+        "options": ["It eliminated internal party opposition from Ernst Röhm and the SA", "It removed all communist deputies from the Reichstag parliament", "It was a military operation to reoccupy the demilitarized Rhineland", "It forced President Paul von Hindenburg to resign his office"],
+        "correct": 0,
+        "hint": "Hitler used the SS to execute leaders of his own paramilitary wing who threatened his army backing."
+      },
+      {
+        "q": "How did the medical discoveries of Robert Koch in the late 19th century advance public health?",
+        "options": ["He proved specific microbes cause specific diseases, identifying anthrax and TB bacteria", "He invented the first operational surgical anesthetic gas", "He demonstrated that washing hands drastically reduced hospital death rates", "He formulated the first successful chemical compound cure for syphilis"],
+        "correct": 0,
+        "hint": "His work built heavily upon Pasteur's germ theory, standardizing bacteriology."
+      },
+      {
+        "q": "What was the primary structural flaw of the Weimar Constitution's voting system?",
+        "options": ["Proportional representation led to weak, unstable coalition governments", "It gave the army the right to veto any laws passed by parliament", "It banned women from voting in national elections", "It required a unanimous vote to pass any financial taxation laws"],
+        "correct": 0,
+        "hint": "With lots of tiny parties winning seats, it was very difficult to build a stable majority."
+      },
+      {
+        "q": "Which conflict in 1956 exposed deep divisions in the Western alliance and marked the end of Britain's status as a top-tier superpower?",
+        "options": ["The Suez Crisis", "The Korean War", "The Algerian War", "The Berlin Blockade"],
+        "correct": 0,
+        "hint": "Britain and France invaded Egypt to reclaim a canal, but were forced to pull out by US financial pressure."
+      },
+      {
+        "q": "What was the significance of the 1569 Northern Rebellion against Elizabeth I?",
+        "options": ["It was a Catholic plot to replace Elizabeth with Mary, Queen of Scots", "It was a Puritan movement to simplify church services", "It was an economic strike by northern coal miners over export taxes", "It was a military invasion backed entirely by the French king"],
+        "correct": 0,
+        "hint": "Led by the Catholic Earls of Northumberland and Westmorland, it was crushed by royal forces."
+      },
+      {
+        "q": "How did the 1834 Poor Law Amendment Act change how poverty was handled in Britain?",
+        "options": ["It introduced a national minimum wage for all workers", "It ended outdoor relief, forcing the poor into harsh workhouses to cut costs", "It provided free state housing for all unemployed citizens", "It set up the first system of child benefit cash payments"],
+        "correct": 1,
+        "hint": "The government intentionally made conditions inside these institutions miserable to deter people from seeking help."
+      },
+      {
+        "q": "What did William Harvey discover about the human body in 1628?",
+        "options": ["The heart acts as a pump circulating blood continuously in a closed loop", "The brain controls muscular movements through electrical impulses", "Lungs absorb oxygen and convert it into chemical energy structures", "The liver creates new blood supply from digested food elements"],
+        "correct": 0,
+        "hint": "His book 'De Motu Cordis' directly challenged the long-held beliefs of Galen."
+      },
+      {
+        "q": "What was the strategic objective of the 1948 Berlin Airlift?",
+        "options": ["To drop military supplies to help West Berlin invade the East", "To supply West Berlin with food and fuel during a land blockade", "To evacuate all Allied soldiers safely before a Soviet invasion", "To build a secret underground communications bunker network"],
+        "correct": 1,
+        "hint": "For nearly a year, Western aircraft landed around the clock to bypass the Soviet road and rail closures."
+      },
+      {
+        "q": "Why was the 1570 Papal Bull issued by Pope Pius V dangerous for Elizabeth I?",
+        "options": ["It excommunicated her, freeing English Catholics from loyalty to her rule", "It declared immediate war on England by all European countries", "It banned the English language from being used inside any church services", "It ordered the immediate assassination of all English government ministers"],
+        "correct": 0,
+        "hint": "This decree turned Elizabeth into a target, turning local religious differences into a matter of political treason."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What title did Oliver Cromwell take in 1653 after the execution of Charles I?",
+        "options": ["King of England", "Lord Protector", "Prime Minister", "Emperor of Britain"],
+        "correct": 1,
+        "hint": "He ruled England during the republican period known as the Commonwealth."
+      },
+      {
+        "q": "Which major global organization was set up in 1945 to replace the failed League of Nations?",
+        "options": ["The United Nations", "The North Atlantic Treaty Organization", "The Warsaw Pact", "The European Union"],
+        "correct": 0,
+        "hint": "It was designed with a powerful Security Council to maintain global peace and security."
+      },
+      {
+        "q": "Who was the first Prime Minister of Great Britain, serving from 1721 to 1742?",
+        "options": ["Robert Walpole", "William Pitt the Elder", "Benjamin Disraeli", "Winston Churchill"],
+        "correct": 0,
+        "hint": "He consolidated power through the Whig party and moved into 10 Downing Street."
+      },
+      {
+        "q": "What name was given to the state-sponsored systematic murder of six million Jews by the Nazi regime?",
+        "options": ["The Blitzkrieg", "The Holocaust", "The Great Purge", "The Night of Broken Glass"],
+        "correct": 1,
+        "hint": "This genocide was referred to by Nazi leadership as the 'Final Solution'."
+      },
+      {
+        "q": "Which 1215 document is widely viewed as a cornerstone of British constitutional liberty?",
+        "options": ["The Bill of Rights", "Magna Carta", "The Act of Settlement", "The Reform Act"],
+        "correct": 1,
+        "hint": "It established the principle that everyone, including the King, is subject to the law."
+      },
+      {
+        "q": "What major internal conflict took place in England between 1642 and 1651?",
+        "options": ["The Wars of the Roses", "The English Civil War", "The Hundred Years' War", "The Jacobite Rebellions"],
+        "correct": 1,
+        "hint": "It pitted the Royalists supporting Charles I against the Parliamentarians."
+      },
+      {
+        "q": "Which empire ruled over Britain from 43 AD until the early 5th century?",
+        "options": ["The Roman Empire", "The Viking Empire", "The Norman Empire", "The Anglo-Saxon Empire"],
+        "correct": 0,
+        "hint": "They built long-lasting stone roads, public baths, and defensive networks like Hadrian's Wall."
+      },
+      {
+        "q": "Who was the Soviet leader when the Berlin Wall was opened and communism collapsed in Eastern Europe?",
+        "options": ["Joseph Stalin", "Nikita Khrushchev", "Leonid Brezhnev", "Mikhail Gorbachev"],
+        "correct": 3,
+        "hint": "He introduced the reform policies of Glasnost (openness) and Perestroika (restructuring)."
+      },
+      {
+        "q": "What type of religious orientation did Edward VI enforce in England during his reign?",
+        "options": ["Strict Catholicism", "Radical Protestantism", "Moderate Anglicanism", "Puritan republicanism"],
+        "correct": 1,
+        "hint": "Henry VIII's son stripped churches of altars, images, and stained glass windows."
+      },
+      {
+        "q": "Which European city was divided into four military occupation zones at the 1945 Potsdam Conference?",
+        "options": ["Vienna", "Berlin", "Budapest", "Prague"],
+        "correct": 1,
+        "hint": "This city became the primary flashpoint location for early Cold War confrontations."
+      },
+      {
+        "q": "Identify the core symptom pattern that characterized the Bubonic plague outbreak profiles.",
+        "options": ["High fever and painful swellings called buboes in the groin and armpits", "Severe continuous coughing up of blood with chest pains", "Gradual blindness combined with full body paralysis profiles", "Sudden skin flaking away across extremities completely"],
+        "correct": 0,
+        "hint": "The disease attacked the lymphatic system, leaving distinct black spots on the skin."
+      },
+      {
+        "q": "What was the name of the secret network of safe houses used by enslaved people to escape to free states in America?",
+        "options": ["The Underground Railroad", "The Abolition Express", "The Liberty Trail", "The Emancipation Network"],
+        "correct": 0,
+        "hint": "It was led by brave 'conductors' like Harriet Tubman."
+      },
+      {
+        "q": "Which piece of legislation passed in 1832 significantly expanded the right to vote in Britain?",
+        "options": ["The Great Reform Act", "The Parliament Act", "The Catholic Emancipation Act", "The Bill of Rights"],
+        "correct": 0,
+        "hint": "It disenfranchised many 'rotten boroughs' and gave parliamentary seats to new industrial cities."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What did the 1935 Nuremberg Laws do to Jewish citizens in Nazi Germany?",
+        "options": ["They stripped them of citizenship and banned marriage with non-Jews", "They forced them to leave the country within 30 days", "They nationalized all synagogues and religious property", "They banned them from working in factory manual labor positions"],
+        "correct": 0,
+        "hint": "These laws institutionalized racial theories, laying the legal groundwork for future persecution."
+      },
+      {
+        "q": "What was the primary long-term historical significance of the 1688 'Glorious Revolution'?",
+        "options": ["It established a constitutional monarchy with Parliament holding true sovereignty", "It returned England to a permanent Catholic line of succession", "It led to the execution of King James II by public hanging", "It abolished the house of lords and set up a republic structure"],
+        "correct": 0,
+        "hint": "William and Mary accepted the throne alongside a strict Bill of Rights limiting royal power."
+      },
+      {
+        "q": "How did Louis Pasteur's 1861 Germ Theory transform medical thinking?",
+        "options": ["It proved that microscopic organisms cause decay and disease, disproving spontaneous generation", "It discovered that blood circulation patterns were controlled by the brain", "It invented the use of x-rays to view internal skeletal structures", "It proved that malaria was spread by mosquito vectors exclusively"],
+        "correct": 0,
+        "hint": "Before this discovery, scientists believed that diseases generated spontaneously out of rotting matter."
+      },
+      {
+        "q": "What did the 1968 Brezhnev Doctrine state regarding Soviet foreign policy?",
+        "options": ["The Soviet Union had the right to intervene militarily in any Eastern Bloc nation threatening communist rule", "The Soviet Union would provide financial loans to Western capitalist countries", "The Soviet Union would withdraw all military personnel from Eastern Europe", "The Soviet Union would support democratic elections across global nations"],
+        "correct": 0,
+        "hint": "This policy was used to retroactively justify the invasion of Czechoslovakia to crush the Prague Spring."
+      },
+      {
+        "q": "Why was the 1586 Babington Plot critical to the fate of Mary, Queen of Scots?",
+        "options": ["Secret coded letters were intercepted proving she approved of assassinating Elizabeth I", "It proved she had provided funding to the Spanish Armada fleet", "It led to her escaping from custody back to French territory", "It resulted in her being restored to the throne of Scotland"],
+        "correct": 0,
+        "hint": "Sir Francis Walsingham's spy network intercepted the letters, giving Elizabeth the evidence needed to execute her."
+      },
+      {
+        "q": "What did the 1875 Public Health Act do differently compared to the earlier 1848 Act in Britain?",
+        "options": ["It made public health measures like clean water and sewers compulsory for local councils", "It established the first free medical clinic network in London", "It left health compliance completely up to individual factory owners", "It focused entirely on banning child labor inside dangerous coal mines"],
+        "correct": 0,
+        "hint": "This later act marked a shift toward state intervention, making sanitation duties mandatory."
+      },
+      {
+        "q": "What was the core goal of the 1933 New Deal policy introduced by US President Franklin D. Roosevelt?",
+        "options": ["To use massive government spending on public works to recover from the Great Depression", "To declare immediate war on European fascist dictatorships", "To privatize all major national banks and industrial transportation networks", "To cut all social security funding to balance the federal budget profile"],
+        "correct": 0,
+        "hint": "It focused on the 'Three Rs': Relief, Recovery, and Reform."
+      },
+      {
+        "q": "What did the medical work of Joseph Lister introduce to hospital surgery rooms in the 1860s?",
+        "options": ["The systematic use of carbolic acid as an antiseptic to kill germs", "The use of chloroform as an effective surgical anesthetic compound", "The training of female nurses under a clean military discipline system", "The use of clean rubber gloves during major operations"],
+        "correct": 0,
+        "hint": "His antiseptic spray dramatically reduced post-operative infections and mortality rates."
+      },
+      {
+        "q": "What was the purpose of the 1947 Cominform organization set up by Joseph Stalin?",
+        "options": ["To coordinate and control the political actions of communist parties across Europe", "To provide financial economic reconstruction aid to European nations", "To sign a joint military protection alliance with Western democracies", "To coordinate space satellite development programs against America"],
+        "correct": 0,
+        "hint": "The Communist Information Bureau ensured that satellite states followed Moscow's direct orders."
+      },
+      {
+        "q": "Why did the 1549 Kett's Rebellion break out in Norfolk?",
+        "options": ["Protests against the enclosure of common land by greedy landlords", "Demands to restore the Catholic Latin mass services", "An attempt to overthrow the young King Edward VI", "Protests against heavy military conscription lists"],
+        "correct": 0,
+        "hint": "Robert Kett led rebels to tear down enclosure fences, setting up a massive camp on Mousehold Heath."
+      },
+      {
+        "q": "What did the 1911 Parliament Act achieve regarding British constitutional power?",
+        "options": ["It removed the House of Lords' power to veto financial bills and limited their delay power", "It gave women the right to stand as members of parliament", "It transferred all executive decision power from the Prime Minister to the monarch", "It lengthened the maximum duration of a single parliament to ten years"],
+        "correct": 0,
+        "hint": "This act established the clear constitutional supremacy of the elected House of Commons."
+      },
+      {
+        "q": "What was the primary goal of the 19th-century abolitionist movement in America?",
+        "options": ["The immediate and total emancipation of all enslaved people", "The ban of alcohol sales and consumption nationwide", "The establishment of public trade unions for factory workers", "The removal of voting rights from wealthy southern plantation owners"],
+        "correct": 0,
+        "hint": "This movement grew through powerful speakers like Frederick Douglass and books like 'Uncle Tom's Cabin'."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "What did the 1925 Locarno Pact achieve for Germany's standing in international diplomacy?",
+        "options": ["Germany officially accepted its western borders with France and Belgium, paving the way to join the League of Nations", "Germany secured an immediate military alliance with the Soviet Union", "Germany successfully canceled all remaining reparations debts from WWI", "Germany gained full permission to rebuild its naval submarine fleet"],
+        "correct": 0,
+        "hint": "This agreement led to a brief era of European cooperation known as the 'Locarno Honeymoon'."
+      },
+      {
+        "q": "Why was the 1415 Battle of Agincourt a turning point in the Hundred Years' War?",
+        "options": ["The English longbowmen secured a devastating victory over a much larger French cavalry force", "It resulted in the permanent capture of Paris by English forces", "It marked the first time gunpowder artillery was used effectively in Europe", "It forced the French king to cede control of Normandy completely"],
+        "correct": 0,
+        "hint": "King Henry V used defensive stakes and archers to defeat the charging French knights in a muddy field."
+      },
+      {
+        "q": "What did the medical work of Paul Ehrlich achieve in 1909?",
+        "options": ["He developed Salvarsan 606, the first 'magic bullet' chemical cure for a specific disease", "He discovered that blood could be grouped into types A, B, and O", "He successfully used deep freezing to store blood plasma safely for weeks", "He proved that dirty surgical instruments caused hospital gangrene"],
+        "correct": 0,
+        "hint": "He searched for chemical compounds that would target and destroy specific microbes without harming the rest of the body."
+      },
+      {
+        "q": "Analyze the strategic impact of the 1960 U-2 incident on Cold War diplomacy.",
+        "options": ["It caused the immediate collapse of the Paris Peace Summit and increased tensions", "It led to a joint US-Soviet spy exchange agreement in Berlin", "It triggered the immediate deployment of tactical nuclear weapons to Turkey", "It forced the United States to dismantle its radar networks in Europe"],
+        "correct": 0,
+        "hint": "An American spy plane was shot down over Soviet territory, and Eisenhower refused to apologize to Khrushchev."
+      },
+      {
+        "q": "What did the 1534 Act of Supremacy legally establish in England?",
+        "options": ["Declared Henry VIII the Supreme Head of the Church of England, severing ties with Rome", "Declared that the monarchy was subject to the judicial laws of parliament", "Banned any Protestant reading materials from entering English ports", "Made the Archbishop of Canterbury the ultimate secular ruler"],
+        "correct": 0,
+        "hint": "This act finalized the legal break from the Pope, starting the English Reformation."
+      },
+      {
+        "q": "How did the 1938 Munich Agreement impact the international policy of Appeasement?",
+        "options": ["It allowed Hitler to annex the Sudetenland in exchange for a promise of peace, which later failed", "It forced Germany to sign a non-aggression pact with Poland", "It resulted in Britain and France declaring immediate war on Germany", "It established a joint border defense system across Czechoslovakia"],
+        "correct": 0,
+        "hint": "Neville Chamberlain declared it meant 'peace for our time', but Hitler invaded the rest of Czechoslovakia months later."
+      },
+      {
+        "q": "What was the historical significance of the 1862 Emancipation Proclamation issued by Abraham Lincoln?",
+        "options": ["It declared all enslaved people in Confederate-held states to be legally free", "It ended the American Civil War immediately with a Union victory", "It banned slavery inside northern border states like Maryland", "It gave all freed men the right to purchase land anywhere in America"],
+        "correct": 0,
+        "hint": "It redefined the Civil War as a moral struggle against slavery, preventing European powers from backing the South."
+      },
+      {
+        "q": "What was the medical breakthrough achieved by Alexander Liming...",
+        "options": ["It revolutionized blood storage", "It systematized tracking models", "It advanced chemical antiseptics", "It laid the basis for antibiotic medicine"],
+        "correct": 3,
+        "hint": "Penicillin mass-production during WWII saved millions of wounded soldiers from dying of infection."
+      },
+      {
+        "q": "Why was the 1956 Hungarian Uprising a test for the West's policy of Containment?",
+        "options": ["The West refused to intervene militarily when Soviet tanks crushed the rebellion, showing containment had limits", "The United States sent covert troops to successfully defend Budapest", "The UN forced the Soviet Union to pull back its forces through economic sanctions", "It triggered a direct nuclear exchange warning layout across Europe"],
+        "correct": 0,
+        "hint": "While the US encouraged radio broadcasts for freedom, they would not risk World War III to save an Eastern Bloc nation."
+      },
+      {
+        "q": "What was the primary focus of the 1583 Throckmorton Plot?",
+        "options": ["An plan to invade England using French troops financed by Spain to replace Elizabeth with Mary", "A Puritan plan to remove all bishops from the Church of England", "An economic coup by London merchants to install a republic structure", "An assassination attempt on King Philip II of Spain by English spies"],
+        "correct": 0,
+        "hint": "Francis Throckmorton acted as the messenger; his arrest led to tighter surveillance of Mary, Queen of Scots."
+      },
+      {
+        "q": "How did the 1811 Luddite movement respond to the Industrial Revolution in Britain?",
+        "options": ["By breaking industrial machinery that was destroying their jobs and wages", "By organizing peaceful nationwide political strikes and marches", "By setting up the first legally recognized workers' trade unions", "By petitioning parliament to fund mandatory technical schools"],
+        "correct": 0,
+        "hint": "These textile workers attacked mechanized looms that were replacing traditional hand-weaving skills."
+      },
+      {
+        "q": "What was the historical consequence of the 1961 Bay of Pigs invasion?",
+        "options": ["It failed completely, embarrassing the US and pushing Cuba into a closer alliance with the USSR", "It successfully overthrew the communist government of Fidel Castro", "It sparked a direct conventional war between the United States and the Soviet Union", "It led to the immediate removal of all US base facilities from Guantanamo Bay"],
+        "correct": 0,
+        "hint": "This CIA-backed invasion by Cuban exiles was defeated within days, directly setting up the Cuban Missile Crisis."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Critically analyze the role of the 'Sonderweg' thesis in interpreting modern German history.",
+        "options": ["It argues Germany followed a unique, problematic path to modernization that led to Nazism", "It states that Germany's economic recovery after WWI was a mathematical certainty", "It claims that the Weimar Republic failed purely due to external global financial shocks", "It evaluates the structural role of geographic borders in preventing democratic systems"],
+        "correct": 0,
+        "hint": "This historiographical theory looks at Germany's late unification and autocratic traditions as long-term roots of the Third Reich."
+      },
+      {
+        "q": "What was the structural impact of the 1648 Peace of Westphalia on the evolution of modern international relations?",
+        "options": ["It established the concept of state sovereignty and non-interference in foreign internal affairs", "It created the first operational league of democratic European nations", "It completely abolished the political power of the Pope across global platforms", "It fixed permanent national borders that have never changed since"],
+        "correct": 0,
+        "hint": "This peace treaty ended the Thirty Years' War, giving birth to the modern nation-state framework."
+      },
+      {
+        "q": "In evaluating Elizabethan governance, how did the 'Monopolies Crisis' of 1601 test the relationship between the Crown and Parliament?",
+        "options": ["Parliament forced Elizabeth to revoke unpopular trade licenses, demonstrating growing parliamentary leverage", "It resulted in Elizabeth dissolving parliament and ruling alone for the rest of her life", "It triggered a armed revolt by London merchants that overthrew royal counselors", "It forced the crown to surrender all customs taxation collection duties to the House of Commons"],
+        "correct": 0,
+        "hint": "Elizabeth smoothed over the anger by delivering her famous 'Golden Speech', showing political skill."
+      },
+      {
+        "q": "What does a 'Revisionist' historian argue regarding the origins of the Cold War?",
+        "options": ["The United States was primarily responsible due to its aggressive economic expansion and atomic diplomacy", "The Soviet Union was solely to blame because of Stalin's aggressive ideological expansion", "The conflict was an unavoidable consequence of traditional European balance-of-power politics", "The Cold War did not truly begin until the deployment of troops during the Korean War"],
+        "correct": 0,
+        "hint": "This school of historical thought emerged during the Vietnam War era, challenging the traditional view that blamed only the USSR."
+      },
+      {
+        "q": "How did the 1923 hyperinflation crisis fundamentally alter the middle-class psychology in Weimar Germany?",
+        "options": ["It wiped out their savings, shattering their trust in democratic institutions and the Republic", "It made them wealthy by clearing out all their property mortgage debts", "It forced them to form an immediate political alliance with the industrial working class", "It led to an immediate migration wave to the United States"],
+        "correct": 0,
+        "hint": "Even when the currency stabilized, the middle class remained bitter and traumatized, making them open to radical politics later."
+      },
+      {
+        "q": "What was the significance of the 1839 Bedchamber Crisis in the early reign of Queen Victoria?",
+        "options": ["It showed Victoria's political stubbornness when she refused to change her ladies-in-waiting, blocking a Tory government", "It was a major security breach where a stalker successfully entered the Queen's private rooms", "It was a debate over whether the Queen could marry a foreign prince", "It resulted in parliament cutting the royal household budget by half"],
+        "correct": 0,
+        "hint": "This constitutional standoff showed the young queen's willingness to challenge established political norms."
+      },
+      {
+        "q": "How did the late-19th-century 'Scramble for Africa' alter European balance-of-power diplomacy?",
+        "options": ["It created intense imperial rivalries that accelerated the formation of rigid military alliances", "It led to a permanent peace agreement between Britain, France, and Germany", "It completely bankrupted the major European industrial economies", "It forced European nations to dismantle their home armies to secure African territories"],
+        "correct": 0,
+        "hint": "The race to claim African territory added to the international friction that eventually boiled over in 1914."
+      },
+      {
+        "q": "What was the primary goal of the 1584 Bond of Association introduced by Francis Walsingham and William Cecil?",
+        "options": ["Anyone benefiting from Elizabeth's assassination would be executed, targeting Mary, Queen of Scots", "It was a commercial trade treaty linking English merchants with Dutch ports", "It made military service mandatory for all men over the age of eighteen", "It bound all English bishops to a new, stricter set of religious rules"],
+        "correct": 0,
+        "hint": "It meant that if Elizabeth was murdered, Mary would be executed even if she knew nothing about the plot."
+      },
+      {
+        "q": "How did the 19th-century 'Speenhamland system' impact poor relief in rural England?",
+        "options": ["It subsidized low agricultural wages using parish taxes linked to bread prices, inadvertently keeping wages low", "It built the first clean rural cottage estates for poor farming families", "It completely banned landlords from evicting tenant farmers during winters", "It required all poor children to work in local agricultural fields"],
+        "correct": 0,
+        "hint": "Because the parish topped up wages, farmers realized they could pay their workers very little."
+      },
+      {
+        "q": "What did the 1928 Kellogg-Briand Pact legally seek to do?",
+        "options": ["Outlaw war as an instrument of national policy across sixty-two signatory nations", "Fix permanent trading tariffs between the United States and European economies", "Establish a joint international court to prosecute financial war crimes", "Force Germany to pay its reparations debts using gold reserves exclusively"],
+        "correct": 0,
+        "hint": "While a noble attempt at securing global peace, it lacked any practical enforcement measures."
+      },
+      {
+        "q": "What was the long-term impact of the 1957 Treaty of Rome on European integration?",
+        "options": ["It established the European Economic Community (EEC), creating a common market framework", "It formed a joint military defense force to counter the Soviet Union's Warsaw Pact", "It abolished all individual national currencies across European countries", "It unified the legal codes of France, Germany, and Italy into a single system"],
+        "correct": 0,
+        "hint": "This foundational treaty aimed to bring European economies closer together to prevent future conflicts."
+      },
+      {
+        "q": "Why was the 1554 Wyatt's Rebellion a major threat to Mary I?",
+        "options": ["It was a rebellion against her plan to marry Philip of Spain, reaching the gates of London", "It was a protest against the return of monastic land to the Catholic Church", "It was a military invasion backed by Scottish forces to install Elizabeth", "It was a massive economic strike by London wool merchants over export duties"],
+        "correct": 0,
+        "hint": "Sir Thomas Wyatt led rebel forces from Kent right into London before his support collapsed and he was captured."
+      }
+    ]
+  }
+}
