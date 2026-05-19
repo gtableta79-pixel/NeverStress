@@ -1,0 +1,262 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What does the 'P' stand for in the acronym 'PIES' regarding human growth and development?",
+        "options": ["Physical", "Personal", "Psychological", "Primary"],
+        "correct": 0,
+        "hint": "Think about changes to the body, height, and motor skills."
+      },
+      {
+        "q": "Which of the following is considered an expected life event?",
+        "options": ["Starting secondary school", "A sudden serious illness", "Winning the lottery", "An unexpected redundancy"],
+        "correct": 0,
+        "hint": "Expected events are milestones that most people can anticipate happening."
+      },
+      {
+        "q": "What does the 'I' stand for in the PIES acronym?",
+        "options": ["Intellectual", "Individual", "Internal", "Independence"],
+        "correct": 0,
+        "hint": "This area relates to thinking, memory, language, and learning skills."
+      },
+      {
+        "q": "Which life stage spans from 0 to 2 years of age?",
+        "options": ["Infancy", "Early childhood", "Adolescence", "Later adulthood"],
+        "correct": 0,
+        "hint": "This is the very first stage of human life after birth."
+      },
+      {
+        "q": "Identify a primary physical benefit of regular exercise for a young child.",
+        "options": ["Strengthening bones and muscles", "Improving reading speed", "Increasing financial income", "Changing eye color"],
+        "correct": 0,
+        "hint": "Think about how moving the body affects the musculoskeletal system."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Which of the following is an example of an informal support network?",
+        "options": ["A close family friend or neighbor", "A registered general practitioner (GP)", "A social worker from the council", "An occupational therapist"],
+        "correct": 0,
+        "hint": "Informal support is provided by people who are not paid professionals."
+      },
+      {
+        "q": "What type of development involves learning how to control emotions and express feelings properly?",
+        "options": ["Emotional development", "Intellectual development", "Social development", "Physical development"],
+        "correct": 0,
+        "hint": "This relates to self-concept, bonding, and handling internal feelings."
+      },
+      {
+        "q": "Which of these is an environmental factor that can influence an individual's health?",
+        "options": ["Damp or overcrowded housing", "Genetic predisposition", "Biological gender", "An inherited medical condition"],
+        "correct": 0,
+        "hint": "Look for a factor that comes from the surroundings a person lives in."
+      },
+      {
+        "q": "If an individual receives care from an unpaid volunteer group, what sector of care is this?",
+        "options": ["Voluntary sector", "Statutory sector", "Private sector", "Commercial sector"],
+        "correct": 0,
+        "hint": "This sector consists of non-profit organizations and charities."
+      },
+      {
+        "q": "What is the main purpose of using non-verbal communication, such as nodding, during an interview with a patient?",
+        "options": ["To show that you are actively listening", "To speed up the appointment time", "To avoid writing notes down", "To signal that the appointment is over"],
+        "correct": 0,
+        "hint": "Nodding shows engagement without interrupting the speaker."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "How can a low income socio-economic factor directly impact a person's physical health?",
+        "options": ["By limiting access to a balanced, nutritious diet", "By reducing their genetic height potential", "By automatically causing a viral infection", "By stopping them from reading books"],
+        "correct": 0,
+        "hint": "Think about how financial constraints limit choices at the supermarket."
+      },
+      {
+        "q": "Which care value is being demonstrated when a nurse draws curtains around a patient's bed before a checkup?",
+        "options": ["Maintaining confidentiality and privacy", "Promoting anti-discriminatory practice", "Encouraging communication styles", "Preserving financial assets"],
+        "correct": 0,
+        "hint": "This prevents other individuals from seeing the patient during treatment."
+      },
+      {
+        "q": "Which life stage is traditionally defined as spanning from 46 to 65 years of age?",
+        "options": ["Middle adulthood", "Early adulthood", "Later adulthood", "Adolescence"],
+        "correct": 0,
+        "hint": "This stage sits right before retirement age."
+      },
+      {
+        "q": "What is a major social effect of a person experiencing long-term redundancy?",
+        "options": ["Loss of contact with work colleagues and social isolation", "An immediate improvement in physical fitness", "An increase in disposal income structures", "Enhanced short-term memory capacity"],
+        "correct": 0,
+        "hint": "Losing a job changes daily routines and workplace interactions."
+      },
+      {
+        "q": "When assessing fine motor skills in early childhood, which activity would an educator observe?",
+        "options": ["Holding a pencil to draw a shape", "Kicking a football into a net", "Running across a playground", "Riding a bicycle"],
+        "correct": 0,
+        "hint": "Fine motor skills involve precise control of small muscles in the hands."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Analyze the role of the Care Quality Commission (CQC) in health and social care settings.",
+        "options": ["They inspect facilities to ensure safety standards are maintained", "They diagnose complex medical conditions", "They calculate employee payroll and tax brackets", "They provide daily transport to service users"],
+        "correct": 0,
+        "hint": "The CQC acts as an independent regulatory watchdog."
+      },
+      {
+        "q": "What is the primary objective of a multi-disciplinary team (MDT) approach in patient care?",
+        "options": ["To combine expertise from different professionals for holistic care", "To reduce the overall financial budget of the clinic", "To allow one doctor to make all final treatment decisions", "To speed up administrative filing times"],
+        "correct": 0,
+        "hint": "Holistic care focuses on treating the whole person across multiple areas."
+      },
+      {
+        "q": "Evaluate how an unexpected life event, such as a sudden physical disability, affects an adult's self-concept.",
+        "options": ["It can lower self-esteem due to a loss of independence", "It automatically increases intellectual IQ scores", "It expands their informal friend networks instantly", "It guarantees immediate employment promotion pathways"],
+        "correct": 0,
+        "hint": "Self-concept is how a person views and evaluates themselves."
+      },
+      {
+        "q": "What is the primary function of the National Institute for Health and Care Excellence (NICE)?",
+        "options": ["To provide national guidance and advice to improve health and social care", "To manage the building of new community hospitals", "To police traffic laws outside healthcare facilities", "To set the national minimum wage for care workers"],
+        "correct": 0,
+        "hint": "NICE provides evidence-based guidelines for treatments and procedures."
+      },
+      {
+        "q": "How does the concept of 'person-centered care' differ from traditional task-centered care models?",
+        "options": ["It centers care choices around the individual's specific needs and wishes", "It forces the patient to follow strict hospital timetables", "It reduces the amount of time staff spend with individuals", "It gives the family complete legal authority over medical decisions"],
+        "correct": 0,
+        "hint": "Person-centered care views the service user as an equal partner in planning care."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "Identify a major psychological effect of experiencing discrimination in a care home.",
+        "options": ["Low self-esteem and anxiety", "Improved cardiorespiratory fitness", "Increased cognitive processing speed", "Stronger social relationships"],
+        "correct": 0,
+        "hint": "Discrimination affects how a person feels about themselves mentally."
+      },
+      {
+        "q": "Which type of non-verbal communication is most vital for showing empathy to a distressed individual?",
+        "options": ["Maintaining open body language and eye contact", "Checking your watch frequently during conversations", "Standing with your arms tightly crossed across your chest", "Speaking loudly from across the hallway"],
+        "correct": 0,
+        "hint": "Open postures signal that you are present and listening attentively."
+      },
+      {
+        "q": "Which life stage involves transitioning through puberty and developing an independent identity?",
+        "options": ["Adolescence", "Infancy", "Early childhood", "Later adulthood"],
+        "correct": 0,
+        "hint": "This stage generally aligns with the teenage years."
+      },
+      {
+        "q": "What does 'S' stand for in the PIES acronym?",
+        "options": ["Social", "Secondary", "Systemic", "Supportive"],
+        "correct": 0,
+        "hint": "This area focuses on relationships, interactions, and friendships."
+      },
+      {
+        "q": "Which service is a prime example of a primary healthcare provider?",
+        "options": ["A local GP surgery", "A specialized oncology ward", "A regional children's hospital", "An intensive care unit"],
+        "correct": 0,
+        "hint": "Primary care is usually the first point of contact in the healthcare system."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Which of these legislation acts primarily protects individual data and medical records in care environments?",
+        "options": ["Data Protection Act / GDPR", "Health and Safety at Work Act", "The Equality Act", "The Care Act"],
+        "correct": 0,
+        "hint": "This legislation dictates how sensitive information must be securely handled."
+      },
+      {
+        "q": "What does 'holistic care' refer to in a health and social care context?",
+        "options": ["Addressing physical, intellectual, emotional, and social needs entirely", "Focusing strictly on treating biological symptoms with medication", "Providing care services exclusively in a hospital environment", "Letting the service user manage their own medication without help"],
+        "correct": 0,
+        "hint": "Think back to the full PIES spectrum of developmental needs."
+      },
+      {
+        "q": "Which of the following describes a formal support system for an elderly individual living at home?",
+        "options": ["A professional domiciliary carer arranged by social services", "A granddaughter who drops off groceries on weekends", "A neighbor who cuts the front lawn out of kindness", "A friend who calls regularly on the telephone"],
+        "correct": 0,
+        "hint": "Formal support is organized, regulated, and delivered by professionals."
+      },
+      {
+        "q": "How can a supportive family environment positively impact intellectual development during childhood?",
+        "options": ["By providing opportunities for reading, games, and conversation", "By altering the child's basic inherited physical height data", "By eliminating the requirement to go to primary school", "By changing the child's natural sleep cycle intervals"],
+        "correct": 0,
+        "hint": "Intellectual growth thrives on cognitive stimulation and engagement."
+      },
+      {
+        "q": "If a care provider shares personal medical information about a client without permission, which boundary is broken?",
+        "options": ["Confidentiality", "Anti-discrimination", "Safeguarding triage", "Physical safety"],
+        "correct": 0,
+        "hint": "This relates to the duty to keep a client's private information secure."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Explain how a chronic health condition can cause a secondary impact on an individual's social development.",
+        "options": ["Isolation due to regular hospital stays prevents peer interaction", "It instantly alters their inherited DNA structure", "It removes their legal right to access educational tutoring", "It directly stops them from understanding written vocabulary"],
+        "correct": 0,
+        "hint": "Consider how missing school or community events impacts friendships."
+      },
+      {
+        "q": "An advocate's primary responsibility when representing a service user with dementia is to:",
+        "options": ["Ensure the individual's preferences and rights are voiced", "Make financial investments on the individual's behalf", "Prescribe alternative medications for the condition", "Take over complete legal guardianship of the family home"],
+        "correct": 0,
+        "hint": "Advocates help individuals express what they want when they struggle to speak up."
+      },
+      {
+        "q": "Analyze the potential emotional consequence for an individual entering later adulthood who has recently retired.",
+        "options": ["A potential loss of identity or purpose leading to low mood", "An automatic boost to mathematical problem-solving skills", "A structural decrease in linguistic communication capability", "An immediate physical reduction in biological age markers"],
+        "correct": 0,
+        "hint": "Retiring can significantly change a person's sense of status and daily meaning."
+      },
+      {
+        "q": "Which of the following describes the target of anti-discriminatory practice in a healthcare setting?",
+        "options": ["Actively challenging prejudice and ensuring equal access to care", "Providing premium rooms to patients who can pay extra fees", "Grouping patients exclusively by their age brackets for meals", "Allowing staff to work without standard safety clothing"],
+        "correct": 0,
+        "hint": "This practice ensures everyone is treated fairly and with equal respect."
+      },
+      {
+        "q": "What is a major physical risk associated with a sedentary lifestyle during middle adulthood?",
+        "options": ["Increased risk of cardiovascular disease", "An increase in fine motor muscle coordination", "An automatic reduction in blood pressure markers", "Spontaneous alterations to skeletal bone density growth"],
+        "correct": 0,
+        "hint": "A sedentary lifestyle involves very low levels of physical movement."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Evaluate the impact of applying the principle of 'Empowerment' to a vulnerable service user.",
+        "options": ["It builds independence and control over their own lifestyle choices", "It increases their reliance on emergency medical support networks", "It removes their responsibility to adhere to health safety codes", "It automatically eliminates any genetic disease conditions"],
+        "correct": 0,
+        "hint": "Empowerment gives individuals autonomy over their care plan decisions."
+      },
+      {
+        "q": "Which of the following describes a systemic institutional barrier to accessing health services?",
+        "options": ["A clinic lacking wheelchair ramps and translation arrangements", "An individual choosing to visit a private physical therapist", "A patient forgetting the time slot of their afternoon consultation", "A pharmacy running out of a single brand of vitamins"],
+        "correct": 0,
+        "hint": "Institutional barriers are built-in structural blocks created by an organization."
+      },
+      {
+        "q": "Critically evaluate the importance of the Equality Act within health and social care environments.",
+        "options": ["It makes it illegal to discriminate against individuals based on protected characteristics", "It guarantees that all prescription medicines are completely free of charge", "It limits the number of hours healthcare staff are permitted to work each week", "It dictates the physical architecture and building materials of hospitals"],
+        "correct": 0,
+        "hint": "Protected characteristics include age, disability, race, religion, and gender."
+      },
+      {
+        "q": "What is the primary function of an internal safeguarding policy within a residential care setting?",
+        "options": ["To protect vulnerable individuals from abuse, harm, or neglect", "To track the financial profitability of the care organization", "To design internal promotional paths for healthcare support staff", "To clean and sanitize medical instruments after surgery"],
+        "correct": 0,
+        "hint": "Safeguarding is focused on preventing and responding to risks of harm."
+      },
+      {
+        "q": "How can an intersectional approach benefit a social worker when assessing a service user's needs?",
+        "options": ["By recognizing how overlapping social identities create unique barriers", "By allowing the worker to speed up the assessment into a single template", "By prioritizing physical health needs entirely over emotional support factors", "By passing the case file directly to an informal volunteer group"],
+        "correct": 0,
+        "hint": "Intersectionality considers how factors like age, race, and disability interact."
+      }
+    ]
+  }
+}
