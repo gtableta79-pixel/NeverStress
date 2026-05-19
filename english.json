@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "Which of the following is an example of an adjective?",
+        "options": ["Beautiful", "Run", "Quickly", "Happiness"],
+        "correct": 0,
+        "hint": "An adjective is a word that describes a noun (a person, place, or thing)."
+      },
+      {
+        "q": "What punctuation mark should be used to show a sudden interruption in a character's speech?",
+        "options": ["A dash (—)", "A comma (,)", "A full stop (.)", "A colon (:)"],
+        "correct": 0,
+        "hint": "This mark creates a clean, abrupt break in a sentence line."
+      },
+      {
+        "q": "Identify the alliteration in the following choices:",
+        "options": ["Peter Piper picked a peck", "The wind whistled softly", "He was as brave as a lion", "The classroom was a zoo"],
+        "correct": 0,
+        "hint": "Alliteration involves the repetition of the same starting consonant sound."
+      },
+      {
+        "q": "What is the primary purpose of a persuasive text?",
+        "options": ["To convince the reader of a viewpoint", "To explain how a machine works", "To tell a magical fictional story", "To list recipes alphabetically"],
+        "correct": 0,
+        "hint": "Think about what an advertisement or political speech tries to achieve."
+      },
+      {
+        "q": "Which word in this sentence is a verb: 'The cat slept peacefully on the rug.'?",
+        "options": ["cat", "slept", "peacefully", "rug"],
+        "correct": 1,
+        "hint": "A verb is an action or state of being."
+      },
+      {
+        "q": "What does the term 'setting' refer to in a story?",
+        "options": ["The main character's personality", "The time and place where the story happens", "The resolution of the central conflict", "The message or moral of the tale"],
+        "correct": 1,
+        "hint": "Think about where and when the opening scene takes place."
+      },
+      {
+        "q": "Choose the word that is spelled correctly:",
+        "options": ["Necessary", "Necesary", "Neccessary", "Necasary"],
+        "correct": 0,
+        "hint": "Remember the memory trick: One Collar, Two Sleeves."
+      },
+      {
+        "q": "What does a biography describe?",
+        "options": ["The life story of a real person written by someone else", "A fictional story about space travel", "An instruction guide for assembling furniture", "A collection of personal poems about nature"],
+        "correct": 0,
+        "hint": "The prefix 'bio' means life, and 'graphy' means writing."
+      },
+      {
+        "q": "Which sentence uses a formal tone?",
+        "options": ["I am writing to express my dissatisfaction.", "Hey, just wanted to say this thing is broken.", "No way am I keeping this item lol.", "Give me my money back right now."],
+        "correct": 0,
+        "hint": "Formal language avoids slang, contractions, and casual phrasing."
+      },
+      {
+        "q": "What is a stanza in English literature?",
+        "options": ["A group of lines forming a unit in a poem", "The main character in a tragic play", "A type of persuasive rhetorical question", "The highest point of tension in a novel"],
+        "correct": 0,
+        "hint": "It functions similarly to a paragraph but specifically inside poetry."
+      },
+      {
+        "q": "Identify the noun in this sentence: 'The massive ship sailed across the ocean.'",
+        "options": ["massive", "sailed", "across", "ship"],
+        "correct": 3,
+        "hint": "A noun identifies a person, place, thing, or idea."
+      },
+      {
+        "q": "What is the antonym of the word 'generous'?",
+        "options": ["Kind", "Selfish", "Wealthy", "Cheerful"],
+        "correct": 1,
+        "hint": "An antonym is a word that means the exact opposite."
+      },
+      {
+        "q": "Which of these is used to indicate direct speech in a text?",
+        "options": ["Inverted commas / Quotation marks", "Apostrophes", "Parentheses / Brackets", "Semicolons"],
+        "correct": 0,
+        "hint": "These punctuation marks hug the exact words spoken out loud by a character."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What type of figurative language is used here: 'The trees danced in the howling wind'?",
+        "options": ["Personification", "Simile", "Hyperbole", "Oxymoron"],
+        "correct": 0,
+        "hint": "This technique gives human behaviors or traits to non-human things."
+      },
+      {
+        "q": "Which of the following sentences contains a embedded relative clause?",
+        "options": ["The boy, who was wearing a red coat, ran home.", "The boy ran home quickly because it was dark.", "Running home, the boy dropped his heavy school bag.", "The boy ran home and he ate his dinner immediately."],
+        "correct": 0,
+        "hint": "An embedded clause is placed inside the main clause, surrounded by commas."
+      },
+      {
+        "q": "In an analytical essay, what is the primary purpose of a 'topic sentence'?",
+        "options": ["To state the main focus or argument of that paragraph", "To introduce a direct quote from the source text", "To summarize the plot of the entire book or play", "To conclude the essay with a personal evaluation"],
+        "correct": 0,
+        "hint": "It acts as a signpost telling the reader what the paragraph is about."
+      },
+      {
+        "q": "Which word best describes a character who undergoes a significant internal change during a text?",
+        "options": ["Static", "Dynamic", "Stereotypical", "Minor"],
+        "correct": 1,
+        "hint": "Think of a word that implies movement, energy, or constant shifting."
+      },
+      {
+        "q": "What does the root word 'bene' mean in words like 'benevolent' or 'beneficial'?",
+        "options": ["Good / Well", "Bad / Evil", "Time / Chronological", "Earth / Ground"],
+        "correct": 0,
+        "hint": "Think about things that are positive, helpful, or kind."
+      },
+      {
+        "q": "Select the sentence that uses a semicolon correctly.",
+        "options": ["The weather was freezing; however, we walked home.", "The weather was freezing; and we walked home.", "The weather; was freezing we walked home.", "The weather was freezing we walked home;"],
+        "correct": 0,
+        "hint": "A semicolon joins two independent clauses that could stand as sentences on their own."
+      },
+      {
+        "q": "What literary term describes hints or clues an author leaves about future plot events?",
+        "options": ["Foreshadowing", "Flashback", "Juxtaposition", "Allusion"],
+        "correct": 0,
+        "hint": "It casts a shadow forward into the narrative line."
+      },
+      {
+        "q": "Which sentence uses the correct form of their/there/they're?",
+        "options": ["They're going to pick up their books over there.", "There going to pick up they're books over their.", "Their going to pick up there books over they're.", "They're going to pick up there books over their."],
+        "correct": 0,
+        "hint": "They're = They are; Their = belonging to them; There = a place location."
+      },
+      {
+        "q": "What is a monologue in a theatrical play?",
+        "options": ["A long speech delivered by a single character to others", "A quiet conversation held privately between two characters", "An introductory song performed by a musical choir", "The final scene where the central mystery is solved"],
+        "correct": 0,
+        "hint": "The prefix 'mono-' indicates singular or one single element."
+      },
+      {
+        "q": "What is the purpose of an exclamation mark in creative writing?",
+        "options": ["To indicate strong emotion, shock, or high volume", "To show that a sentence is an unanswered question", "To introduce a lengthy bulleted list of descriptions", "To signal the end of a multi-sentence paragraph block"],
+        "correct": 0,
+        "hint": "It gives emphasis, force, or urgency to a statement."
+      },
+      {
+        "q": "Identify the preposition in the following sentence: 'The keys were hidden under the heavy book.'",
+        "options": ["keys", "hidden", "under", "book"],
+        "correct": 2,
+        "hint": "A preposition indicates the spatial position or direction of an object."
+      },
+      {
+        "q": "Which technique is being used here: 'The crash, bang, wallop of the thunder'?",
+        "options": ["Onomatopoeia", "Metaphor", "Irony", "Sibilance"],
+        "correct": 0,
+        "hint": "This involves words that structurally sound out the actual noise they describe."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "What is the structural effect of using a sequence of short, single-word sentences in a narrative climax?",
+        "options": ["It builds tension and speeds up the reading pacing", "It provides detailed contextual background data", "It creates a formal, detached academic tone", "It confuses the reader about the setting location"],
+        "correct": 0,
+        "hint": "Short sentences mirror a fast heartbeat or panicked thinking."
+      },
+      {
+        "q": "In a Christmas Carol, what does Scrooge's final transformation symbolize?",
+        "options": ["The possibility of moral redemption and social responsibility", "The inevitable decline of industrial capitalism", "The superiority of legal systems over private charity", "The architectural modernization of Victorian London homes"],
+        "correct": 0,
+        "hint": "Dickens wanted to show that even the worst person can change and help society."
+      },
+      {
+        "q": "What type of irony occurs when the reader knows a vital plot fact that the characters remain unaware of?",
+        "options": ["Dramatic irony", "Situational irony", "Verbal irony", "Cosmic irony"],
+        "correct": 0,
+        "hint": "This creates tension because the audience anticipates the consequences before the character does."
+      },
+      {
+        "q": "Identify the passive voice sentence from the options below:",
+        "options": ["The pristine display window was smashed by a stray brick.", "A stray brick smashed the pristine display window cleanly.", "The boy threw a heavy stray brick at the window pane.", "Bricks can easily smash fragile glass display windows."],
+        "correct": 0,
+        "hint": "In the passive voice, the target of the action is placed at the start of the sentence."
+      },
+      {
+        "q": "What does the term 'pathos' mean when used by an author?",
+        "options": ["Language designed to evoke pity, sorrow, or sympathy", "An appeal to logic, empirical data, and factual reasoning", "An attack on the moral character of an opposing writer", "A repetitive sentence layout structure across paragraphs"],
+        "correct": 0,
+        "hint": "Think about words like empathetic, pathetic, or emotional resonance."
+      },
+      {
+        "q": "What is the poetic meter of a standard Shakespearean sonnet?",
+        "options": ["Iambic pentameter", "Trochaic tetrameter", "Anapestic heptameter", "Dactylic hexameter"],
+        "correct": 0,
+        "hint": "It contains five repeating patterns of unstressed/stressed syllables (da-DUM)."
+      },
+      {
+        "q": "Which phrase contains an oxymoron?",
+        "options": ["Deafening silence", "Bright sunlight", "Raging storm", "Running quickly"],
+        "correct": 0,
+        "hint": "An oxymoron places two completely contradictory words right next to each other."
+      },
+      {
+        "q": "What structural role does an 'inciting incident' play within a narrative arc?",
+        "options": ["It disrupts the status quo and starts the main conflict", "It resolves the problem and ends the character journey", "It provides the deep back-story of a secondary figure", "It introduces the descriptive elements of the final setting"],
+        "correct": 0,
+        "hint": "It is the trigger event that sets the plot into motion."
+      },
+      {
+        "q": "What does the word 'superfluous' mean when describing an author's prose?",
+        "options": ["Unnecessary or excessive word usage", "Highly advanced or intellectually brilliant layout", "Extremely emotional and moving descriptions", "Short, direct, and blunt phrasing choices"],
+        "correct": 0,
+        "hint": "Think of something that is overflow or extra, beyond what is actually needed."
+      },
+      {
+        "q": "Which of these errors is present in this line: 'She finished her essay, she went to bed.'?",
+        "options": ["Comma splice", "Dangling modifier", "Tense shift", "Fragment sentence"],
+        "correct": 0,
+        "hint": "This occurs when two main clauses are joined with only a comma and no conjunction."
+      },
+      {
+        "q": "In poetry analysis, what does the term 'caesura' mean?",
+        "options": ["A strong pause or break within a line of verse", "The running over of a sentence into the next line", "A matching rhyme sound at the very end of lines", "The emotional high point of a poetic narrative"],
+        "correct": 0,
+        "hint": "It is often marked by punctuation like a full stop or dash right in the middle of a line."
+      },
+      {
+        "q": "What is the primary function of a dystopian setting in literature?",
+        "options": ["To critique current societal trends by exaggerating them", "To portray a perfect world without conflict or pain", "To document historically accurate political timelines", "To offer lighthearted entertainment for children"],
+        "correct": 0,
+        "hint": "Think of texts like '1984' or 'The Hunger Games'."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "In Inspector Calls, how does Priestley use the Inspector as a dramatic device?",
+        "options": ["To voice Socialist critiques against upper-class Capitalist ego", "To add comedic relief to an otherwise depressing family dynamic", "To accurately represent Edwardian police investigation protocols", "To encourage the characters to disguise their personal secrets"],
+        "correct": 0,
+        "hint": "The Inspector acts as a moral catalyst challenging the Birling family's actions."
+      },
+      {
+        "q": "Analyze the effect of 'enjambment' across stanzas in a modern poem.",
+        "options": ["It creates a sense of continuous flow, momentum, or disorder", "It forces a rigid, predictable pattern onto the reading speed", "It indicates that a new character has started speaking out loud", "It limits the vocabulary choices available to the poet writing"],
+        "correct": 0,
+        "hint": "Enjambment is when a sentence spills over a line break without punctuation."
+      },
+      {
+        "q": "What does 'hubris' signify when evaluating a classical tragic protagonist?",
+        "options": ["Excessive pride or arrogance that leads to their downfall", "A hidden talent that saves them in the final act of the play", "A deep, unrequited love for a rival character's family member", "A physical weakness sustained during an early battle scene"],
+        "correct": 0,
+        "hint": "Think of characters who believe they are above the rules of fate or the gods."
+      },
+      {
+        "q": "What does a 'bildungsroman' novel trace?",
+        "options": ["The psychological and moral growth of a protagonist from youth to maturity", "A multi-generational family feud set in a historical timeline", "A collection of letters written between two separate narrators", "A fast-paced satirical critique of modern scientific inventions"],
+        "correct": 0,
+        "hint": "It is a German literary term for a 'coming-of-age' story."
+      },
+      {
+        "q": "Which option describes an 'unreliable narrator'?",
+        "options": ["A storyteller whose credibility is compromised by bias or mental state", "A narrator who drops out of the book halfway through the text", "A figure who writes the story entirely in the second-person 'you'", "An omniscient voice that reveals every character's thoughts instantly"],
+        "correct": 0,
+        "hint": "The reader must question whether this narrator's version of events is completely true."
+      },
+      {
+        "q": "What is the purpose of using a 'foil' character in a dramatic play?",
+        "options": ["To contrast with another character to highlight their specific traits", "To resolve the final sub-plot through sudden physical intervention", "To deliver background context to the audience through a prologue", "To mimic the exact physical behaviors of the tragic hero figure"],
+        "correct": 0,
+        "hint": "Think of how Banquo's cautious nature highlights Macbeth's reckless ambition."
+      },
+      {
+        "q": "What does the term 'semantic field' mean in text analysis?",
+        "options": ["A group of words related by a common theme or topic", "The history and origin background of a specific word choice", "The structural rules governing complex sentence formations", "A paragraph layout that uses multiple font choices for emphasis"],
+        "correct": 0,
+        "hint": "If an author uses words like 'captain', 'anchor', 'sail', and 'tide', they share a semantic field."
+      },
+      {
+        "q": "What structural pattern defines a frame narrative?",
+        "options": ["A story told within another surrounding story", "A story that moves backwards chronologically from the end", "A novel composed entirely of newspaper clippings and reports", "A play that completely removes the second act from performance"],
+        "correct": 0,
+        "hint": "Think of Mary Shelley's 'Frankenstein', which opens with Captain Walton's letters."
+      },
+      {
+        "q": "Identify the semantic meaning of the archaic word 'equivocation' in Macbeth.",
+        "options": ["Using ambiguous language to conceal the absolute truth", "The legal act of crowning a new monarch at a public coronation", "A physical symptom of extreme sleep deprivation and nightmares", "The direct declaration of war against an invading military force"],
+        "correct": 0,
+        "hint": "This is how the Witches speak to Macbeth—telling partial truths that mislead him."
+      },
+      {
+        "q": "What is the primary function of a 'synecdoche' in descriptive prose?",
+        "options": ["Using a part of something to represent the whole thing", "Repeating a vowel sound across a sequence of adjacent words", "Addressing an abstract concept or dead person directly out loud", "Combining two nouns together without using a standard conjunction"],
+        "correct": 0,
+        "hint": "Saying 'all hands on deck' uses 'hands' to represent the entire workers/sailors."
+      },
+      {
+        "q": "Which option defines the literary theory concept of 'subtext'?",
+        "options": ["The underlying, unexpressed meaning beneath the literal dialogue", "The printed footnotes detailing vocabulary definitions at the base", "A secondary plotline that mirrors the events of the primary arc", "The historical context surrounding the publication date of a book"],
+        "correct": 0,
+        "hint": "It is what characters mean but do not say outright."
+      },
+      {
+        "q": "What does an 'allusion' mean when embedded in a modern novel text?",
+        "options": ["An indirect reference to another famous text, myth, or event", "A visual trick played on a character's eyesight due to fatigue", "The structural use of a rhyming couplet at a scene conclusion", "A prolonged description of natural scenery across multiple pages"],
+        "correct": 0,
+        "hint": "If a modern character is described as having an 'Achilles' heel', it's a mythological allusion."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What is the linguistic term for an over-exaggerated statement not meant to be taken literally?",
+        "options": ["Hyperbole", "Meiosis", "Litotes", "Euphemism"],
+        "correct": 0,
+        "hint": "Saying 'I have a million things to do today' is an example of this."
+      },
+      {
+        "q": "Which of these devices involves repeating the same word or phrase at the start of successive clauses?",
+        "options": ["Anaphora", "Epistrophe", "Chiasmus", "Asyndeton"],
+        "correct": 0,
+        "hint": "Think of Churchill's speech: 'We shall fight on the beaches, we shall fight on the landing grounds...'"
+      },
+      {
+        "q": "Identify the word below that functions as an abstract noun:",
+        "options": ["Justice", "Gavel", "Courtroom", "Judge"],
+        "correct": 0,
+        "hint": "An abstract noun is an idea, state, or concept that you cannot physically touch."
+      },
+      {
+        "q": "What form of punctuation is primarily used to isolate non-essential, parenthetical commentary within a line?",
+        "options": ["Parentheses / Brackets", "Colons", "Semicolons", "Inverted commas"],
+        "correct": 0,
+        "hint": "These marks come in pairs and scoop extra remarks out of the main sentence path."
+      },
+      {
+        "q": "What is the structural term for a story that ends in the exact same location or state that it began?",
+        "options": ["Circular narrative", "Linear narrative", "Epistolary narrative", "Fragmented narrative"],
+        "correct": 0,
+        "hint": "The plot travels full circle back to its opening scene configuration."
+      },
+      {
+        "q": "Which word is a synonym for 'meticulous'?",
+        "options": ["Careful", "Careless", "Rapid", "Aggressive"],
+        "correct": 0,
+        "hint": "A meticulous person pays absolute, precise attention to minor details."
+      },
+      {
+        "q": "What is the term for a question asked merely for effect, with no real answer expected?",
+        "options": ["Rhetorical question", "Open question", "Closed question", "Hypothetical question"],
+        "correct": 0,
+        "hint": "These are common in persuasive speeches to prompt reflection in the audience."
+      },
+      {
+        "q": "Identify the word that contains a prefix meaning 'against' or 'opposing':",
+        "options": ["Antidote", "Submarine", "Preamble", "Cooperate"],
+        "correct": 0,
+        "hint": "Look for a common prefix used to counter or oppose something."
+      },
+      {
+        "q": "Which of these options is a compound sentence?",
+        "options": ["The rain fell heavily, but we continued our long march.", "Because the rain fell heavily, we stopped our march.", "The heavy freezing rain fell on the muddy road surfaces.", "Sighing quietly, the exhausted team stopped marching ahead."],
+        "correct": 0,
+        "hint": "A compound sentence joins two independent clauses using a coordinating conjunction (FANBOYS)."
+      },
+      {
+        "q": "What type of imagery focuses specifically on smells and odors?",
+        "options": ["Olfactory imagery", "Gustatory imagery", "Tactile imagery", "Auditory imagery"],
+        "correct": 0,
+        "hint": "Think of descriptions of baking bread, damp cellars, or sharp smoke."
+      },
+      {
+        "q": "Which word is an adverb in this sentence: 'The old engine started up unexpectedly yesterday.'?",
+        "options": ["unexpectedly", "old", "engine", "started"],
+        "correct": 0,
+        "hint": "Adverbs modify verbs, adjectives, or other adverbs, often ending in '-ly'."
+      },
+      {
+        "q": "What does a first-person narrative perspective use as its primary pronoun?",
+        "options": ["I", "You", "He / She", "They"],
+        "correct": 0,
+        "hint": "The story is told directly from the point of view of the person experiencing it."
+      },
+      {
+        "q": "Identify the error in this sentence: 'The group of students are traveling to London.'",
+        "options": ["Subject-verb agreement error", "Comma splice", "Incorrect tense choice", "Missing article indicator"],
+        "correct": 0,
+        "hint": "The subject 'group' is a singular collective noun, so it requires a singular verb."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What does the technique 'zoomorphism' involve in descriptive prose?",
+        "options": ["Applying animal-like characteristics to humans or objects", "Using electronic technology terms to paint a landscape scene", "Gradually scaling down descriptive focus from wide to narrow", "Repeating identical vowel sounds across a line of dialogue"],
+        "correct": 0,
+        "hint": "Think of a person 'growling' or a crowd 'herding' into a station."
+      },
+      {
+        "q": "Which layout structure characterizes an epistolary novel format?",
+        "options": ["A story constructed through documents like letters, diaries, or logs", "A continuous stream of consciousness without standard paragraphs", "A play layout text missing any stage directions or act splits", "An epic narrative poem written completely in rhyming triplets"],
+        "correct": 0,
+        "hint": "Think of Bram Stoker's 'Dracula' or 'The Color Purple'."
+      },
+      {
+        "q": "What is the functional difference between a colon and a semicolon?",
+        "options": ["A colon introduces lists or explanations; a semicolon links separate main clauses", "A colon ends a long stanza; a semicolon introduces spoken character dialogue", "A colon shows character panic; a semicolon shows formal analytical delivery", "There is no functional grammatical difference between the two marks"],
+        "correct": 0,
+        "hint": "A colon says 'here is what I mean'; a semicolon balances two balanced statements."
+      },
+      {
+        "q": "What does 'pathetic fallacy' describe in literary analysis?",
+        "options": ["Attributing human emotions specifically to nature or weather elements", "A logical error made by a tragic protagonist during a major debate", "An author using overly complex vocabulary that doesn't fit the setting", "A character pretending to feel an emotion that they do not possess"],
+        "correct": 0,
+        "hint": "If it rains during a character's funeral scene to mirror grief, this is used."
+      },
+      {
+        "q": "Which sentence contains a dangling modifier?",
+        "options": ["Walking down the main street, the clock tower struck midnight.", "As I walked down the main street, the clock tower struck midnight.", "The clock tower struck midnight while I walked down the main street.", "I noticed the clock tower striking midnight down the main street."],
+        "correct": 0,
+        "hint": "This error happens when the modifier doesn't logically attach to the subject that follows it."
+      },
+      {
+        "q": "What thematic concept does the literary device 'memento mori' focus on?",
+        "options": ["An object or artistic motif serving as a reminder of the inevitability of death", "A token given between characters to seal a romantic marriage pact", "A repetitive legal document layout within historical fiction writing", "The sudden realization that a character's memories have been falsified"],
+        "correct": 0,
+        "hint": "In Latin, this phrase literally translates to 'remember you must die'."
+      },
+      {
+        "q": "What is 'sibilance' in phonetic analysis?",
+        "options": ["The repetition of harsh, hissing 's' or 'sh' consonant sounds", "The layout of short, sharp sentences to mimic rapid movement", "An unexpected shift from past to present tense mid-clause", "Using words that look identical but have different spoken sounds"],
+        "correct": 0,
+        "hint": "Think of a line like 'Seven slippery snakes slid silently'."
+      },
+      {
+        "q": "Identify the complex sentence structure from the choices below:",
+        "options": ["Although the storm was intense, the ship managed to dock safely.", "The storm was intense and the fragile ship crashed on the rocks.", "The intense storm battered the wooden ship throughout the dark night.", "The storm passed over; the ship docked safely in the harbor."],
+        "correct": 0,
+        "hint": "A complex sentence contains one independent clause and at least one dependent clause."
+      },
+      {
+        "q": "What does the term 'juxtaposition' mean?",
+        "options": ["Placing two concepts side by side to highlight their differences", "The chronological order of plot steps inside a story arc", "The perspective shift from first-person to third-person view", "Using overly formal vocabulary in a casual conversation context"],
+        "correct": 0,
+        "hint": "An author might juxtapose a wealthy character next to a poor character to highlight inequality."
+      },
+      {
+        "q": "What type of noun is 'flock' in the phrase 'a flock of birds'?",
+        "options": ["Collective noun", "Proper noun", "Abstract noun", "Compound noun"],
+        "correct": 0,
+        "hint": "This type of noun names a group of individuals or things as a single unit."
+      },
+      {
+        "q": "What does the term 'connotation' refer to?",
+        "options": ["The cultural or emotional associations attached to a word", "The strict dictionary definition of a specific word", "The historical origin and root changes of a word shape", "The physical length and syllable count of a word layout"],
+        "correct": 0,
+        "hint": "While 'red' literally means a color, its connotations include danger, passion, or anger."
+      },
+      {
+        "q": "Which literary device is used here: 'He was a lion in battle'?",
+        "options": ["Metaphor", "Simile", "Hyperbole", "Allusion"],
+        "correct": 0,
+        "hint": "This asserts that one thing *is* another thing, without using 'like' or 'as'."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "What structural transition occurs during the 'volta' of a traditional Italian sonnet?",
+        "options": ["A sharp shift in tone, thought, or argument layout direction", "The sudden death of the main figure addressed in the stanzas", "A strict conversion from rhyming lines into unrhymed blank verse", "The introducing lines of a secondary narrative speaker perspective"],
+        "correct": 0,
+        "hint": "The volta is the 'turn' that typically occurs between the octave and the sestet."
+      },
+      {
+        "q": "In Gothic literature, what is the primary function of 'the uncanny' (das Unheimliche)?",
+        "options": ["Presenting something simultaneously familiar yet deeply strange and unsettling", "Introducing broad slapstick humor to ease atmospheric anxiety", "Ensuring that the narrative remains completely historically accurate", "Using overly simplified sentences to accelerate reading pacing"],
+        "correct": 0,
+        "hint": "It involves things like lifelike dolls, doppelgängers, or familiar places turned threatening."
+      },
+      {
+        "q": "Analyze the impact of 'free indirect discourse' in 19th-century prose.",
+        "options": ["It blends a third-person narrative voice with a character's internal thoughts", "It forces characters to speak in unrhymed iambic pentameter sequences", "It allows the reader to select different alternative ending pathways", "It completely eliminates the use of past tense across chapter text blocks"],
+        "correct": 0,
+        "hint": "The text presents a character's internal voice without using tags like 'she thought'."
+      },
+      {
+        "q": "Which grammatical term describes a verb form ending in '-ing' that functions as a noun?",
+        "options": ["Gerund", "Participle", "Infinitive", "Auxiliary"],
+        "correct": 0,
+        "hint": "In the sentence 'Swimming is fantastic exercise', the word 'Swimming' is this."
+      },
+      {
+        "q": "What is the structural effect of an 'in medias res' opening framework?",
+        "options": ["Plunging the reader directly into the middle of the action without setup", "Starting with a long chronological summary of ancient historic background", "Opening the text with the final conclusion scene and working backwards", "Delivering a systematic breakdown of every character's physical traits"],
+        "correct": 0,
+        "hint": "In Latin, this phrase literally translates to 'into the midst of things'."
+      },
+      {
+        "q": "What does the rhetorical device 'litotes' involve?",
+        "options": ["An understatement expressed by negating its opposite trait", "Repeating the final word of a clause at the start of the next", "Addressing an object directly as if it could answer back out loud", "Using three parallel words or phrases in rapid succession line"],
+        "correct": 0,
+        "hint": "Saying 'He is not the brightest bulb' to mean he is unintelligent is an example."
+      },
+      {
+        "q": "What is the core conflict tracked by the concept of 'the subaltern' in post-colonial literary critiques?",
+        "options": ["The social groups excluded from society's dominant political and economic structures", "The literal naval battles fought between colonizing superpower nations", "The choice of an author to write in prose rather than epic poetic meters", "The translation problems encountered when printing books globally"],
+        "correct": 0,
+        "hint": "It looks at voices that are silenced or marginalized by dominant power structures."
+      },
+      {
+        "q": "Identify the sentence that uses a subjunctive inflected mood form correctly:",
+        "options": ["If I were you, I would accept the promotion offer immediately.", "If I was you, I would accept the promotion offer immediately.", "If I am you, I will accept the promotion offer immediately.", "If I be you, I shall accept the promotion offer immediately."],
+        "correct": 0,
+        "hint": "The subjunctive mood explores hypothetical or conditional states, changing 'was' to 'were'."
+      },
+      {
+        "q": "What poetic technique is defined by a sentence or phrase continuing across a stanza break without punctuation?",
+        "options": ["Enjambment", "Caesura", "End-stopping", "Anadiplosis"],
+        "correct": 0,
+        "hint": "It creates a fast momentum that pulls the reader's eye over the white space between stanzas."
+      },
+      {
+        "q": "What is the definition of a 'chiasmus' in rhetorical analysis?",
+        "options": ["A reversal in the grammatical structure of parallel phrases", "An intentional omission of conjunctions between coordinating clauses", "Using an inappropriate word by mistaking it for a similar-sounding one", "Repeating the same consonant sound inside a sequence of words"],
+        "correct": 0,
+        "hint": "Think of the structure: 'Ask not what your country can do for you — ask what you can do for your country.'"
+      },
+      {
+        "q": "What does 'catharsis' refer to at the conclusion of a classical tragedy?",
+        "options": ["The purging or release of emotional tension, specifically pity and fear", "The sudden twist discovery that the hero's family has survived", "The legal sentencing of the play's main antagonist figure", "A celebratory banquet scene resolving all minor sub-plots"],
+        "correct": 0,
+        "hint": "Aristotle used this term to describe the cleansing emotional release an audience experiences."
+      },
+      {
+        "q": "Which option contains an example of 'metonymy'?",
+        "options": ["The White House issued a press statement this afternoon.", "The bright yellow sun smiled down on the crowded park.", "He ran as fast as a bullet fired from a silver rifle.", "The sea was a boiling cauldron of angry gray waves."],
+        "correct": 0,
+        "hint": "This replaces the name of something with something closely associated with it (using the building to mean the administration)."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Critically analyze the function of 'heteroglossia' within a complex novel text.",
+        "options": ["The presence of multiple distinct voices, registers, and social viewpoints", "A strict adherence to a single omniscient authorial perspective tone", "Using foreign language translations within the footnotes exclusively", "The structural pattern of alternating chapter lengths evenly"],
+        "correct": 0,
+        "hint": "This concept, coined by Mikhail Bakhtin, emphasizes a mix of varied social languages."
+      },
+      {
+        "q": "What does the psychoanalytic literary concept of 'the Lacanian mirror stage' explore in character analysis?",
+        "options": ["The point when an infant recognizes its reflection, forming an idealized ego", "The literal physical mirrors used in Gothic novels to reveal ghosts", "A character's absolute refusal to look at their own aging face", "The structural symmetry of a play split into two equal halves"],
+        "correct": 0,
+        "hint": "It deals with identity formation, alienation, and the creation of an idealized self-image."
+      },
+      {
+        "q": "In Macbeth, how does the transition from blank verse to trochaic tetrameter for the Witches alter the play's dramatic texture?",
+        "options": ["It creates an unnatural, rhythmic, spell-like incantation chant effect", "It alerts the theatre audience that the scene is entirely comedic relief", "It signals that Macbeth has successfully broken free from his tragic fate", "It matches the formal courtly prose spoken by King Duncan's nobles"],
+        "correct": 0,
+        "hint": "The inverse rhythm (stressed/unstressed) sounds abnormal compared to human speech."
+      },
+      {
+        "q": "Which option describes the rhetorical device 'zeugma'?",
+        "options": ["Using a single word to apply to two others in completely different senses", "An explicit repetition of a phrase at the absolute end of every section", "The intentional use of grammatically incomplete fragments across prose", "A prolonged multi-paragraph epic simile describing a battlefield action"],
+        "correct": 0,
+        "hint": "Think of the line: 'He carried a strobe light and the responsibility for the lives of his men.'"
+      },
+      {
+        "q": "What is the primary objective of a 'Marxist literary critique' of a Victorian text?",
+        "options": ["To expose class struggles, economic power structures, and ideological control", "To evaluate the biological evolution descriptions of natural landscapes", "To trace the psychological development of a child's subconscious mind", "To analyze the strict geometric layout of poetry stanza rhyming styles"],
+        "correct": 0,
+        "hint": "This school of criticism focuses on wealth, labor, social classes, and systemic power."
+      },
+      {
+        "q": "What does the literary concept of 'intertextuality' suggest about modern texts?",
+        "options": ["No text exists in a vacuum; all texts are shaped by prior texts", "Modern texts are structurally superior due to advanced grammar rules", "Authors should avoid reading other books to remain perfectly original", "Printing errors across different book editions create unique meanings"],
+        "correct": 0,
+        "hint": "It looks at how texts reference, echo, or build upon other cultural works."
+      },
+      {
+        "q": "Identify the accurate definition of 'anagnorisis' in a tragic narrative arc.",
+        "options": ["The moment of critical discovery or recognition by the protagonist", "The fatal flaw or error in judgment that dooms the main hero", "The sudden reversal of fortune or circumstances for the worse", "The final closing speech delivered by a neutral political figure"],
+        "correct": 0,
+        "hint": "Think of the exact moment Oedipus or Macbeth realizes the horrifying truth of their situation."
+      },
+      {
+        "q": "What linguistic phenomenon is occurring when an author uses 'polyptoton'?",
+        "options": ["Repeating words derived from the exact same root word in a line", "Omitting all standard punctuation across a lengthy paragraph block", "Using highly obscure words that have been obsolete for centuries", "Structuring a poem so lines shrink systematically in syllable count"],
+        "correct": 0,
+        "hint": "Think of phrases like 'with eager feeding food doth choke the feeder' or 'love is not love which alters when it alteration finds'."
+      },
+      {
+        "q": "What is the analytical focus of 'Feminist literary theory' when evaluating classic texts?",
+        "options": ["Examining how literature reinforces or challenges patriarchal gender roles", "Tracking the chronological accuracy of female monarch reigns in plays", "Analyzing the syllable count changes in poems written by female writers", "Evaluating the costuming options available to historical stage actors"],
+        "correct": 0,
+        "hint": "This lens looks at gender inequality, female representation, and power dynamics."
+      },
+      {
+        "q": "Which description defines the narrative technique known as 'stream of consciousness'?",
+        "options": ["An unedited, continuous flow of a character's internal thoughts and sensations", "A story told from multiple rotating perspectives across different chapters", "A formal, objective journalistic summary of real historical events", "A dialogue sequence where characters speak completely in whispers"],
+        "correct": 0,
+        "hint": "Think of writers like Virginia Woolf or James Joyce, where punctuation rules are often dropped to mimic the human brain."
+      },
+      {
+        "q": "What does the concept of 'pastoral literature' idealize?",
+        "options": ["A peaceful, innocent rural life close to nature away from city corruption", "The rapid industrialization and technological layout of modern smart cities", "The strict military discipline structures of ancient imperial civilizations", "The internal architectural layout designs of grand medieval cathedrals"],
+        "correct": 0,
+        "hint": "This genre often features shepherds, country landscapes, and simple rural routines."
+      },
+      {
+        "q": "What rhetorical device is being used here: 'This is a crisis of the mind, a crisis of the heart, a crisis of the soul'?",
+        "options": ["Symploce", "Anadiplosis", "Asyndeton", "Tricolon"],
+        "correct": 3,
+        "hint": "This involves a pattern of three parallel words, phrases, or clauses in a row."
+      }
+    ]
+  }
+}
