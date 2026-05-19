@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What does the musical term 'tempo' refer to?",
+        "options": ["The volume of the music", "The speed of the music", "The instrument playing the melody", "The emotional mood of the piece"],
+        "correct": 1,
+        "hint": "Think of Italian terms like Allegro, Andante, or Moderato."
+      },
+      {
+        "q": "Which of these instruments belongs to the woodwind family?",
+        "options": ["Trumpet", "Flute", "Violin", "Snare Drum"],
+        "correct": 1,
+        "hint": "Though modern versions are made of metal, it was originally made of wood and relies on an open blow-hole."
+      },
+      {
+        "q": "What does the Italian dynamic marking 'forte' (f) mean?",
+        "options": ["Play softly", "Play loudly", "Play gradually slower", "Play smoothly connected"],
+        "correct": 1,
+        "hint": "It is the opposite of 'piano' (p)."
+      },
+      {
+        "q": "How many beats does a standard semibreve (whole note) last in a 4/4 time signature?",
+        "options": ["1 beat", "2 beats", "3 beats", "4 beats"],
+        "correct": 3,
+        "hint": "It is the longest standard note value and fills an entire bar of 4/4 time."
+      },
+      {
+        "q": "Which clef is most commonly used for high-pitched instruments like the violin, flute, and soprano voice?",
+        "options": ["Treble Clef", "Bass Clef", "Alto Clef", "Tenor Clef"],
+        "correct": 0,
+        "hint": "This clef is also known as the G clef because its loop centers around the second line from the bottom."
+      },
+      {
+        "q": "What is the structural form of a piece of music that repeats the exact same music for every verse?",
+        "options": ["Strophic form", "Binary form", "Ternary form", "Rondo form"],
+        "correct": 0,
+        "hint": "Think of traditional hymns or basic folk songs where the melody stays the same but the lyrics change."
+      },
+      {
+        "q": "What does a sharp symbol do to a musical pitch?",
+        "options": ["Lowers it by a semitone", "Raises it by a semitone", "Lowers it by a whole tone", "Raises it by a whole tone"],
+        "correct": 1,
+        "hint": "Think of stepping up to the very next black or white key to the right on a piano keyboard."
+      },
+      {
+        "q": "Which instrument is usually responsible for keeping time in a standard rock or pop band?",
+        "options": ["Lead Guitar", "Synthesizer", "Drum Kit", "Acoustic Guitar"],
+        "correct": 2,
+        "hint": "This rhythm section instrument uses a combination of cymbals, bass drum, and snare."
+      },
+      {
+        "q": "What is the distance in pitch between two notes that share the same letter name but sound higher or lower?",
+        "options": ["An octave", "An interval", "A chord", "A scale"],
+        "correct": 0,
+        "hint": "The interval spans eight alphabetical letter notes (e.g., C4 to C5)."
+      },
+      {
+        "q": "What texture describes a single, unaccompanied melody line with no background harmony or chords?",
+        "options": ["Monophonic", "Homophonic", "Polyphonic", "Heterophonic"],
+        "correct": 0,
+        "hint": "The prefix 'mono-' means single or alone."
+      },
+      {
+        "q": "Which historical musical era features composers like Wolfgang Amadeus Mozart and Joseph Haydn?",
+        "options": ["Baroque Era", "Classical Era", "Romantic Era", "Renaissance Era"],
+        "correct": 1,
+        "hint": "This era sat right in the middle of the 18th century, prioritizing balance, clarity, and structural symmetry."
+      },
+      {
+        "q": "What standard musical term describes notes that are played in a short, detached, and crisp manner?",
+        "options": ["Legato", "Staccato", "Glissando", "Vibrato"],
+        "correct": 1,
+        "hint": "Look for small dots placed directly above or below the note heads on a score."
+      },
+      {
+        "q": "What is a major chord or triad made up of?",
+        "options": ["A root note, a major third, and a perfect fifth", "A root note, a minor third, and a diminished fifth", "A root note, a perfect fourth, and an octave", "A root note, a second, and a seventh"],
+        "correct": 0,
+        "hint": "This primary chord structure generally sounds cheerful or bright to human ears."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What is the specific architectural layout of 'Ternary Form' in music structure?",
+        "options": ["A-B Form", "A-B-A Form", "A-B-C-A Form", "Theme and Variations"],
+        "correct": 1,
+        "hint": "It features a statement, a contrasting middle section, and a return to the original statement."
+      },
+      {
+        "q": "What does the top number in a standard time signature (like 3/4) tell the performer?",
+        "options": ["The value of each beat in the bar", "The total number of beats in each bar", "The overall tempo velocity marking", "The dynamic level scale index"],
+        "correct": 1,
+        "hint": "In 3/4 time, this number tells you that there are three counts per measure."
+      },
+      {
+        "q": "Which of the following instruments uses a double reed to generate its sound?",
+        "options": ["Clarinet", "Saxophone", "Oboe", "Flute"],
+        "correct": 2,
+        "hint": "Unlike the single-reed clarinet, this woodwind instrument forces air between two vibrating pieces of cane."
+      },
+      {
+        "q": "What does the Italian term 'crescendo' indicate to a musician?",
+        "options": ["Gradually get faster", "Gradually get louder", "Gradually get quieter", "Gradually get slower"],
+        "correct": 1,
+        "hint": "Often symbolized on a score by a widening wedge shape open to the right."
+      },
+      {
+        "q": "Which musical style originated in African-American communities in New Orleans during the late 19th and early 20th century, heavily featuring syncopation and improvisation?",
+        "options": ["Baroque Opera", "Jazz", "Reggae", "Heavy Metal"],
+        "correct": 1,
+        "hint": "Think of icons like Louis Armstrong, Duke Ellington, and Miles Davis."
+      },
+      {
+        "q": "In music notation, what pitch sits on the middle line of a standard treble clef stave?",
+        "options": ["E", "G", "B", "D"],
+        "correct": 2,
+        "hint": "Remember the mnemonic for treble clef lines: Every Good Boy Deserves Football."
+      },
+      {
+        "q": "What is syncopation?",
+        "options": ["Deliberately placing accents or emphasis on the weak or off-beats of a bar", "Playing a melody backwards at double the original speed", "Tuning all instruments to the exact same pitch standard", "Shifting the entire key signature up by a perfect fifth"],
+        "correct": 0,
+        "hint": "It disrupts the regular, predictable pulse of a rhythm, giving music a bouncy feel."
+      },
+      {
+        "q": "Which device is attached to the bridge of a stringed instrument like a violin to dampen the vibrations and soften the tone?",
+        "options": ["A mute (con sordino)", "A capo", "A plectrum", "A tremolo arm"],
+        "correct": 0,
+        "hint": "Its name describes its primary purpose of quietening or altering the acoustic projection."
+      },
+      {
+        "q": "What interval is formed when moving from the note C straight up to the note G?",
+        "options": ["A major third", "A perfect fourth", "A perfect fifth", "A major seventh"],
+        "correct": 2,
+        "hint": "Count up the scale steps alphabetically: C, D, E, F, G."
+      },
+      {
+        "q": "What texture features a clear lead vocal or instrumental melody supported underneath by block background chords?",
+        "options": ["Monophonic", "Homophonic", "Polyphonic", "Syllabic"],
+        "correct": 1,
+        "hint": "The Greek roots mean 'same sound' or parts moving together rhythmically."
+      },
+      {
+        "q": "What does the accidental 'natural' symbol do when placed before a note?",
+        "options": ["Cancels a previous sharp or flat adjustment", "Lowers the note pitch by two full steps", "Instructs the player to improvise freely", "Indicates the note must be played as quietly as possible"],
+        "correct": 0,
+        "hint": "It restores an altered note back to its original white-key state on the staff."
+      },
+      {
+        "q": "Which structure repeats a short, catchy bassline pattern continuously throughout an entire piece?",
+        "options": ["Ground bass (basso ostinato)", "Rondo format", "Sonata-Allegro", "Walking bassline"],
+        "correct": 0,
+        "hint": "Highly popular in the Baroque era (like Pachelbel's Canon) and modern dance music loops."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "How many semitones are contained within the span of a perfect fourth interval?",
+        "options": ["3 semitones", "4 semitones", "5 semitones", "6 semitones"],
+        "correct": 2,
+        "hint": "Think of the distance from C to F on a keyboard, counting every black and white key step."
+      },
+      {
+        "q": "Which percussion instrument is tuned to specific pitches and played with mallets?",
+        "options": ["Snare Drum", "Xylophone", "Tambourine", "Cymbals"],
+        "correct": 1,
+        "hint": "It features wooden bars arranged like a piano keyboard."
+      },
+      {
+        "q": "What is the key signature of G Major?",
+        "options": ["No sharps or flats", "One sharp (F sharp)", "One flat (B flat)", "Two sharps"],
+        "correct": 1,
+        "hint": "It is the first major key encountered when moving clockwise around the Circle of Fifths."
+      },
+      {
+        "q": "Describe the core characteristics of a 'Polyphonic' musical texture.",
+        "options": ["A single unaccompanied melody line running entirely alone", "Two or more independent, weaving melody lines playing at the same time", "A melody line backed up completely by uniform chords", "Spoken words delivered over a non-pitched percussive beat track"],
+        "correct": 1,
+        "hint": "Often found in Baroque counterpoint music like fugues by J.S. Bach."
+      },
+      {
+        "q": "What time signature represents compound duple time?",
+        "options": ["2/4", "3/4", "4/4", "6/8"],
+        "correct": 3,
+        "hint": "It has two main dotted-quarter beats per bar, with each beat dividing into three eighth notes."
+      },
+      {
+        "q": "Which compositional technique involves a second musical voice entering shortly after the first, copying the exact same melody pitch for pitch?",
+        "options": ["Canon", "Inversion", "Diminution", "Retrograde"],
+        "correct": 0,
+        "hint": "Think of singing a round like 'Frere Jacques' with friends."
+      },
+      {
+        "q": "What does the Italian performance directive 'rubato' mean?",
+        "options": ["Play with a strict, unyielding mechanical beat", "Play with a flexible, expressive rhythm, stretching and gathering time", "Play the entire section an octave higher than written", "Mute the instrument completely using a soft cloth pad"],
+        "correct": 1,
+        "hint": "The word literally translates to 'robbed time'--borrowing time from one note to give to another."
+      },
+      {
+        "q": "What basic chords make up a standard 12-bar blues progression?",
+        "options": ["Chords I, IV, and V", "Chords I, ii, and vi", "Chords iii, IV, and vii", "Chords ii, V, and I"],
+        "correct": 0,
+        "hint": "These are the primary major triads built on the first, fourth, and fifth scale degrees."
+      },
+      {
+        "q": "Which cadence sounds incomplete and unresolved, ending a phrase explicitly on chord V?",
+        "options": ["Perfect Cadence", "Plagal Cadence", "Imperfect Cadence", "Interrupted Cadence"],
+        "correct": 2,
+        "hint": "It acts like a comma in a sentence, leaving the music hanging before returning to the home key."
+      },
+      {
+        "q": "What is the relative minor key of C Major?",
+        "options": ["A Minor", "D Minor", "E Minor", "G Minor"],
+        "correct": 0,
+        "hint": "To find a relative minor, move down three semitones (or a minor third) from the major key root note."
+      },
+      {
+        "q": "What is a 'glissando'?",
+        "options": ["A rapid, sliding sweep up or down through a series of consecutive pitches", "An extreme dramatic emphasis placed on a single chord blast", "Plucking a violin string with a finger instead of using the bow", "An ancient tuning system used entirely in religious chanting"],
+        "correct": 0,
+        "hint": "Think of a trombonist sliding their arm out or a harpist brushing across all the strings."
+      },
+      {
+        "q": "Which vocal range sits comfortably between the high soprano and low alto lines in a standard female choir?",
+        "options": ["Mezzo-Soprano", "Tenor", "Baritone", "Contralto"],
+        "correct": 0,
+        "hint": "The Italian prefix 'mezzo-' means half or middle."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "What does a time signature of 5/4 indicate about the music's rhythm?",
+        "options": ["The music is in a regular duple meter pattern", "The music is in an asymmetrical or irregular meter with 5 quarter-note beats per bar", "The tempo must change five times during every performance cycle", "The piece can only be performed by exactly five instrumentalists"],
+        "correct": 1,
+        "hint": "A famous example is Dave Brubeck's classic jazz track 'Take Five' or the Mission: Impossible theme."
+      },
+      {
+        "q": "What distinguishes an 'Interrupted Cadence' from other common phrase endings?",
+        "options": ["It resolves predictably from chord V straight back to chord I", "It shifts unexpectedly from chord V to a minor chord (usually chord vi) instead of I", "It steps smoothly from chord IV directly to chord I like an 'Amen'", "It stops abruptly mid-bar with no final chord strummed at all"],
+        "correct": 1,
+        "hint": "It surprises the listener by breaking expectations when you expect a perfect resolution."
+      },
+      {
+        "q": "Identify the pattern of whole steps (W) and half steps (H) required to build a standard natural minor scale.",
+        "options": ["W-W-H-W-W-W-H", "W-H-W-W-H-W-W", "W-H-W-W-W-H-W", "H-W-W-H-W-W-W"],
+        "correct": 1,
+        "hint": "Think of the intervals used when playing all the white keys on a piano starting on A."
+      },
+      {
+        "q": "What performance technique requires a brass player to buzz into their instrument while using their throat to produce a 'growl' or tremolo sound?",
+        "options": ["Flutter-tonguing", "Double-tonguing", "Glissando tracking", "Con sordino masking"],
+        "correct": 0,
+        "hint": "It requires rolling the tongue like making an 'R' sound while blowing air."
+      },
+      {
+        "q": "Which style of traditional Indonesian ensemble music features a collection of bronze gongs, metallophones, and drums?",
+        "options": ["Gamelan", "Sitar Raga", "Samba Batucada", "Klezmer"],
+        "correct": 0,
+        "hint": "This music relies heavily on cyclic structures and unique tuning scales like Slendro and Pelog."
+      },
+      {
+        "q": "What does the musical instruction 'Senza Misura' command a performer to do?",
+        "options": ["Play as loudly as the instrument will physically allow", "Play freely without a strict, measured time or pulse", "Transpose the entire section down into a bass clef range", "Repeat the bars continuously until the conductor signals to stop"],
+        "correct": 1,
+        "hint": "Translates directly from Italian as 'without measure' or free time."
+      },
+      {
+        "q": "What chord inversion places the third of the triad down as the lowest sounding note in the bass?",
+        "options": ["Root Position", "First Inversion", "Second Inversion", "Third Inversion"],
+        "correct": 1,
+        "hint": "In figured bass notation, this configuration is often labeled with the number 6."
+      },
+      {
+        "q": "Which scale consists entirely of six notes per octave, each spaced exactly one whole tone apart?",
+        "options": ["Pentatonic Scale", "Chromatic Scale", "Whole-Tone Scale", "Dorian Mode"],
+        "correct": 2,
+        "hint": "Because there are no half steps, this scale creates a dreamy, floating, or unresolved impressionistic quality."
+      },
+      {
+        "q": "What role does a transposing instrument like a B-flat Clarinet play when reading standard concert pitch music?",
+        "options": ["It sounds a whole tone lower than the written note on the page", "It sounds a perfect fifth higher than the written note on the page", "It changes its overall volume whenever a new key signature is met", "It automatically switches between treble and bass clef lines at random"],
+        "correct": 0,
+        "hint": "If a B-flat clarinet reads a written C, the actual pitch that sounds out loud is a B-flat."
+      },
+      {
+        "q": "What structural section within a solo concerto allows the performer to show off their technical virtuosity through unmetered, improvised material?",
+        "options": ["Cadenza", "Coda", "Ritornello", "Exposition"],
+        "correct": 0,
+        "hint": "It usually happens near the end of a movement, right before the final orchestral closing chords."
+      },
+      {
+        "q": "What is a 'hemiola' rhythm?",
+        "options": ["A rhythmic device where a metric pulse of three beats is temporarily felt as two beats", "An electronic sound filter that removes background frequencies", "Singing two notes simultaneously using throat-singing mechanics", "A rapid trill alternated between two adjacent instruments"],
+        "correct": 0,
+        "hint": "Think of shifting from a 3/4 feel into a temporary 2/4 grouping across the same duration."
+      },
+      {
+        "q": "Which scale or mode is identical to a standard major scale except it features a lowered or flattened seventh scale degree?",
+        "options": ["Dorian Mode", "Phrygian Mode", "Lydian Mode", "Mixolydian Mode"],
+        "correct": 3,
+        "hint": "This mode is heavily utilized in blues, rock, and traditional folk music (e.g., C-D-E-F-G-A-B flat-C)."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What does a key signature consisting of one flat (B flat) indicate?",
+        "options": ["F Major or D Minor", "G Major or E Minor", "C Major or A Minor", "B-flat Major or G Minor"],
+        "correct": 0,
+        "hint": "Think about the scale that requires a single flat to preserve the standard major scale interval pattern."
+      },
+      {
+        "q": "Which texture features a main melody accompanied by secondary, independent melodies playing at the same time?",
+        "options": ["Monophonic", "Homophonic", "Polyphonic / Contrapuntal", "Isorhythmic"],
+        "correct": 2,
+        "hint": "The lines weave around each other independently rather than moving as a single chord block."
+      },
+      {
+        "q": "What does the term 'pizzicato' instruct a string player to do?",
+        "options": ["Play with the wood of the bow instead of the hair", "Pluck the strings with their fingers instead of using the bow", "Slide the finger smoothly from one note pitch to another", "Play a rapid back-and-forth bowing movement on one note"],
+        "correct": 1,
+        "hint": "Often abbreviated as 'pizz.' on orchestral parts, creating a short, percussive sound."
+      },
+      {
+        "q": "What is the pitch interval distance from a line to the very next space directly above it on a standard musical stave?",
+        "options": ["A semitone", "A second or step", "A third", "A fourth"],
+        "correct": 1,
+        "hint": "Moving from line to adjacent space represents stepping to the next consecutive letter name."
+      },
+      {
+        "q": "Which Baroque composition style contrasts a small group of soloists (concertino) against a full orchestra (ripiene)?",
+        "options": ["Symphony", "Concerto Grosso", "Opera Buffa", "Solo Sonata"],
+        "correct": 1,
+        "hint": "Famous examples include J.S. Bach's Brandenburg Concertos."
+      },
+      {
+        "q": "What architectural form consists of an Exposition, a Development, and a Recapitulation?",
+        "options": ["Sonata Form", "Rondo Form", "Theme and Variations", "Fugue Form"],
+        "correct": 0,
+        "hint": "This large-scale form was structural to first movements of symphonies during the Classical era."
+      },
+      {
+        "q": "Which dynamic marking indicates to a performer to play as softly as possible?",
+        "options": ["Piano (p)", "Pianissimo (pp)", "Mezzo-piano (mp)", "Fortissimo (ff)"],
+        "correct": 1,
+        "hint": "Adding more 'p' modifiers scales down the target acoustic projection requirements."
+      },
+      {
+        "q": "What does an augmentation dot do when placed directly behind a note head?",
+        "options": ["Extends the note's duration by half of its original value", "Doubles the absolute performance speed of the note value", "Lowers the note pitch placement by an exact octave step", "Signals the performer to heavily accent the attack edge"],
+        "correct": 0,
+        "hint": "A dotted half note lasts for 3 beats instead of its usual 2 beats."
+      },
+      {
+        "q": "Which woodwind instrument plays in the lowest pitch registry within a standard symphony orchestra?",
+        "options": ["Bassoon / Contrabassoon", "Bass Clarinet", "English Horn", "Alto Flute"],
+        "correct": 0,
+        "hint": "This large double-reed instrument is often nicknamed the 'clown of the orchestra' for its deep, dry staccato."
+      },
+      {
+        "q": "What interval spans exactly twelve semitones?",
+        "options": ["A perfect fifth", "A major sixth", "A major seventh", "A perfect octave"],
+        "correct": 3,
+        "hint": "This interval represents the distance from one note name up to its next highest duplication point."
+      },
+      {
+        "q": "What does the Italian tempo marking 'Presto' ask a musician to do?",
+        "options": ["Play very slowly and solemnly", "Play at a comfortable walking pace", "Play very fast", "Play gradually slower"],
+        "correct": 2,
+        "hint": "It demands high velocity execution, faster than Allegro."
+      },
+      {
+        "q": "What type of cadence steps smoothly from chord IV directly to chord I?",
+        "options": ["Perfect Cadence", "Plagal Cadence", "Imperfect Cadence", "Interrupted Cadence"],
+        "correct": 1,
+        "hint": "Commonly known as the 'Amen' cadence because it is used to close church hymns."
+      },
+      {
+        "q": "Which clef is utilized specifically by viola players, positioning Middle C on the middle line of the stave?",
+        "options": ["Alto Clef", "Tenor Clef", "Treble Clef", "Bass Clef"],
+        "correct": 0,
+        "hint": "This C-clef bridges the gap between treble and bass registers without needing excessive ledger lines."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What does a time signature of 9/8 represent?",
+        "options": ["Simple triple time", "Compound triple time", "Simple quadruple time", "Compound quadruple time"],
+        "correct": 1,
+        "hint": "It has three main beats per bar, and each beat is subdivided into three eighth notes."
+      },
+      {
+        "q": "What chord inversion positions the fifth of the triad down as the lowest note in the bass register?",
+        "options": ["Root Position", "First Inversion", "Second Inversion", "Third Inversion"],
+        "correct": 2,
+        "hint": "In traditional harmony homework systems, this layout is flagged using the numbers 6/4."
+      },
+      {
+        "q": "Which compositional device involves repeating a melodic phrase or motif at a higher or lower pitch level?",
+        "options": ["Sequence", "Ostinato", "Pedal Point", "Inversion"],
+        "correct": 0,
+        "hint": "Think of a pattern stepping up or down like a staircase throughout consecutive measures."
+      },
+      {
+        "q": "What is a 'pedal point' or 'pedal note' in classical music composition?",
+        "options": ["A sustained or repeated note held in the bass while the harmonies shift above it", "Changing keys mid-phrase using a foot pedal mechanism", "Plucking an acoustic bass string violently against the neck fretboard", "A rapid trill executed exclusively on keyboard instruments"],
+        "correct": 0,
+        "hint": "Named after the long organ notes held down by an organist's feet on the pedalboard."
+      },
+      {
+        "q": "How many flats are contained in the key signature of A-flat Major?",
+        "options": ["2 flats", "3 flats", "4 flats", "5 flats"],
+        "correct": 2,
+        "hint": "The flats appear in a specific order: B flat, E flat, A flat, D flat."
+      },
+      {
+        "q": "Which performance instruction asks a string player to use the wooden stick of the bow to strike the strings?",
+        "options": ["Col legno", "Sul ponticello", "Sul tasto", "Martele"],
+        "correct": 0,
+        "hint": "Translates directly from Italian as 'with the wood,' producing a brittle, clicking sound effect."
+      },
+      {
+        "q": "What term defines a minor scale where the seventh scale degree is raised by a semitone when ascending and descending?",
+        "options": ["Natural Minor Scale", "Harmonic Minor Scale", "Melodic Minor Scale", "Pentatonic Minor Scale"],
+        "correct": 1,
+        "hint": "This scale features a distinctive leap of an augmented second between its sixth and seventh notes, giving it an exotic sound."
+      },
+      {
+        "q": "What is the primary difference between a 'syllabic' and a 'melismatic' vocal setting?",
+        "options": ["Syllabic puts one note to each syllable; melismatic stretches a single syllable across multiple notes", "Syllabic can only be performed by a choir; melismatic is strictly for solo voices", "Syllabic music lacks any rhythmic notation; melismatic must be sung in opera houses", "There is no actual difference between these vocal delivery definitions"],
+        "correct": 0,
+        "hint": "Think of the long, running flourishes on words like 'Gloria' in traditional Christmas carols."
+      },
+      {
+        "q": "Which harmonic cadence moves from chord V to chord vi, breaking the expectation of a stable resolution?",
+        "options": ["Perfect Cadence", "Plagal Cadence", "Deceptive / Interrupted Cadence", "Half Cadence"],
+        "correct": 2,
+        "hint": "It tricks the ear by routing the dominant chord into an unexpected minor path."
+      },
+      {
+        "q": "What mode is created when playing all the white keys on a piano starting and ending on the note D?",
+        "options": ["Dorian Mode", "Phrygian Mode", "Lydian Mode", "Mixolydian Mode"],
+        "correct": 0,
+        "hint": "It features a minor third and a natural sixth, often heard in traditional English folk music."
+      },
+      {
+        "q": "What does the instruction 'Sordino' (or con sordino) require an orchestral instrumentalist to do?",
+        "options": ["Increase the performance tempo safely", "Play with a mute attached to the instrument", "Improvise countermelody tracks freely", "Tune their lower string down a half step"],
+        "correct": 1,
+        "hint": "It alters the timbre and dampens acoustic projection profiles."
+      },
+      {
+        "q": "What interval is created when expanding a perfect fifth out by an additional semitone?",
+        "options": ["Diminished fifth", "Minor sixth", "Augmented fifth", "Major sixth"],
+        "correct": 2,
+        "hint": "Expanding an interval makes it augmented; shrinking it makes it diminished."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Simplify the rhythmic value of three triplet eighth notes grouped together. What standard note value do they equal?",
+        "options": ["One sixteenth note", "One quarter note (crotchet)", "One dotted quarter note", "One half note"],
+        "correct": 1,
+        "hint": "Triplets squeeze three notes into the time normally occupied by two notes of the same value."
+      },
+      {
+        "q": "Identify the total number of sharps required to accurately write out the key signature of C-sharp Minor.",
+        "options": ["2 sharps", "3 sharps", "4 sharps", "5 sharps"],
+        "correct": 2,
+        "hint": "It shares the exact same key signature as its relative major, E Major."
+      },
+      {
+        "q": "What form is structured around a recurring main theme (A) alternated with contrasting episodes (B, C, etc.), organized as A-B-A-C-A?",
+        "options": ["Binary Form", "Sonata Form", "Rondo Form", "Passacaglia Form"],
+        "correct": 2,
+        "hint": "The principal theme keeps coming back around between new material."
+      },
+      {
+        "q": "What operational mechanism distinguishes a 'Melodic Minor' scale from a 'Harmonic Minor' scale?",
+        "options": ["Melodic minor raises both the 6th and 7th degrees ascending, but lowers them back to natural state descending", "Melodic minor raises only the 3rd degree while keeping other variables static", "Melodic minor can only be written down across bass clef stave tracks", "Melodic minor alters its interval matrix based entirely on performance volume"],
+        "correct": 0,
+        "hint": "It adapts its shape to sound smoother when moving up toward the tonic, and smoother when stepping down."
+      },
+      {
+        "q": "What interval is formed between the notes F and B natural?",
+        "options": ["A perfect fourth", "An augmented fourth / tritone", "A perfect fifth", "A diminished fifth"],
+        "correct": 1,
+        "hint": "Spanning exactly three whole tones, this interval was historically nicknamed 'the devil in music'."
+      },
+      {
+        "q": "Which Baroque texture features a continuous, driving bass line played by a cello or bassoon, accompanied by a keyboard player filling in harmonies?",
+        "options": ["Basso Continuo", "Alberti Bass", "Stretto", "Heterophony"],
+        "correct": 0,
+        "hint": "This foundational rhythm section practice is a defining feature of 17th-century ensemble music."
+      },
+      {
+        "q": "Apply modal recognition parameters: What mode features a raised fourth scale degree, making it sound unusually bright or dreamlike?",
+        "options": ["Dorian Mode", "Phrygian Mode", "Lydian Mode", "Mixolydian Mode"],
+        "correct": 2,
+        "hint": "Think of playing all the white keys on a piano starting and ending on F."
+      },
+      {
+        "q": "What chord is built by stacking minor thirds on top of each other, forming a highly unstable, tense four-note harmony?",
+        "options": ["Major Seventh Chord", "Dominant Seventh Chord", "Diminished Seventh Chord", "Augmented Triad"],
+        "correct": 2,
+        "hint": "Often used in film scores to accompany moments of suspense, terror, or dramatic shifts."
+      },
+      {
+        "q": "In figured bass notation, what layout pattern is explicitly demanded by the symbol '6/4'?",
+        "options": ["A triad in root position", "A triad in first inversion", "A triad in second inversion", "A seventh chord in root position"],
+        "correct": 2,
+        "hint": "It indicates that the intervals sounding above the bass note are a sixth and a fourth."
+      },
+      {
+        "q": "Which performance directive instructs string players to play with the bow positioned extremely close to the instrument's bridge, creating a glassy, high-frequency hiss?",
+        "options": ["Sul ponticello", "Sul tasto", "Spiccato", "Ricochet"],
+        "correct": 0,
+        "hint": "Translates from Italian as 'on the bridge'."
+      },
+      {
+        "q": "What compositional variation technique involves playing a melodic motif upside down, where ascending intervals become identical descending intervals?",
+        "options": ["Inversion", "Retrograde", "Augmentation", "Diminution"],
+        "correct": 0,
+        "hint": "It acts like a horizontal mirror reflection of the original pitch line."
+      },
+      {
+        "q": "What type of modulation moves a piece from its current key to another key that shares nearly all of its accidental key signatures?",
+        "options": ["Closely Related Key modulation", "Distantly Related Key modulation", "Chromatic Pivot modulation", "Enharmonic Equivalent shift"],
+        "correct": 0,
+        "hint": "Examples include moving from C Major to its dominant G Major, or to its relative minor A Minor."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "What complex rhythmic phenomenon is created by overlapping two completely different meter frameworks simultaneously, such as a 3-against-4 pattern?",
+        "options": ["Polymeter / Polyrhythm", "Isorhythm metric locking", "Hemiola structural shifts", "Rubato time stretching"],
+        "correct": 0,
+        "hint": "Commonly found in traditional African drumming, jazz fusion, and the piano works of Frederic Chopin."
+      },
+      {
+        "q": "Explain the mechanics of 'Sonata Form' during its central Development section.",
+        "options": ["Themes from the exposition are explored, fragmented, and modulated through multiple foreign keys to build tension", "The main theme is introduced stably in the tonic key for the first time", "The full orchestra stops entirely to allow a soloist to perform an unmetered cadenza", "The piece loops back to the beginning of the introductory movement pattern"],
+        "correct": 0,
+        "hint": "This is the most harmonically unstable and dramatic zone of a classical symphony movement."
+      },
+      {
+        "q": "In advanced serialism and 12-tone composition, what does the term 'Retrograde-Inversion' mean?",
+        "options": ["The prime tone row is played backwards and upside down simultaneously", "The melody is performed at double speed using major chords exclusively", "The piece is transposed up an augmented fourth interval", "The instruments switch parts mid-phrase to create stereo fields"],
+        "correct": 0,
+        "hint": "Pioneered by Arnold Schoenberg and the Second Viennese School to guarantee total atonality."
+      },
+      {
+        "q": "What acoustic phenomenon describes the faint, high-frequency pitches that ring out above a fundamental tone based on integer mathematical ratios?",
+        "options": ["The Harmonic Series / Overtones", "Phase cancellation tracks", "Reverberation decay artifacts", "Sub-bass subharmonics"],
+        "correct": 0,
+        "hint": "This series explains why different instruments have distinct tonal qualities (timbres) even when playing the same pitch."
+      },
+      {
+        "q": "Which modal architecture is built by playing all the white keys on a piano starting on B, resulting in a diminished fifth interval above the root note?",
+        "options": ["Locrian Mode", "Phrygian Mode", "Aeolian Mode", "Ionian Mode"],
+        "correct": 0,
+        "hint": "This is the most unstable of the traditional church modes because its root triad is diminished."
+      },
+      {
+        "q": "What structural compositional device involves overlapping statements of a fugue subject in quick succession, where the second voice enters before the first has finished?",
+        "options": ["Stretto", "Countersubject", "Episode", "Inversion matrix"],
+        "correct": 0,
+        "hint": "An Italian word meaning 'narrow' or 'tightened'; it heightens dramatic tension near the end of a piece."
+      },
+      {
+        "q": "Convert the pitch interval between C4 and the F-sharp 4 directly above it into its exact frequency ratio standard under equal temperament.",
+        "options": ["The square root of two (1 to root 2 ratio / Tritone)", "Perfect fourth ratio (3 to 4 ratio)", "Perfect fifth ratio (2 to 3 ratio)", "Octave transformation (1 to 2 ratio)"],
+        "correct": 0,
+        "hint": "This interval divides an octave perfectly in half down the middle under modern log-scale equal tuning systems."
+      },
+      {
+        "q": "Which 20th-century avant-garde composition technique incorporates random chance or indeterminacy into its live performance choices?",
+        "options": ["Aleatoric Music", "Minimalism", "Neo-Classicism", "Expressionism"],
+        "correct": 0,
+        "hint": "Pioneered by composers like John Cage, where elements are left to the roll of dice or performer choice."
+      },
+      {
+        "q": "What specific chord substitution replaces a dominant seventh chord (G7) with a major triad built on a root a tritone away (D-flat)?",
+        "options": ["Tritone Substitution", "Neapolitan Sixth alignment", "Italian Sixth modification", "Secondary Dominant route"],
+        "correct": 0,
+        "hint": "Highly popular in modern jazz harmony to introduce smooth, chromatic descending bass line resolutions."
+      },
+      {
+        "q": "What occurs during a 'Tierce de Picardie' (Picardy Third) cadence?",
+        "options": ["A piece written in a minor key ends unexpectedly on a major tonic chord", "A major key piece shifts its final chord into a diminished fifth interval", "The vocal track stops entirely to allow a brass fanfare entry", "The rhythm section drops out to create a monophonic chant profile"],
+        "correct": 0,
+        "hint": "Commonly used in Baroque music to provide a sudden sense of light or religious resolution at the very end."
+      },
+      {
+        "q": "What type of augmented sixth chord incorporates a minor third, a perfect fourth, and an augmented sixth interval above its bass note?",
+        "options": ["German Sixth Chord", "Italian Sixth Chord", "French Sixth Chord", "Swiss Sixth Chord"],
+        "correct": 2,
+        "hint": "This specific colorful chromatic chord features a distinctive inclusion of a second scale degree pitch."
+      },
+      {
+        "q": "Which complex contrapuntal form begins with a single voice introducing a Subject, followed by an Answer in the dominant key, accompanied by a Countersubject?",
+        "options": ["Fugue", "Passacaglia", "Chaconne", "Madrigal"],
+        "correct": 0,
+        "hint": "The ultimate test of Baroque polyphonic writing, perfected by Johann Sebastian Bach."
+      }
+    ]
+  }
+}
