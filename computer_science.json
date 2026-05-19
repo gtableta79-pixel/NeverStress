@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What is the primary purpose of the Central Processing Unit (CPU)?",
+        "options": ["To store permanent files and data long-term", "To fetch, decode, and execute program instructions", "To display graphical images on the monitor screen", "To connect the computer safely to the internet"],
+        "correct": 1,
+        "hint": "It is often referred to as the 'brain' of the computer system."
+      },
+      {
+        "q": "Which storage type loses its contents entirely when the computer is powered off?",
+        "options": ["Hard Disk Drive (HDD)", "Read Only Memory (ROM)", "Random Access Memory (RAM)", "Solid State Drive (SSD)"],
+        "correct": 2,
+        "hint": "This is a volatile primary memory used to hold open applications."
+      },
+      {
+        "q": "What is the standard binary equivalent of the denary number 5?",
+        "options": ["00000101", "00000011", "00001010", "00000111"],
+        "correct": 0,
+        "hint": "Work from right to left using column weights: 128, 64, 32, 16, 8, 4, 2, 1."
+      },
+      {
+        "q": "Which of these is considered an input device?",
+        "options": ["Monitor", "Printer", "Microphone", "Speaker"],
+        "correct": 2,
+        "hint": "Think about which device takes real-world data and sends it into the computer."
+      },
+      {
+        "q": "What does the acronym 'URL' stand for in web browsing?",
+        "options": ["Uniform Resource Locator", "Universal Recovery Link", "User Response Log", "Unified Network Router"],
+        "correct": 0,
+        "hint": "It is the specific web address format used to find a page on the internet."
+      },
+      {
+        "q": "What is the main function of an operating system's user interface?",
+        "options": ["To protect the hardware from physical damage", "To allow the user to interact with the software and hardware", "To compile source code into machine code execution files", "To boost the electrical power flow to the processor chip"],
+        "correct": 1,
+        "hint": "Examples include Graphical User Interfaces (GUI) with icons and menus."
+      },
+      {
+        "q": "Which data type is best suited to store a simple True or False value?",
+        "options": ["Integer", "String", "Boolean", "Real / Float"],
+        "correct": 2,
+        "hint": "Named after the mathematician George Boole; it represents binary logic states."
+      },
+      {
+        "q": "What is a network that covers a small geographical area, such as a single building or school?",
+        "options": ["Wide Area Network (WAN)", "Local Area Network (LAN)", "Personal Area Network (PAN)", "Metropolitan Area Network (MAN)"],
+        "correct": 1,
+        "hint": "Think of the acronym for 'Local'."
+      },
+      {
+        "q": "Which malicious software disguise tool tricks users into installing it by appearing to be safe software?",
+        "options": ["Ransomware", "Trojan horse", "Spyware", "Rootkit"],
+        "correct": 1,
+        "hint": "Named after a famous wooden horse trick used in ancient Greek mythology."
+      },
+      {
+        "q": "What is the purpose of code indentation in languages like Python?",
+        "options": ["To make the execution speed much faster", "To indicate blocks of code that belong together structurally", "To automatically encrypt the code text file", "To save storage space on the hard drive disk"],
+        "correct": 1,
+        "hint": "It shows which statements belong inside a loop or an 'if' block structure."
+      },
+      {
+        "q": "How many bits are contained within a single standard byte?",
+        "options": ["4 bits", "8 bits", "16 bits", "32 bits"],
+        "correct": 1,
+        "hint": "A half of this structure is affectionately known as a 'nibble'."
+      },
+      {
+        "q": "Which symbol is most commonly used in programming to check if two values are equal?",
+        "options": ["=", "==", "!=", "<>"],
+        "correct": 1,
+        "hint": "A single equals sign is for assignment; a double is used to compare."
+      },
+      {
+        "q": "What type of software translation tool converts high-level code into machine code line-by-line during runtime?",
+        "options": ["Compiler", "Interpreter", "Assembler", "Linker"],
+        "correct": 1,
+        "hint": "It stops running the instant it hits an error on a specific line."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What does computational 'decomposition' mean?",
+        "options": ["Fixing syntax errors in a programming script", "Breaking a complex problem down into smaller, manageable parts", "Removing unnecessary details to focus on core concepts", "Reusing code blocks written by other software developers"],
+        "correct": 1,
+        "hint": "Think about breaking a massive project down into daily bite-sized tasks."
+      },
+      {
+        "q": "What is the decimal (denary) value of the hexadecimal number '1A'?",
+        "options": ["10", "16", "26", "32"],
+        "correct": 2,
+        "hint": "The '1' is in the 16s column, and 'A' represents the value 10 in the 1s column."
+      },
+      {
+        "q": "Which CPU register stores the memory address of the next instruction waiting to be fetched?",
+        "options": ["Accumulator (ACC)", "Program Counter (PC)", "Memory Data Register (MDR)", "Current Instruction Register (CIR)"],
+        "correct": 1,
+        "hint": "This component tracks the sequence count through program instructions."
+      },
+      {
+        "q": "What is the primary advantage of a Star network topology over a Bus network topology?",
+        "options": ["It requires much less cabling infrastructure to set up", "If one cable fails, the rest of the network continues to operate unaffected", "It does not require a central switch device or hub unit", "Data collisions are mathematically impossible across the network lines"],
+        "correct": 1,
+        "hint": "Every device has its own dedicated connection line to a central node point."
+      },
+      {
+        "q": "What type of attack involves an attacker flooding a server with fake traffic to take it offline?",
+        "options": ["Phishing attack", "Brute-force attack", "Denial of Service (DoS) attack", "SQL Injection"],
+        "correct": 2,
+        "hint": "The objective is to deny legitimate users access to the online service."
+      },
+      {
+        "q": "In an database, what is a 'primary key'?",
+        "options": ["A key used to lock down file encryption parameters", "A unique identifier field for each record row in a table", "The most frequently searched word term in a dataset index", "A validation rule that blocks negative numbers from entry"],
+        "correct": 1,
+        "hint": "Examples include a student ID number or a unique passport number."
+      },
+      {
+        "q": "What is the main difference between Lossy and Lossless file compression?",
+        "options": ["Lossy compression permanently discards some data to achieve smaller files", "Lossless compression can only be used on image file types", "Lossy compression keeps the exact original file structure intact", "Lossless compression creates much larger file sizes than uncompressed files"],
+        "correct": 0,
+        "hint": "Lossy drops unnoticeable quality details; lossless preserves everything perfectly."
+      },
+      {
+        "q": "What is the name of the algorithmic logic pattern that repeats a block of code until a condition is met?",
+        "options": ["Sequence", "Selection", "Iteration", "Recursion"],
+        "correct": 2,
+        "hint": "This is the computer science term for loops (like while loops or for loops)."
+      },
+      {
+        "q": "Which network protocol is responsible for securely encrypting web traffic during online banking?",
+        "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+        "correct": 1,
+        "hint": "Look for the variant protocol that adds a layer of 'Security'."
+      },
+      {
+        "q": "What error type occurs when a program contains code that breaks the grammatical rules of the programming language?",
+        "options": ["Logic error", "Runtime error", "Syntax error", "Linking error"],
+        "correct": 2,
+        "hint": "Missing a closing bracket or misspelling a keyword triggers this mistake."
+      },
+      {
+        "q": "What is the output value of the expression: 17 MOD 5?",
+        "options": ["2", "3", "5", "0"],
+        "correct": 0,
+        "hint": "The MOD operator calculates the integer remainder left over after division."
+      },
+      {
+        "q": "Which validation check ensures that a user enters a value that is within an allowed lower and upper threshold?",
+        "options": ["Type check", "Presence check", "Range check", "Length check"],
+        "correct": 2,
+        "hint": "Useful for restricting an input field like 'Age' between 11 and 18."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "An image has a resolution of 100x100 pixels and a color depth of 8 bits. Calculate its total file size in bytes.",
+        "options": ["1,250 bytes", "10,000 bytes", "80,000 bytes", "100,000 bytes"],
+        "correct": 1,
+        "hint": "Total bits = pixels × color depth. Convert to bytes by dividing by 8."
+      },
+      {
+        "q": "What is the fundamental purpose of the Address Bus in a Von Neumann CPU architecture?",
+        "options": ["To carry memory address location vectors from the CPU to main memory", "To transfer actual instruction code lines between registers", "To signal whether to read or write data parameters", "To speed up connection lines to peripheral gear devices"],
+        "correct": 0,
+        "hint": "This bus is strictly unidirectional, traveling away from the processor core."
+      },
+      {
+        "q": "Explain how a binary search algorithm operates on an ordered list.",
+        "options": ["It checks every item sequentially from left to right", "It repeatedly divides the list in half, checking the midpoint item", "It randomly picks index positions until it locates the item", "It sorts the list using pairs of structural item swaps"],
+        "correct": 1,
+        "hint": "It discards half the remaining data elements with each step."
+      },
+      {
+        "q": "What type of cyber attack injects malicious code statements into a web form input box to hijack a backend database?",
+        "options": ["Brute-force password guessing", "SQL Injection", "Social engineering phishing", "Man-in-the-Middle tracking"],
+        "correct": 1,
+        "hint": "It exploits security flaws in Structured Query Language form management."
+      },
+      {
+        "q": "What is the primary function of the Network Layer inside the TCP/IP protocol stack?",
+        "options": ["Routing packets across different networks using IP addresses", "Managing end-to-end connection error check parameters", "Formatting physical raw bit data for copper wire cables", "Providing application interfaces like web browsers link channels"],
+        "correct": 0,
+        "hint": "This layer deals with packaging data into packets and stamping destination IPs."
+      },
+      {
+        "q": "In Boolean logic, what is the output state of an XOR gate if both input channels are set to 1?",
+        "options": ["0 (False)", "1 (True)", "Undefined", "Unchanged"],
+        "correct": 0,
+        "hint": "Exclusive OR yields true if *only one* of the inputs is high, not both."
+      },
+      {
+        "q": "What issue occurs if two or more devices on a shared ethernet cable try to broadcast data simultaneously?",
+        "options": ["Data buffer overflow error", "A data collision", "An automatic system crash", "IP address conflict block"],
+        "correct": 1,
+        "hint": "Signals overlap on the wire, corrupting the electrical pulses."
+      },
+      {
+        "q": "What is the primary benefit of defining custom functions or subroutines in structural programming?",
+        "options": ["It automatically reduces overall runtime compilation times", "It reduces code duplication and makes maintenance much simpler", "It eliminates the need to assign data types to variables", "It hides the code from malicious hacking scanning utilities"],
+        "correct": 1,
+        "hint": "Write once, test thoroughly, and call the block anywhere you need it."
+      },
+      {
+        "q": "Calculate the result of the binary addition: 1011 + 0011.",
+        "options": ["1100", "1110", "1000", "1111"],
+        "correct": 1,
+        "hint": "Perform standard column addition matching bit weights ($8+2+1$ plus $2+1$)."
+      },
+      {
+        "q": "What feature of utility software reorganizes fragmented file pieces on a magnetic hard disk?",
+        "options": ["Disk Defragmenter", "Antivirus scan suite", "File encryption utility", "System backup scheduler"],
+        "correct": 0,
+        "hint": "It groups files into contiguous blocks to speed up read/write head movements."
+      },
+      {
+        "q": "What is the primary purpose of an IDE's watch window feature during testing?",
+        "options": ["To monitor the values of specific variables as the code steps line-by-line", "To block runtime unauthorized access from online network scans", "To automatically correct typing layout structure syntax errors", "To benchmark total processor chip runtime temperatures"],
+        "correct": 0,
+        "hint": "It lets you keep an eye on variables to catch logic flaws during debugging."
+      },
+      {
+        "q": "Which network device routes data packets strictly between devices within the same LAN by tracking MAC addresses?",
+        "options": ["Router", "Network Switch", "Gateway", "Modem"],
+        "correct": 1,
+        "hint": "More intelligent than a hub, it sends packets to the specific target port."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "A sound recording samples audio 44,100 times per second using a 16-bit sample resolution. What term defines the rate measurement?",
+        "options": ["Bit rate efficiency", "Sample frequency / rate", "Quantization threshold", "Nyquist bandwidth index"],
+        "correct": 1,
+        "hint": "Measured in Hertz (Hz), this dictates the frequency capture bounds."
+      },
+      {
+        "q": "What describes the absolute worst-case time complexity of a standard Bubble Sort algorithm?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+        "correct": 3,
+        "hint": "Nested tracking loops cause comparison scales to grow quadratically with list size."
+      },
+      {
+        "q": "What structural vulnerability allows an attacker to overwrite adjacent application runtime memory areas?",
+        "options": ["Buffer overflow", "Cross-site scripting", "Data packet sniffing", "Phishing redirection"],
+        "correct": 0,
+        "hint": "Writing more data to a memory buffer than it can hold leaks into neighboring spaces."
+      },
+      {
+        "q": "How does asymmetric encryption ensure secure data exchange across unsecure channels?",
+        "options": ["By using a single secret key shared via an out-of-band channel", "By using a public key to encrypt data and a mathematically linked private key to decrypt it", "By shifting text characters by a random numeric index tracking variable", "By hashing the entire data payload into an uncrackable constant character string"],
+        "correct": 1,
+        "hint": "Anyone can lock the chest with the public lock, but only the owner has the private key."
+      },
+      {
+        "q": "What role does the Domain Name System (DNS) play on the internet?",
+        "options": ["It automatically assigns dynamic local IP addresses to new network routers", "It translates human-readable domain names into machine-friendly IP addresses", "It blocks unauthorized external incoming requests at the firewall point", "It coordinates file transport compression algorithms during download streams"],
+        "correct": 1,
+        "hint": "It functions like an address book, converting google.com into an IP address."
+      },
+      {
+        "q": "What logic state behaves according to the truth table output configuration: True only if all input values are False?",
+        "options": ["NAND gate profile", "NOR gate profile", "XNOR gate configuration", "AND gate alignment"],
+        "correct": 1,
+        "hint": "This represents an OR gate inverted by a NOT gate."
+      },
+      {
+        "q": "What type of program structure vulnerability is explicitly prevented by sanitizing user input data arrays?",
+        "options": ["Hardware overheating issues", "Code injection exploitation paths", "Dynamic link reference loss errors", "Infinite run loop faults"],
+        "correct": 1,
+        "hint": "Stripping special code characters from user inputs stops them from executing commands."
+      },
+      {
+        "q": "Explain the term 'high-level language' in contrast with low-level languages.",
+        "options": ["Code that utilizes English-like keywords and requires compilation or translation", "Code written directly in binary notation patterns for CPU processing structures", "Code designed exclusively to run on supercomputer high-performance arrays", "Assembly language that maps directly to processor opcodes"],
+        "correct": 0,
+        "hint": "Examples include Java, Python, and C++, which are highly portable across different systems."
+      },
+      {
+        "q": "What is the primary performance drawback of utilizing virtual memory extensions on standard computer configurations?",
+        "options": ["Disk thrashing slows data retrieval because storage read speeds are far slower than RAM", "It completely corrupts active database record tables during runtime operations", "It permanently disables CPU cache acceleration paths during execution", "It shifts data into network cloud systems, causing high bandwidth usage"],
+        "correct": 0,
+        "hint": "Moving pages of memory back and forth to a mechanical drive or SSD bottlenecks performance."
+      },
+      {
+        "q": "What database design technique removes redundant data patterns to improve data integrity settings?",
+        "options": ["Database indexing", "Data normalization", "Data duplication masking", "Query optimization modeling"],
+        "correct": 1,
+        "hint": "This process splits flat files into distinct, logically linked relational tables."
+      },
+      {
+        "q": "What is the binary result of shifting the binary byte 00110100 two places to the right?",
+        "options": ["11010000", "00001101", "00001110", "01101000"],
+        "correct": 1,
+        "hint": "Pad the left side with zeros and discard the bits that fall off the right edge."
+      },
+      {
+        "q": "What protocol works at the Application Layer to fetch email messages from a server while keeping them stored on the server?",
+        "options": ["POP3", "IMAP", "SMTP", "SFTP"],
+        "correct": 1,
+        "hint": "This protocol allows multi-device synchronization, unlike the older POP3 variant."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What processing optimization component acts as an ultra-fast temporary storage buffer inside the CPU?",
+        "options": ["Cache memory", "Virtual memory extensions", "Flash memory arrays", "Solid State storage segments"],
+        "correct": 0,
+        "hint": "It keeps frequently used data closer to the execution cores than RAM."
+      },
+      {
+        "q": "Which data transmission architecture sends data bits one after another down a single physical wire link?",
+        "options": ["Parallel transmission link", "Serial data transmission", "Asynchronous matrix configuration", "Duplex bus alignment"],
+        "correct": 1,
+        "hint": "Used by modern standards like USB (Universal Serial Bus) for long-distance reliability."
+      },
+      {
+        "q": "Identify the number of distinct character combinations that can be mapped using standard 7-bit ASCII encoding.",
+        "options": ["128 characters", "256 characters", "512 characters", "1024 characters"],
+        "correct": 0,
+        "hint": "Calculate the value of $2^7$."
+      },
+      {
+        "q": "What type of system handles specific automation functions inside a larger mechanical installation?",
+        "options": ["Embedded system", "Distributed computer cluster", "Virtual machine container", "Mainframe framework setup"],
+        "correct": 0,
+        "hint": "Examples include microchip controllers inside washing machines or car braking modules."
+      },
+      {
+        "q": "What logic block yields a high output profile when its single input state is set to 0?",
+        "options": ["AND gate structure", "OR gate block", "NOT gate inverter", "NAND gate system"],
+        "correct": 2,
+        "hint": "This gate simply flips or inverts the incoming logic bit value."
+      },
+      {
+        "q": "What structural component acts as a blueprint template to instantiate objects in Object-Oriented Programming?",
+        "options": ["A class", "A variable array", "A procedure block", "An inherited structure"],
+        "correct": 0,
+        "hint": "It defines the attributes and methods that the created object will possess."
+      },
+      {
+        "q": "Which network topology links all client terminal points directly down a single shared backbone pipeline wire?",
+        "options": ["Star topology network", "Ring link matrix", "Bus topology layout", "Mesh structural layout"],
+        "correct": 2,
+        "hint": "It uses terminators at each end to stop signal bouncing."
+      },
+      {
+        "q": "What malicious software secretly logs keystrokes to steal sensitive login credentials?",
+        "options": ["Adware application modules", "Keylogger spyware utilities", "Ransomware file lockers", "Worm propagation routines"],
+        "correct": 1,
+        "hint": "This type of spyware tracks every physical key you press on your keyboard."
+      },
+      {
+        "q": "Identify the standard binary value representing the hexadecimal digit character 'E'.",
+        "options": ["1110", "1111", "1101", "1011"],
+        "correct": 0,
+        "hint": "In hex, A=10, B=11, C=12, D=13, E=14. Find the binary equivalent for 14."
+      },
+      {
+        "q": "What network utility tests connection path responses to a specific destination IP address?",
+        "options": ["PING command utility", "IPCONFIG status system", "TRACERT tracking route", "NETSTAT monitoring array"],
+        "correct": 0,
+        "hint": "It sends packet echo requests to check if a remote host is up and measure latency."
+      },
+      {
+        "q": "What error type is hidden within this code statement: area = width + width (intended to calculate rectangle area)?",
+        "options": ["Syntax formatting error", "Logic design error", "Runtime execution crash", "Linker reference fault"],
+        "correct": 1,
+        "hint": "The code runs without crashing, but it produces the wrong mathematical answer."
+      },
+      {
+        "q": "Which database command structure retrieves specific dataset records from a table structure?",
+        "options": ["SELECT query parameters", "INSERT record actions", "UPDATE state settings", "DELETE data structures"],
+        "correct": 0,
+        "hint": "This command is often paired with 'FROM' and 'WHERE' clauses in SQL."
+      },
+      {
+        "q": "What type of testing checks internal code paths and logic structures directly?",
+        "options": ["Black-box functional testing", "White-box structural testing", "Alpha release validation", "Beta ecosystem observation"],
+        "correct": 1,
+        "hint": "The tester has full access to the source code and design documentation."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Calculate the file size of a 10-second audio track sampled at 1,000 Hz with a 16-bit sample resolution.",
+        "options": ["20,000 bytes", "160,000 bytes", "1,200,000 bytes", "2,000 bytes"],
+        "correct": 0,
+        "hint": "Size = duration × sample rate × bit depth. Convert the final bits to bytes by dividing by 8."
+      },
+      {
+        "q": "Explain how pipelining improves processor performance.",
+        "options": ["It increases the physical clock speed frequency of the CPU", "It allows multiple instructions to be fetched, decoded, and executed simultaneously in stages", "It expands the physical data bus width from 32 to 64 bits", "It completely eliminates memory access bottlenecks from RAM"],
+        "correct": 1,
+        "hint": "Think of an assembly line where the next instruction is fetched while the current one is decoded."
+      },
+      {
+        "q": "What algorithmic sorting method tracks data divisions through pivot positioning structures?",
+        "options": ["Insertion Sort technique", "Merge Sort split modeling", "Quick Sort partition strategy", "Bubble Sort pass alignment"],
+        "correct": 2,
+        "hint": "This divide-and-conquer algorithm picks an element as a pivot and partitions the array around it."
+      },
+      {
+        "q": "What role does an Application Layer gateway play in network communication paths?",
+        "options": ["It translates data formats between completely different protocol architectures", "It physically amplifies electrical signals running along ethernet cables", "It assigns MAC addresses to newly attached hardware assets", "It splits data streams into uniform hardware packets"],
+        "correct": 0,
+        "hint": "It connects systems that use different network architectures or protocols."
+      },
+      {
+        "q": "What mechanism blocks unsafe data packets based on a set of security rules?",
+        "options": ["A Firewall utility structure", "Proxy Server routing lines", "Intrusive spyware tools", "Antivirus identification databases"],
+        "correct": 0,
+        "hint": "It sits as a barrier between a trusted internal network and untrusted external traffic."
+      },
+      {
+        "q": "In database normalization design rules, what condition satisfies Second Normal Form (2NF) requirements?",
+        "options": ["It must be in 1NF and contain absolutely zero partial key dependencies", "It must eliminate all transitive attribute value dependencies", "It must incorporate a multi-table compound foreign key structure", "It must store all text characters in variable length tracks"],
+        "correct": 0,
+        "hint": "All non-prime attributes must depend on the *entire* primary key, not just part of it."
+      },
+      {
+        "q": "What is the two's complement binary byte representation of the denary integer negative seven (-7)?",
+        "options": ["11111001", "10000111", "11111000", "00000111"],
+        "correct": 0,
+        "hint": "Find positive 7, flip all the bits, and then add 1 to the least significant bit."
+      },
+      {
+        "q": "What state occurs when two concurrent execution threads are stuck waiting for each other to release resources?",
+        "options": ["A Deadlock event", "Starvation state allocation", "Race condition conflict", "Thread pool depletion fault"],
+        "correct": 0,
+        "hint": "Neither thread can proceed, causing the application to freeze indefinitely."
+      },
+      {
+        "q": "Which network standard governs email transmission across internet transport lines?",
+        "options": ["Simple Mail Transfer Protocol (SMTP)", "Post Office Protocol v3 (POP3)", "Internet Message Access Protocol (IMAP)", "Hypertext Transfer Protocol (HTTP)"],
+        "correct": 0,
+        "hint": "This protocol is used to *send* or push outgoing mail to a server."
+      },
+      {
+        "q": "What type of translation tool converts low-level assembly mnemonics directly into machine code?",
+        "options": ["Compiler suite", "Interpreter engine", "Assembler utility", "Linker coordinator"],
+        "correct": 2,
+        "hint": "It maps assembly commands like LDA or ADD directly to binary opcodes."
+      },
+      {
+        "q": "What is the final evaluated logic value of the expression: (True AND False) OR (NOT False)?",
+        "options": ["True (1)", "False (0)", "Null state", "Logical contradiction error"],
+        "correct": 0,
+        "hint": "Evaluate the brackets first, then flip the second term before applying the OR gate."
+      },
+      {
+        "q": "Which data verification method requires a user to enter an input string twice to check for typing mistakes?",
+        "options": ["Double-entry verification check", "Visual inspection check", "Format validation algorithm", "Checksum calculation check"],
+        "correct": 0,
+        "hint": "Commonly used during password creation or setting up a new email address."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "A relational database contains a table structure with a compound key. Explain its purpose.",
+        "options": ["It utilizes multiple fields combined together to form a unique record identifier", "It encrypts table record sets using two separate mathematical keys", "It allows a single table to connect to multiple external databases at once", "It stores identical duplicate rows to prevent accidental data loss"],
+        "correct": 0,
+        "hint": "When no single column can uniquely identify a row, columns are combined."
+      },
+      {
+        "q": "Describe the core structural design flaw exposed by the Von Neumann architecture bottleneck concept.",
+        "options": ["CPU processing speeds are bottlenecked because data and instructions share a single bus", "Primary storage RAM units consume too much system power during operation", "Arithmetic Logic Units cannot process floating-point operations directly", "The configuration cannot support multi-threaded code execution tracks"],
+        "correct": 0,
+        "hint": "The processor spends idle time waiting for data to travel along the shared bus."
+      },
+      {
+        "q": "What type of traversal pattern reads a binary search tree by processing the left subtree, the root, and then the right subtree?",
+        "options": ["Pre-order tree traversal", "In-order tree traversal", "Post-order tree traversal", "Breadth-first search traversal"],
+        "correct": 1,
+        "hint": "This specific traversal method retrieves data from a binary search tree in ascending order."
+      },
+      {
+        "q": "How does a symmetric encryption system differ fundamentally from an asymmetric configuration design?",
+        "options": ["Symmetric uses a single identical key for both encryption and decryption stages", "Symmetric utilizes public keys while discarding private parameters entirely", "Symmetric requires internet access to validate keys via a certificate authority", "Symmetric is far slower and computationally heavier than asymmetric"],
+        "correct": 0,
+        "hint": "Both sender and receiver must safely share and protect the exact same key."
+      },
+      {
+        "q": "What function is handled by the Address Resolution Protocol (ARP) within network interface operations?",
+        "options": ["It maps known IP addresses to local physical hardware MAC addresses", "It dynamically allocates IP leases to client stations joining a wireless node", "It translates web host string references into routing coordinates", "It slices files into TCP segments during transit actions"],
+        "correct": 0,
+        "hint": "It resolves IP addresses to physical network card addresses on a local subnet."
+      },
+      {
+        "q": "Apply Boolean simplification rules to resolve the algebraic statement: A AND (A OR B).",
+        "options": ["A", "B", "A AND B", "A OR B"],
+        "correct": 0,
+        "hint": "This is known as the Absorption Law in Boolean algebra."
+      },
+      {
+        "q": "What routing performance issue occurs if a network routing loop pattern forms between switch points?",
+        "options": ["A broadcast storm completely overwhelms network bandwidth capacity", "IP address assignments get mixed up across local subnets", "Data packets are instantly deleted by the local firewall", "Data transmission speeds shift into high-speed parallel mode"],
+        "correct": 0,
+        "hint": "Packets loop indefinitely, multiplying and crashing network throughput."
+      },
+      {
+        "q": "What term defines an object-oriented programming pattern where a subclass automatically acquires the attributes and methods of a parent class?",
+        "options": ["Encapsulation shielding", "Polymorphism modeling", "Inheritance structural mapping", "Instantiation call tracking"],
+        "correct": 2,
+        "hint": "It promotes code reuse by establishing an 'is-a' relationship between classes."
+      },
+      {
+        "q": "Calculate the denary equivalent of the sign-and-magnitude binary byte: 10001100.",
+        "options": ["-12", "-140", "140", "12"],
+        "correct": 0,
+        "hint": "The most significant bit sets the sign (1 = negative), and the remaining bits indicate the magnitude."
+      },
+      {
+        "q": "What is the primary role of a link editor or 'linker' software utility during compilation processes?",
+        "options": ["It combines compiled object code files with pre-compiled library modules into a single executable file", "It tracks down syntax errors inside code text documents", "It securely uploads compiled files to production cloud repositories", "It measures CPU register temperature efficiency changes during runtime loops"],
+        "correct": 0,
+        "hint": "It stitches separate object modules together and resolves external function references."
+      },
+      {
+        "q": "What algorithmic notation strategy measures resource scaling limits relative to input parameter expansion sizes?",
+        "options": ["Big O notation analytics", "Boolean matrix scaling index", "ASCII mapping validation profiles", "Floating point resolution sizing"],
+        "correct": 0,
+        "hint": "It describes the execution time or space complexity of an algorithm in the worst-case scenario."
+      },
+      {
+        "q": "Which data structure operates on a Strict Last-In, First-Out (LIFO) tracking logic layout?",
+        "options": ["Queue data block", "Stack data structure", "Linked list sequence", "Binary tree mapping"],
+        "correct": 1,
+        "hint": "Think of a physical stack of dinner plates; you add and remove from the top."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "What describes the functional behavior of a Halting Problem paradox in theoretical computer science?",
+        "options": ["It is impossible to write a general algorithm that perfectly predicts whether any program will finish running or loop forever", "A processor core halts execution if register values exceed standard bit allocations", "Compiler translation tools freeze up if recursive depth values hit hard limits", "Every sorting routine requires a tracking mechanism to stop once sorted"],
+        "correct": 0,
+        "hint": "Alan Turing proved this fundamental limit of computation using diagonal argument proofs."
+      },
+      {
+        "q": "How does a standard Harvard CPU architecture differ from a traditional Von Neumann design footprint?",
+        "options": ["Harvard keeps instruction code lines and data sets in separate physical memory areas with distinct buses", "Harvard uses an asymmetric clock cycle to step execution tasks", "Harvard relies on secondary storage to hold active register state changes", "Harvard integrates GPU and CPU cores into a single silicon wafer"],
+        "correct": 0,
+        "hint": "This physical separation avoids data transport bottlenecks, allowing simultaneous instruction and data access."
+      },
+      {
+        "q": "What optimization method adjusts a recursive algorithm to store intermediate results, avoiding redundant recalculations?",
+        "options": ["Memoization / Dynamic Programming", "Heuristic pruning paths", "Iterative branch mapping", "Stack trace virtualization"],
+        "correct": 0,
+        "hint": "Commonly used to optimize Fibonacci sequence calculations from exponential to linear time."
+      },
+      {
+        "q": "What does a digital certificate validate when establishing an encrypted TLS/SSL communication session?",
+        "options": ["It binds a public cryptographic key to the verified identity of a specific website entity", "It checks if the client workstation has local administrative access rights", "It compresses text files to maximize bandwidth along connection pipelines", "It tracks down active virus processes hiding inside browser memory files"],
+        "correct": 0,
+        "hint": "It is digitally signed by a trusted Certificate Authority (CA) to prevent spoofing."
+      },
+      {
+        "q": "Explain the operational mechanics of a Link State routing protocol like OSPF.",
+        "options": ["Every router builds a complete topological map of the network to calculate the shortest path to destinations", "Routers only share routing tables with immediate neighbors at regular timed intervals", "Packets are broadcast randomly across all available outbound network ports", "It establishes static connection paths that never change regardless of failures"],
+        "correct": 0,
+        "hint": "It uses Dijkstra's algorithm to independently compute the optimal path from its map."
+      },
+      {
+        "q": "Using Boolean algebra laws, simplify the following expression: (A AND B) OR (A AND (NOT B)).",
+        "options": ["A", "B", "A AND B", "True (1)"],
+        "correct": 0,
+        "hint": "Factor out the common term 'A' and apply the Distributive and Complement laws."
+      },
+      {
+        "q": "What protocol works at the Transport Layer of the TCP/IP stack to provide connectionless, low-latency datagram transfers?",
+        "options": ["User Datagram Protocol (UDP)", "Transmission Control Protocol (TCP)", "Internet Control Message Protocol (ICMP)", "Border Gateway Protocol (BGP)"],
+        "correct": 0,
+        "hint": "It prioritizes speed over reliability, making it ideal for live video streaming and online gaming."
+      },
+      {
+        "q": "In Object-Oriented design, what is polymorphism?",
+        "options": ["The ability of different classes to respond to the same method call in their own unique way", "The process of hiding internal data structures behind private access modifiers", "Combining multiple separate source code libraries into one single executable file", "Dynamically altering variable names during application execution runs"],
+        "correct": 0,
+        "hint": "It allows a parent class method to be overridden by child classes to implement custom behavior."
+      },
+      {
+        "q": "Convert the decimal fraction 0.625 into a fixed-point unsigned binary representation using 4 fractional bits.",
+        "options": ["0.1010", "0.1100", "0.1001", "0.0110"],
+        "correct": 0,
+        "hint": "Calculate the column weights after the binary point: 0.5 ($1/2$), 0.25 ($1/4$), 0.125 ($1/8$), 0.0625 ($1/16$)."
+      },
+      {
+        "q": "What happens during the linking phase of compilation if an external function declaration lacks a matching implementation library?",
+        "options": ["An unresolved external symbol linker error is thrown", "A syntax error crashes the system before compilation starts", "The compiler auto-generates a blank function dummy placeholder", "The program compiles normally but crashes immediately on startup"],
+        "correct": 0,
+        "hint": "The code syntax is valid, but the linker cannot find the physical compiled code to connect the reference."
+      },
+      {
+        "q": "What is the primary operational advantage of a hash table data structure over a standard array or linked list?",
+        "options": ["It provides average O(1) constant time complexity for data insertion, deletion, and lookup operations", "It guarantees that data elements are stored in a perfectly sorted order at all times", "It consumes significantly less memory overhead than any other structure type", "It avoids data collisions entirely through static memory indexing rules"],
+        "correct": 0,
+        "hint": "It uses a mathematical function to map key identifiers directly to specific storage buckets."
+      },
+      {
+        "q": "What graph traversal algorithm uses a queue data structure to visit node points level-by-level from a starting root?",
+        "options": ["Breadth-First Search (BFS)", "Depth-First Search (DFS)", "Dijkstra's Shortest Path mapping", "Kruskal's Minimum Spanning Tree layout"],
+        "correct": 0,
+        "hint": "It explores all sister node points thoroughly before moving down to the next branch depth level."
+      }
+    ]
+  }
+}
