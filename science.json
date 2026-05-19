@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What is the primary function of the cell wall in a plant cell?",
+        "options": ["To control what enters and leaves the cell", "To absorb sunlight for photosynthesis", "To strengthen and support the cell structure", "To synthesize proteins from amino acids"],
+        "correct": 2,
+        "hint": "Animals don't have this layer because they have skeletons for support instead."
+      },
+      {
+        "q": "Which state of matter has a fixed volume but changes shape to fit its container?",
+        "options": ["Solid", "Liquid", "Gas", "Plasma"],
+        "correct": 1,
+        "hint": "Think of water being poured from a measuring jug into a round bowl."
+      },
+      {
+        "q": "What type of energy is stored in a stretched rubber band?",
+        "options": ["Kinetic energy", "Elastic potential energy", "Gravitational potential energy", "Thermal energy"],
+        "correct": 1,
+        "hint": "This energy is stored whenever an object is temporarily deformed or stretched."
+      },
+      {
+        "q": "Which gas in the Earth's atmosphere is most abundant?",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+        "correct": 2,
+        "hint": "It makes up roughly 78% of the air around us, beating oxygen significantly."
+      },
+      {
+        "q": "What is the pH value of a completely neutral solution, such as pure water?",
+        "options": ["pH 1", "pH 5", "pH 7", "pH 14"],
+        "correct": 2,
+        "hint": "This value sits exactly in the middle of the standard pH scale."
+      },
+      {
+        "q": "Which part of a human cell contains the genetic material (DNA)?",
+        "options": ["Cytoplasm", "Nucleus", "Ribosome", "Cell membrane"],
+        "correct": 1,
+        "hint": "This organelle acts as the control center or 'brain' of the cell."
+      },
+      {
+        "q": "What instrument is used to measure electrical current in a circuit?",
+        "options": ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+        "correct": 1,
+        "hint": "Current is measured in amperes (amps)."
+      },
+      {
+        "q": "Which of these is a non-renewable energy resource?",
+        "options": ["Solar power", "Wind energy", "Coal", "Hydroelectric energy"],
+        "correct": 2,
+        "hint": "It is a fossil fuel that takes millions of years to form and will eventually run out."
+      },
+      {
+        "q": "What type of chemical bond forms when non-metal atoms share pairs of electrons?",
+        "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+        "correct": 1,
+        "hint": "The prefix 'co-' indicates sharing or cooperating with valence electrons."
+      },
+      {
+        "q": "In a food chain, what name is given to organisms that make their own food using sunlight?",
+        "options": ["Producers", "Primary consumers", "Secondary consumers", "Apex predators"],
+        "correct": 0,
+        "hint": "These are usually green plants or algae that perform photosynthesis."
+      },
+      {
+        "q": "What subatomic particle has a relative charge of negative one (-1)?",
+        "options": ["Proton", "Neutron", "Electron", "Alpha particle"],
+        "correct": 2,
+        "hint": "These tiny particles orbit around the outside of the dense atomic nucleus."
+      },
+      {
+        "q": "Which organ in the human body produces insulin to regulate blood glucose levels?",
+        "options": ["Liver", "Pancreas", "Kidney", "Stomach"],
+        "correct": 1,
+        "hint": "If this organ fails to produce enough insulin, it causes diabetes."
+      },
+      {
+        "q": "What is the unit of measurement for force?",
+        "options": ["Joules", "Watts", "Newtons", "Kilograms"],
+        "correct": 2,
+        "hint": "Named after the famous scientist who formulated the laws of gravity and motion."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "What are the products of the word equation for aerobic respiration?",
+        "options": ["Glucose + Oxygen", "Carbon dioxide + Water", "Lactic acid + Energy", "Glucose + Carbon dioxide"],
+        "correct": 1,
+        "hint": "Think about what waste products humans breathe out or excrete after processing oxygen."
+      },
+      {
+        "q": "Why do elements in Group 1 of the periodic table become more reactive as you go down the group?",
+        "options": ["The outer electron is further from the nucleus and lost more easily", "The nucleus exerts a stronger positive attraction pull", "The atoms gain more protons in their outer shell matrix", "They transition from non-metals into dense structural metals"],
+        "correct": 0,
+        "hint": "Increased shielding makes the single outer electron easier to strip away."
+      },
+      {
+        "q": "Calculate the weight of a 5kg object on Earth, where gravitational field strength is roughly 10 N/kg.",
+        "options": ["0.5 N", "15 N", "50 N", "500 N"],
+        "correct": 2,
+        "hint": "Use the formula: Weight = Mass × Gravitational Field Strength (W = m × g)."
+      },
+      {
+        "q": "What type of reaction releases thermal energy into the surroundings, causing a temperature rise?",
+        "options": ["Endothermic", "Exothermic", "Neutralization", "Displacement"],
+        "correct": 1,
+        "hint": "'Exo-' means outward, like an exit, and '-thermic' relates to heat."
+      },
+      {
+        "q": "Which blood vessel carries oxygenated blood away from the heart to the rest of the body?",
+        "options": ["Vena Cava", "Pulmonary Artery", "Aorta", "Capillary"],
+        "correct": 2,
+        "hint": "This is the largest artery in the human body."
+      },
+      {
+        "q": "What method is best used to separate a soluble solid from a liquid to obtain the solid crystals?",
+        "options": ["Filtration", "Crystallisation / Evaporation", "Simple distillation", "Chromatography"],
+        "correct": 1,
+        "hint": "Heating the solution allows the liquid solvent to evaporate away entirely."
+      },
+      {
+        "q": "What is the conservation of energy law?",
+        "options": ["Energy can be created but never destroyed", "Energy can be destroyed but never created", "Energy cannot be created or destroyed, only transferred", "Energy can lose total mass value during hot processes"],
+        "correct": 2,
+        "hint": "The total amount of energy in a closed system always remains completely constant."
+      },
+      {
+        "q": "Which of these pathognes causes the disease Malaria?",
+        "options": ["A virus", "A bacterium", "A protist", "A fungus"],
+        "correct": 2,
+        "hint": "This single-celled organism is carried and passed on via mosquito vectors."
+      },
+      {
+        "q": "What structural feature characterizes hydrocarbons belonging to the alkene homologous series?",
+        "options": ["They contain only single carbon-carbon bonds", "They contain at least one double carbon-carbon bond", "They possess an attached functional hydroxide ring", "They are completely ring-shaped cyclic structures"],
+        "correct": 1,
+        "hint": "Alkenes are described as unsaturated due to this specific bond layout feature."
+      },
+      {
+        "q": "What type of wave is a sound wave traveling through the air?",
+        "options": ["Transverse wave", "Longitudinal wave", "Electromagnetic wave", "Stationary wave"],
+        "correct": 1,
+        "hint": "The vibrations occur parallel to the direction of energy transfer, creating compressions."
+      },
+      {
+        "q": "What is the test for Hydrogen gas?",
+        "options": ["Relights a glowing splint", "Turns limewater cloudy", "Creates a 'squeaky pop' with a lighted splint", "Bleaches damp litmus paper white"],
+        "correct": 2,
+        "hint": "This gas burns rapidly with a small explosive sound when exposed to a flame."
+      },
+      {
+        "q": "Which hormone causes the lining of the uterus to break down during the menstrual cycle?",
+        "options": ["Progesterone drop", "Estrogen surge", "Testosterone conversion", "Insulin reduction"],
+        "correct": 0,
+        "hint": "A drop in this maintaining pregnancy hormone triggers a period."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Explain how a vaccine protects a person from future pathogen infections.",
+        "options": ["It injects active toxins that kill off bacteria directly", "It triggers white blood cells to produce matching antibodies and memory cells", "It builds a mechanical protective layer around vital internal organs", "It alters the genetic structure of red blood cell walls"],
+        "correct": 1,
+        "hint": "Vaccines introduce dead or inactive pathogens to train the immune system."
+      },
+      {
+        "q": "A block has a mass of 120g and a volume of 40cm³. Calculate its density.",
+        "options": ["0.33 g/cm³", "3 g/cm³", "80 g/cm³", "4,800 g/cm³"],
+        "correct": 1,
+        "hint": "Use the formula: Density = Mass ÷ Volume."
+      },
+      {
+        "q": "What mass of carbon dioxide is formed when 12g of carbon reacts completely with 32g of oxygen?",
+        "options": ["12g", "20g", "32g", "44g"],
+        "correct": 3,
+        "hint": "Apply the law of conservation of mass: total mass of reactants equals total mass of products."
+      },
+      {
+        "q": "Describe the movement of particles in a gas according to the kinetic theory.",
+        "options": ["Vibrating about fixed positions regularly", "Sliding over each other slowly in a restricted volume", "Moving randomly at high speeds in all directions", "Clumped together tightly in organized crystalline matrices"],
+        "correct": 2,
+        "hint": "Gas particles have high thermal energy and virtually no forces holding them together."
+      },
+      {
+        "q": "What is the definition of an isotope?",
+        "options": ["Atoms with the same proton count but different neutron counts", "Atoms with the same neutron count but different proton counts", "Atoms that have gained or lost electrons to become charged", "Molecules containing different chemical elements bonded together"],
+        "correct": 0,
+        "hint": "They have the exact same atomic number but possess different mass numbers."
+      },
+      {
+        "q": "An electric fire uses a voltage of 230V and a current of 10A. Calculate its electrical power.",
+        "options": ["23 W", "240 W", "2,300 W", "23,000 W"],
+        "correct": 2,
+        "hint": "Use the formula: Power = Potential Difference × Current (P = V × I)."
+      },
+      {
+        "q": "What is the function of xylem tissue in a plant stem?",
+        "options": ["To transport dissolved sugars downwards from leaves", "To transport water and mineral ions upwards from the roots", "To produce new stem cells via rapid mitotic division", "To absorb gaseous carbon dioxide from the surrounding air"],
+        "correct": 1,
+        "hint": "Xylem is a one-way system made of dead cells reinforced with lignin."
+      },
+      {
+        "q": "What forms at the negative electrode (cathode) during the electrolysis of molten copper chloride?",
+        "options": ["Copper metal", "Chlorine gas", "Hydrogen gas", "Oxygen gas"],
+        "correct": 0,
+        "hint": "Positive copper ions (Cu²⁺) are attracted to the negative electrode to gain electrons."
+      },
+      {
+        "q": "What are the missing values to balance this equation: _H₂ + O₂ -> _H₂O?",
+        "options": ["1, 1", "2, 2", "2, 1", "1, 2"],
+        "correct": 1,
+        "hint": "Count the atoms of hydrogen and oxygen on both sides to ensure equality."
+      },
+      {
+        "q": "Calculate the efficiency of a motor that takes in 500J of total energy and delivers 350J of useful work.",
+        "options": ["0.15 or 15%", "0.70 or 70%", "0.35 or 35%", "1.42 or 142%"],
+        "correct": 1,
+        "hint": "Efficiency = (Useful output energy transfer ÷ Total input energy transfer)."
+      },
+      {
+        "q": "Which plant hormone controls phototropism and gravitropism in roots and shoots?",
+        "options": ["Auxin", "Gibberellin", "Ethene", "Erythropoietin"],
+        "correct": 0,
+        "hint": "This hormone unequalizes cell elongation by moving to the shaded side of a stem."
+      },
+      {
+        "q": "What are the products when a metal carbonate reacts completely with an acid?",
+        "options": ["Salt + Water", "Salt + Hydrogen", "Salt + Water + Carbon dioxide", "Alkali + Hydrogen gas"],
+        "correct": 2,
+        "hint": "The presence of the 'carbonate' group means carbon dioxide gas must be released."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "A wave has a frequency of 50Hz and a wavelength of 6 meters. Calculate its wave speed.",
+        "options": ["8.33 m/s", "56 m/s", "300 m/s", "0.12 m/s"],
+        "correct": 2,
+        "hint": "Use the wave equation formula: Wave Speed = Frequency × Wavelength (v = f × lambda)."
+      },
+      {
+        "q": "What determines whether a chemical reaction occurs spontaneously according to collision theory?",
+        "options": ["Particles must collide with energy equal to or greater than the activation energy", "Particles must simply occupy the same liquid container volume", "The temperature of the system must be lowered to freezing points", "The mass of the products must exceed the reactant start profiles"],
+        "correct": 0,
+        "hint": "Collisions are only successful if they have enough kinetic energy to break bonds."
+      },
+      {
+        "q": "If a parent with genotype Bb (heterozygous brown eyes) and a parent with bb (blue eyes) have a child, what is the probability the child will have blue eyes?",
+        "options": ["0%", "25%", "50%", "75%"],
+        "correct": 2,
+        "hint": "Draw out a quick Punnett square crossing Bb with bb to calculate ratio outcomes."
+      },
+      {
+        "q": "How does the resistance of a light-dependent resistor (LDR) change as light intensity increases?",
+        "options": ["Resistance increases drastically", "Resistance decreases drastically", "Resistance stays exactly constant", "Resistance drops to zero instantly"],
+        "correct": 1,
+        "hint": "LDRs do the opposite of what you might expect: bright light opens the floodgates for current."
+      },
+      {
+        "q": "What is the empirical formula of a compound containing 40% Sulfur and 60% Oxygen by mass? (Ar: S=32, O=16)",
+        "options": ["SO", "SO₂", "SO₃", "S₂O₃"],
+        "correct": 2,
+        "hint": "Divide the mass percentages by atomic masses, then find the simplest whole-number ratio."
+      },
+      {
+        "q": "Explain the greenhouse effect in terms of radiation types.",
+        "options": ["Greenhouse gases absorb short wavelength solar but trap long wavelength infrared re-emitted by Earth", "Greenhouse gases block all incoming shortwave ultraviolet rays from entering", "Greenhouse gases reflect thermal conduction heat directly back into outer space", "Greenhouse gases react with atmospheric nitrogen to produce solar flares"],
+        "correct": 0,
+        "hint": "Earth re-radiates thermal energy as longer wavelength infrared, which gets trapped."
+      },
+      {
+        "q": "What occurs during the process of anaerobic respiration in yeast cells?",
+        "options": ["Glucose breaks down into lactic acid only", "Glucose converts into ethanol and carbon dioxide gas", "Glucose reacts with minimal oxygen to yield water vapor", "Amino acids are assembled into enzyme proteins"],
+        "correct": 1,
+        "hint": "This biological fermentation process is used commercially to brew beer and bake bread."
+      },
+      {
+        "q": "Calculate the orbital period factor change if an object's distance from an alternating magnetic field shifts...",
+        "options": ["It alters tracking profiles", "It follows inverse square patterns", "It stays structurally unlinked", "It mirrors physical resistance properties"],
+        "correct": 1,
+        "hint": "Many structural field intensities track inverse square drops relative to distance."
+      },
+      {
+        "q": "What functional group defines organic molecules classed as carboxylic acids?",
+        "options": ["-OH", "-COOH", "-COO-", "-C=C-"],
+        "correct": 1,
+        "hint": "This group consists of a carbon double-bonded to an oxygen and single-bonded to a hydroxyl group."
+      },
+      {
+        "q": "What safety device in a plug cuts off electrical supply if the current surge becomes dangerously high?",
+        "options": ["Earth wire connection", "Plastic insulation housing", "A fuse blowing", "The copper pins"],
+        "correct": 2,
+        "hint": "This contains a thin wire designed to melt and break the circuit if current exceeds its rating."
+      },
+      {
+        "q": "What name is given to the sequence of base triplets in DNA that code for a single complete protein?",
+        "options": ["A gene", "A chromosome", "An allele", "A gamete"],
+        "correct": 0,
+        "hint": "It is a specific section of a chromosome that acts as an instruction recipe."
+      },
+      {
+        "q": "Which halogen element is a dark dark-red liquid at standard room temperature?",
+        "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+        "correct": 2,
+        "hint": "Group 7 trends go gas to liquid to solid as you travel down the periodic column."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What is the unit of measurement for electrical resistance?",
+        "options": ["Volt (V)", "Ampere (A)", "Ohm (Ω)", "Watt (W)"],
+        "correct": 2,
+        "hint": "Named after Georg Ohm, linked directly to Ohm's Law: V = I × R."
+      },
+      {
+        "q": "Which subatomic particle was discovered by J.J. Thomson using cathode ray tubes to form the Plum Pudding model?",
+        "options": ["Proton", "Neutron", "Electron", "Alpha particle"],
+        "correct": 2,
+        "hint": "These negative charges were modeled as random raisins embedded inside a positive dough sphere."
+      },
+      {
+        "q": "What cell structure is responsible for releasing aerobic respiration energy inside a eukaryotic cell?",
+        "options": ["Ribosome", "Mitochondrion", "Chloroplast", "Vacuole"],
+        "correct": 1,
+        "hint": "Often nicknamed the powerhouse of the cell."
+      },
+      {
+        "q": "State the equation that relates acceleration, change in velocity, and time taken.",
+        "options": ["a = v ÷ t", "a = delta v ÷ t", "a = v × t", "a = t ÷ delta v"],
+        "correct": 1,
+        "hint": "Acceleration is defined mathematically as the rate of change of velocity."
+      },
+      {
+        "q": "What type of ion is formed when a metal atom loses its valence electrons?",
+        "options": ["Anion (Negative ion)", "Cation (Positive ion)", "Isotope", "Neutral radical"],
+        "correct": 1,
+        "hint": "Losing negative electrons leaves behind an overall positive net charge."
+      },
+      {
+        "q": "What type of pathogen causes tobacco mosaic disease in crop plants?",
+        "options": ["Bacterium", "Virus", "Fungus", "Protist"],
+        "correct": 1,
+        "hint": "This non-living infectious agent causes distinctive patterning and halts growth."
+      },
+      {
+        "q": "What is the link between frequency and period of a physical wave?",
+        "options": ["f = 1 ÷ T", "f = T", "f = T²", "f = 2 × T"],
+        "correct": 0,
+        "hint": "Frequency and period are inversely proportional to one another."
+      },
+      {
+        "q": "Which group of elements in the periodic table are completely unreactive noble gases?",
+        "options": ["Group 1", "Group 7", "Group 0 / 8", "Transition metals"],
+        "correct": 2,
+        "hint": "These elements have a completely full outer shell of stable electrons."
+      },
+      {
+        "q": "What molecule carries chemical energy within biological cell processes?",
+        "options": ["DNA", "ATP", "RNA", "Glycogen"],
+        "correct": 1,
+        "hint": "This nucleotide molecule stores and releases energy inside mitochondria."
+      },
+      {
+        "q": "What property of a star determines its path sequence through its lifecycle?",
+        "options": ["Its start core mass", "Its surface color profile", "Its total distance from Earth", "Its rotational speed metrics"],
+        "correct": 0,
+        "hint": "Heavy massive stars end as supernovae; lighter suns become white dwarfs."
+      },
+      {
+        "q": "Which organelle synthesizes new proteins inside cells?",
+        "options": ["Ribosome", "Lysosome", "Golgi apparatus", "Endoplasmic matrix"],
+        "correct": 0,
+        "hint": "These tiny dots read RNA strands to string amino acids together."
+      },
+      {
+        "q": "Identify the formula for Hydrochloric acid.",
+        "options": ["HCl", "HNO₃", "H₂SO₄", "NaOH"],
+        "correct": 0,
+        "hint": "Composed of one hydrogen atom bonded to one chlorine atom."
+      },
+      {
+        "q": "What is the current value in a series circuit containing components?",
+        "options": ["The same at all points", "Shared out between parts", "Depends on position sequence", "Drops to zero at the end"],
+        "correct": 0,
+        "hint": "In a loop with no branches, the flow rate of charge cannot split anywhere."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Calculate the concentration of a solution containing 4g of solute dissolved in 500cm³ of water.",
+        "options": ["0.008 g/dm³", "2 g/dm³", "8 g/dm³", "20 g/dm³"],
+        "correct": 2,
+        "hint": "Convert the volume to dm³ first by dividing by 1000, then divide mass by volume."
+      },
+      {
+        "q": "An object of mass 2kg accelerates from rest to 12 m/s in 3 seconds. Calculate the resultant force applied.",
+        "options": ["4 N", "6 N", "8 N", "24 N"],
+        "correct": 2,
+        "hint": "Find acceleration first (12÷3), then use Newton's Second Law: Force = Mass × Acceleration (F = m × a)."
+      },
+      {
+        "q": "What structural change occurs during the dark light independent stage of photosynthesis?",
+        "options": ["Water split by solar rays to yield gas", "Carbon dioxide fixed to synthesize glucose carbohydrates", "Chlorophyll molecules reflecting red light waves", "ATP energy breaking down into amino groupings"],
+        "correct": 1,
+        "hint": "This metabolic cycle uses energy products from light reactions to fix carbon."
+      },
+      {
+        "q": "Why do diamond and graphite have completely different physical properties despite both being pure Carbon?",
+        "options": ["Diamond forms giant covalent grids; graphite forms layers with free delocalized electrons", "Diamond contains ionic linkages; graphite is molecular covalent", "Graphite incorporates minor impurities of structural metal elements", "Diamond has weaker intermolecular interactions than carbon layers"],
+        "correct": 0,
+        "hint": "Look closely at the bonding differences: 4 bonds per carbon vs 3 bonds per carbon."
+      },
+      {
+        "q": "A step-up transformer increases voltage value. How does this impact current and power transport efficiency?",
+        "options": ["It increases current to boost heating losses", "It reduces current, which cuts thermal energy waste in grid lines", "It halts power transmission across cables entirely", "It modifies frequency data profiles across towers"],
+        "correct": 1,
+        "hint": "Lowering the current through National Grid wires minimizes energy wasted as heat."
+      },
+      {
+        "q": "What enzyme breaks down dietary starches into simple sugars inside the human digestive system?",
+        "options": ["Amylase", "Protease", "Lipase", "Pepsin"],
+        "correct": 0,
+        "hint": "Produced in salivary glands and the pancreas; operates best in neutral conditions."
+      },
+      {
+        "q": "How many moles are present in 88g of Carbon Dioxide gas (CO₂)? (Ar: C=12, O=16)",
+        "options": ["1 mole", "2 moles", "4 moles", "44 moles"],
+        "correct": 1,
+        "hint": "Calculate the Mr of CO₂ first (12 + 16 + 16 = 44). Then divide mass by Mr."
+      },
+      {
+        "q": "What type of radioactive decay results in the emission of a helium nucleus (2 protons, 2 neutrons)?",
+        "options": ["Alpha decay", "Beta minus decay", "Gamma emission", "Positron emission"],
+        "correct": 0,
+        "hint": "This heavy particle drops the atomic number by 2 and the mass number by 4."
+      },
+      {
+        "q": "Which statement correctly describes homeostatic negative feedback loops?",
+        "options": ["They accelerate changes away from baseline values", "They counter changes to restore internal stability settings", "They turn off all enzyme interactions systematically", "They switch off hormone delivery path tracking lines"],
+        "correct": 1,
+        "hint": "If blood sugar or temperature rises, negative feedback brings it back down to normal."
+      },
+      {
+        "q": "What is the product when an alkene reacts with steam in the presence of a catalyst?",
+        "options": ["An alkane", "An alcohol", "A carboxylic acid", "An ester"],
+        "correct": 1,
+        "hint": "This is an hydration addition reaction that inserts an -OH functional group."
+      },
+      {
+        "q": "An object has 400J of gravitational potential energy. It falls freely. Calculate its kinetic energy right before impact.",
+        "options": ["0 J", "200 J", "400 J", "800 J"],
+        "correct": 2,
+        "hint": "Assuming no air resistance, all potential energy converts completely into kinetic energy."
+      },
+      {
+        "q": "What forms at the positive anode during the electrolysis of aqueous Sodium Chloride solution (NaCl)?",
+        "options": ["Sodium metal", "Hydrogen gas", "Chlorine gas", "Oxygen gas"],
+        "correct": 2,
+        "hint": "Halide ions are discharged in preference to hydroxide ions if present in high concentrations."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Calculate the mass of magnesium needed to produce 20g of magnesium oxide. (2Mg + O₂ -> 2MgO; Ar: Mg=24, O=16)",
+        "options": ["6g", "12g", "24g", "40g"],
+        "correct": 1,
+        "hint": "Find moles of MgO (20÷40), use the 1:1 molar ratio, then multiply by Mg's atomic mass."
+      },
+      {
+        "q": "An alpha particle scattering experiment led Rutherford to conclude what structural fact about atoms?",
+        "options": ["Mass is evenly spread inside a solid neutral cookie matrix", "The atom is mostly empty space with a dense, positive central nucleus", "Electrons exist strictly within localized quantized shell tracks", "Neutrons outnumber protons across heavy elements completely"],
+        "correct": 1,
+        "hint": "The deflection of positive alpha particles showed a highly concentrated positive core."
+      },
+      {
+        "q": "Describe the physiological process of capillary tissue fluid exchange via pressure changes.",
+        "options": ["High hydrostatic pressure forces fluid out at the arterial end; osmotic pressure pulls it back at the venous end", "Osmotic tracking draws water out entirely across capillary lengths", "Active transport pumps glucose directly through arterial walls", "Lymph nodes contract to drive plasma fluid movements"],
+        "correct": 0,
+        "hint": "Plasma proteins left behind inside the vessel build up osmotic pull to reclaim water."
+      },
+      {
+        "q": "What is the half-life of a radioactive sample if its activity drops from 800 Bq to 50 Bq in 16 days?",
+        "options": ["2 days", "4 days", "8 days", "12 days"],
+        "correct": 1,
+        "hint": "Count how many halvings occurred: 800 -> 400 -> 200 -> 100 -> 50. Divide 16 by that count."
+      },
+      {
+        "q": "Predict the equilibrium shift for: N₂ + 3H₂ <=> 2NH₃ (Forward reaction is exothermic) if temperature is increased.",
+        "options": ["Shifts right to yield more ammonia", "Shifts left to yield more nitrogen and hydrogen", "Stays completely stationary with no concentration change", "The rate of the forward reaction drops instantly to zero"],
+        "correct": 1,
+        "hint": "Le Chatelier's Principle states the system will shift to absorb heat, favoring the endothermic back-reaction."
+      },
+      {
+        "q": "A car of mass 1000kg traveling at 20 m/s brakes to a stop. Calculate the work done by the brakes.",
+        "options": ["10,000 J", "20,000 J", "200,000 J", "2,000,000 J"],
+        "correct": 2,
+        "hint": "Work done equals the initial kinetic energy of the car: 0.5 × m × v²."
+      },
+      {
+        "q": "What are the stages of cell division by mitosis in order?",
+        "options": ["Prophase, Metaphase, Anaphase, Telophase", "Interphase, Cytokinesis, Mitosis", "Anaphase, Prophase, Telophase, Metaphase", "Meiosis 1, Meiosis 2"],
+        "correct": 0,
+        "hint": "Remember the acronym PMAT to track chromosome movement stages."
+      },
+      {
+        "q": "What is the ionic equation for the neutralization reaction between any strong acid and strong alkali?",
+        "options": ["Na⁺ + Cl⁻ -> NaCl", "H⁺ + OH⁻ -> H₂O", "HCl + NaOH -> NaCl + H₂O", "2H + O -> H₂O"],
+        "correct": 1,
+        "hint": "Look for the fundamental ions that combine to form neutral liquid water."
+      },
+      {
+        "q": "A transformer has 200 primary turns and 600 secondary turns. If input voltage is 24V, calculate output voltage.",
+        "options": ["8 V", "48 V", "72 V", "144 V"],
+        "correct": 2,
+        "hint": "Use the transformer equation: (Vp ÷ Vs) = (Np ÷ Ns). The turns ratio matches the voltage ratio."
+      },
+      {
+        "q": "How does the structure of a sensory neurone differ from a motor neurone?",
+        "options": ["Its cell body sits in the middle of the axon path branch", "It completely lacks a protective fatty myelin sheath layer", "It contains multiple nuclei inside its central cytoplasm housing", "It transmits impulses away from the central nervous system link"],
+        "correct": 0,
+        "hint": "Sensory neurons have a dendron leading to a side-positioned cell body before the axon."
+      },
+      {
+        "q": "What is the formula for calculating chemical atom economy?",
+        "options": ["(Mass of desired product ÷ Total mass of reactants) × 100", "(Actual yield ÷ Theoretical yield) × 100", "(Mr of desired product ÷ Sum of Mr of all reactants) × 100", "(Volume of gas ÷ 24) × 100"],
+        "correct": 2,
+        "hint": "Atom economy measures what percentage of starting molecular masses end up in the wanted product."
+      },
+      {
+        "q": "What is red-shift and what does it tell us about distant galaxies?",
+        "options": ["Light waves stretch to longer wavelengths, showing galaxies are moving away", "Light waves compress to shorter wavelengths, showing galaxies are approaching", "Stars alter their thermal emission profiles to match red giant sizes", "Light is refracted by cosmic dust clouds into red spectra paths"],
+        "correct": 0,
+        "hint": "The Doppler effect stretches light from objects retreating from us toward the red end of the spectrum."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "An object moves in a circular path at a constant speed. Explain why it is accelerating.",
+        "options": ["Its mass values shift during rotation tracking", "Its direction changes continuously, altering its velocity vector", "Centrifugal forces drag the object outwards from the center line", "Frictional contact conversions boost its kinetic speed metrics"],
+        "correct": 1,
+        "hint": "Velocity is speed in a given direction. If direction shifts, velocity shifts, meaning it accelerates."
+      },
+      {
+        "q": "During the electrolysis of aqueous copper sulfate using copper electrodes, what happens to the mass of the anode?",
+        "options": ["It increases as copper ions gain electrons and deposit", "It decreases as copper atoms lose electrons and dissolve as ions", "It remains completely identical due to conservation laws", "It spikes up due to oxygen gas binding to the surface"],
+        "correct": 1,
+        "hint": "At the positive anode, oxidation occurs, causing copper metal to break down into Cu²⁺ solutions."
+      },
+      {
+        "q": "Explain the role of gibberellins in plant development cycles.",
+        "options": ["They maintain seed dormancy structural blocks securely", "They trigger seed germination, cell elongation, and flowering paths", "They cause rapid leaf drop during autumn cooling periods", "They close stomatal pores during extreme drought events"],
+        "correct": 1,
+        "hint": "This hormone breaks dormancy, signaling the seed to start using starch reserves to grow."
+      },
+      {
+        "q": "A capacitor or spring system stores energy. If extension doubles, how does energy stored change?",
+        "options": ["It doubles", "It remains unchanged", "It quadruples (increases by 4x)", "It drops by half"],
+        "correct": 2,
+        "hint": "Look at the elastic energy formula: E = 0.5 × k × e². The extension value is squared."
+      },
+      {
+        "q": "What is the bond angle inside a molecule of methane (CH₄) based on electron pair repulsion?",
+        "options": ["90°", "104.5°", "107°", "109.5°"],
+        "correct": 3,
+        "hint": "Methane forms a perfectly symmetrical three-dimensional tetrahedral shape."
+      },
+      {
+        "q": "How does the loop of Henle in the kidney nephron help conserve water in the human body?",
+        "options": ["By actively pumping sodium ions out to create a hypertonic medulla environment", "By filtering out red blood cells under intense pressure heads", "By blocking the action of anti-diuretic hormone (ADH) completely", "By converting waste ammonia into less toxic urea arrays"],
+        "correct": 0,
+        "hint": "Creating a highly salty medulla forces water to leave the collecting duct via osmosis."
+      },
+      {
+        "q": "Calculate the frequency of an electromagnetic wave with a wavelength of 3 × 10^-7 meters in a vacuum. (Speed of light = 3 × 10^8 m/s)",
+        "options": ["1 × 10^1Hz", "1 × 10^15Hz", "9 × 10^1Hz", "1 × 10^-15Hz"],
+        "correct": 1,
+        "hint": "Rearrange the wave equation: Frequency = Speed ÷ Wavelength. Watch your index laws closely."
+      },
+      {
+        "q": "What name is given to a reaction where a more reactive halogen displaces a less reactive halogen from its halide salt solution?",
+        "options": ["Displacement reaction", "Neutralization", "Thermal decomposition", "Addition reaction"],
+        "correct": 0,
+        "hint": "For example, adding chlorine water to potassium iodide solution forces iodine out."
+      },
+      {
+        "q": "What is the role of memory cells generated during primary immune responses?",
+        "options": ["To engulf foreign bacteria via phagocytosis actions immediately", "To remain in the blood to mount a rapid, massive secondary response if reinfected", "To produce histamine blockades during allergic reactions", "To transport oxygen data profiles to damaged tissues"],
+        "correct": 1,
+        "hint": "These cells ensure that matching antibodies are produced much faster and in greater numbers next time."
+      },
+      {
+        "q": "Identify the vector quantity from the physical options listed below.",
+        "options": ["Speed", "Distance", "Momentum", "Mass"],
+        "correct": 2,
+        "hint": "A vector quantity requires both a numerical magnitude *and* a specific spatial direction."
+      },
+      {
+        "q": "What is the color change when unsaturated alkenes are shaken with bromine water?",
+        "options": ["Orange to completely colorless", "Colorless to dark brown-red", "Blue to brick-red precipitate", "Clear to cloudy white emulsion"],
+        "correct": 0,
+        "hint": "The bromine atoms add across the double bond, destroying the orange halogen molecule."
+      },
+      {
+        "q": "What physical property remains completely constant across an ideal gas expanding isothermally?",
+        "options": ["Pressure profile", "Volume footprint", "Temperature setting", "Internal density"],
+        "correct": 2,
+        "hint": "The prefix 'iso-' means equal or same, and '-thermal' explicitly denotes temperature."
+      }
+    ]
+  }
+}
