@@ -1,0 +1,610 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What is the sociological term for the lifelong process through which individuals learn the culture, norms, and values of their society?",
+        "options": ["Socialisation", "Globalization", "Stratification", "Industrialization"],
+        "correct": 0,
+        "hint": "This process begins in infancy with your family and continues throughout your entire life."
+      },
+      {
+        "q": "Which type of family consists of two generations: two parents and their dependent children?",
+        "options": ["Extended family", "Nuclear family", "Reconstituted family", "Lone-parent family"],
+        "correct": 1,
+        "hint": "This is often considered the traditional 'traditional' family structure model in Western societies."
+      },
+      {
+        "q": "What term do sociologists use to describe the unwritten, unofficial rules and values that students learn in school alongside the official curriculum?",
+        "options": ["The hidden curriculum", "The national curriculum", "Vocational education", "Formal education"],
+        "correct": 0,
+        "hint": "Examples include learning obedience, punctuality, and conformity to authority figures."
+      },
+      {
+        "q": "Which sociological perspective views society as a system of interconnected parts working together to maintain social stability and consensus?",
+        "options": ["Marxism", "Functionalism", "Feminism", "Interactionism"],
+        "correct": 1,
+        "hint": "Think of society acting like a biological organism where every organ serves a necessary purpose."
+      },
+      {
+        "q": "What is the difference between crime and deviance?",
+        "options": ["Crime breaks formal laws, while deviance breaks informal social norms", "Deviance is always punished by prison sentences", "Crime only occurs in urban areas, while deviance is rural", "There is no sociological difference between the two terms"],
+        "correct": 0,
+        "hint": "Dropping litter is a crime; standing backwards in a crowded elevator is deviant."
+      },
+      {
+        "q": "What term describes a society dominated by men, where men hold primary power in private and public spheres?",
+        "options": ["Matriarchy", "Patriarchy", "Meritocracy", "Oligarchy"],
+        "correct": 1,
+        "hint": "Feminist sociologists focus heavily on dismantling or critiquing this specific structural power system."
+      },
+      {
+        "q": "Which of the following is an example of an achieved social status?",
+        "options": ["Becoming a qualified medical doctor", "Being born into a royal family line", "Your biological sex at birth", "Your ethnic background heritage"],
+        "correct": 0,
+        "hint": "Achieved statuses are earned through personal effort, choices, and qualifications rather than birth."
+      },
+      {
+        "q": "What name is given to the mechanism that rewards hard work and talent with social mobility, regardless of social class background?",
+        "options": ["Aristocracy", "Meritocracy", "Bureaucracy", "Plutocracy"],
+        "correct": 1,
+        "hint": "The formula is simply: Effort + Ability = Success."
+      },
+      {
+        "q": "Which method of research involves gathering data via a set of pre-written, structured questions handed out to a large sample population?",
+        "options": ["Participant observation", "Unstructured interviews", "Questionnaire surveys", "Case studies"],
+        "correct": 2,
+        "hint": "This quantitative tool is highly popular for spotting general trends across massive groups quickly."
+      },
+      {
+        "q": "What is a peer group?",
+        "options": ["A group of people of a similar age and social status who share interests", "Your immediate family network members", "The managers and directors at a workplace", "The police and judicial authorities"],
+        "correct": 0,
+        "hint": "Your friends and classmates at school are an excellent example of this agency of socialisation."
+      },
+      {
+        "q": "What term describes the division of society into a hierarchy of layers or strata based on factors like wealth, power, and status?",
+        "options": ["Social stratification", "Social integration", "Social engineering", "Social networks"],
+        "correct": 0,
+        "hint": "Think of geological rock layers stacked on top of each other, representing different social classes."
+      },
+      {
+        "q": "What is primary socialisation?",
+        "options": ["Socialisation that occurs during early childhood, primarily within the family unit", "Learning how to behave at your very first professional office job", "The tracking rules enforced by the criminal justice system", "Media influences targeting adult consumer audiences"],
+        "correct": 0,
+        "hint": "It is the essential foundation stage where infants learn basic speech, manners, and hygiene."
+      },
+      {
+        "q": "Which type of subculture rejects mainstream societal norms and values to form alternative lifestyle patterns?",
+        "options": ["Anti-school subculture", "Corporate culture", "High culture", "Dominant culture"],
+        "correct": 0,
+        "hint": "Students in this group might purposely gain status among peers by breaking school rules."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "According to Karl Marx, what are the names of the two main conflicting social classes within a capitalist society?",
+        "options": ["The Bourgeoisie and the Proletariat", "The Nobility and the Peasantry", "The Upper-Middle and Lower-Middle class", "The Caste system leaders and untouchables"],
+        "correct": 0,
+        "hint": "One group owns the factories and means of production, while the other sells their labor for wages."
+      },
+      {
+        "q": "What is the main difference between structural (macro) and action (micro) theories in sociology?",
+        "options": ["Macro theories look at large-scale social structures; micro theories look at small-scale individual interactions", "Macro theories only study economics; micro theories only study criminal behavior", "Micro theories use questionnaires; macro theories reject all scientific research methods", "There is no theoretical division between the two structural perspectives"],
+        "correct": 0,
+        "hint": "Functionalism is a macro theory; Symbolic Interactionism is a micro action theory."
+      },
+      {
+        "q": "What is 'social mobility'?",
+        "options": ["The movement of individuals up or down the social class hierarchy layer over time", "The ease with which people can travel using public transit systems", "The speed at which new cultural fashion trends spread via internet media", "The migration patterns of families moving between country borders"],
+        "correct": 0,
+        "hint": "An individual working-class child studying hard to become a corporate lawyer is an example of upward mobility."
+      },
+      {
+        "q": "In the sociology of education, what does the term 'cultural deprivation' mean?",
+        "options": ["Lacking the mainstream language skills, values, and attitudes needed for educational success", "Being unable to afford school uniforms, textbooks, and laptops", "Attending a school with poor structural heating facilities", "Having no access to television or radio broadcast networks at home"],
+        "correct": 0,
+        "hint": "This focuses on home socialization factors rather than material or financial wealth poverty factors."
+      },
+      {
+        "q": "What are informal social control mechanisms?",
+        "options": ["Unwritten reactions like gossip, smiles, raised eyebrows, and peer exclusion", "Formal prison sentences handed out by magistrates courts", "Fines issued by local authorities for speeding violations", "Written rulebooks enforced by company Human Resource offices"],
+        "correct": 0,
+        "hint": "These are casual everyday checks performed by family, friends, and the general public."
+      },
+      {
+        "q": "Which type of conjugal roles involve husbands and wives sharing domestic chores, childcare, and leisure time evenly?",
+        "options": ["Joint conjugal roles", "Segregated conjugal roles", "Symmetrical role patterns", "Extended role arrangements"],
+        "correct": 0,
+        "hint": "The opposite arrangement involves a rigid split where one works and the other handles all home care alone."
+      },
+      {
+        "q": "What do sociologists mean by the term 'social construct'?",
+        "options": ["An idea or phenomenon created and developed by society rather than pure biological fact", "A physical building layout designed for social community events", "A government law drafted to manage public safety policies", "The structural steel framework inside modern factory layouts"],
+        "correct": 0,
+        "hint": "Concepts like childhood, gender identities, and crime definitions vary massively across different historical eras and cultures."
+      },
+      {
+        "q": "What is an unstructured interview?",
+        "options": ["A casual, guided conversation where the researcher asks open-ended questions based on responses", "A rigid interview where questions must be read out exactly as written in order", "A questionnaire sent via email links to a wide geographic sample index", "A covert observation study where the researcher acts as a participant"],
+        "correct": 0,
+        "hint": "This qualitative method gives the interviewee freedom to talk deeply about their thoughts."
+      },
+      {
+        "q": "According to Emile Durkheim, what state of normlessness occurs when societal rules break down during rapid social change?",
+        "options": ["Anomie", "Alienation", "Verstehen", "Subcultural lock"],
+        "correct": 0,
+        "hint": "This happens when individuals lose their moral compass points and sense of belonging to social norms."
+      },
+      {
+        "q": "What is a 'beanpole family' structure?",
+        "options": ["A family that is tall and narrow, with multiple generations but few aunts, uncles, or cousins", "A family layout with lots of children but zero grandparents alive", "A reconstituted household containing multiple sets of step-siblings", "An isolated nuclear family living far away from urban locations"],
+        "correct": 0,
+        "hint": "This tracks a demographic trend of falling birth rates combined with longer life expectancies."
+      },
+      {
+        "q": "Which wave of feminism focused primarily on winning basic legal rights, such as women's suffrage (the vote)?",
+        "options": ["First-wave feminism", "Second-wave feminism", "Third-wave feminism", "Marxist feminism"],
+        "correct": 0,
+        "hint": "This historical movement peaked in the late 19th and early 20th centuries with the Suffragettes."
+      },
+      {
+        "q": "What is the dark figure of crime?",
+        "options": ["The volume of crimes that are committed but never reported to or recorded by the police", "Crimes that are committed exclusively during nighttime hours", "Corporate white-collar financial fraud offenses", "Serious violent offenses tracked by international agencies"],
+        "correct": 0,
+        "hint": "This hidden pocket explains why official police statistics may not show the true scale of crime."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "How do Marxist sociologists view the role of the education system in a capitalist society?",
+        "options": ["It legitimises and reproduces class inequality by socialising working-class students to accept failure", "It operates as an objective meritocracy that matches individuals perfectly to roles based on talent", "It works as an agency of liberation that removes class barriers for all students equally", "It focuses purely on improving individual mental well-being indicators"],
+        "correct": 0,
+        "hint": "They see it as an ideological state apparatus that trains submissive workers for the capitalist workforce."
+      },
+      {
+        "q": "What is the difference between quantitative and qualitative research data methods?",
+        "options": ["Quantitative deals with numbers and stats; qualitative deals with words, meanings, and feelings", "Quantitative data is always biased; qualitative data is objective and scientific", "Quantitative data takes years to collect; qualitative data is processed by computers instantly", "There is no analytical distinction between these data formats"],
+        "correct": 0,
+        "hint": "Official crime charts are quantitative; an excerpt from an inmate's personal diary is qualitative."
+      },
+      {
+        "q": "What is a 'self-fulfilling prophecy' in a school environment?",
+        "options": ["A student internalises a teacher's label, altering their behavior to make the prediction come true", "A student predicts their own exam grades perfectly before taking the test paper", "The school board secures higher funding profiles by meeting national targets", "A teacher leaves the profession to pursue alternative career paths"],
+        "correct": 0,
+        "hint": "If a child is labeled 'troublemaker,' they may give up trying and live up to that negative expectation."
+      },
+      {
+        "q": "Explain the concept of 'material deprivation' when analyzing class differences in educational achievement.",
+        "options": ["Lacking physical resources like a quiet study space, books, computers, or good nutrition due to poverty", "Lacking the refined accent and speech codes used by elite university professors", "Attending a school that chooses not to teach classical historical literature", "Having parents who refuse to attend school parents' evening review nights"],
+        "correct": 0,
+        "hint": "This argument looks at the direct physical and financial barriers caused by low family income."
+      },
+      {
+        "q": "What did functionalist sociologist Talcott Parsons mean by the 'expressive role' within the traditional nuclear family?",
+        "options": ["The nurturing, emotional caretaking role typically assigned to mothers to keep family harmony", "The economic breadwinner role responsible for bringing home financial wages", "The artistic education track provided to children within household units", "The legal decision-making authority held by head of households"],
+        "correct": 0,
+        "hint": "Parsons split family duties cleanly between the instrumental (earning) and expressive (caring) domains."
+      },
+      {
+        "q": "Which type of observation method involves a researcher hiding their true identity while joining a group to study them?",
+        "options": ["Covert participant observation", "Overt non-participant observation", "Structured laboratory testing", "Secondary statistical content analysis"],
+        "correct": 0,
+        "hint": "The group does not know they are being actively recorded, raising significant ethical issues."
+      },
+      {
+        "q": "According to Interactionist labeling theory, how can a minor act of primary deviance escalate into a master status?",
+        "options": ["Society applies a strong public label, pushing the individual into a deviant career path subculture", "The individual pays heavy financial fines to resolve their criminal history entirely", "The legal system wipes out the criminal record file automatically after five years", "The behavior is ignored by the public, causing the action pattern to fade entirely"],
+        "correct": 0,
+        "hint": "The public label overrides all other identities; the person becomes defined solely by their deviant act."
+      },
+      {
+        "q": "What do Bowles and Gintis mean by the 'correspondence principle' in sociology?",
+        "options": ["The organization and structures of schooling mirror the workplace environment to prepare submissive labor", "Schools communicate regularly via letters with parents to boost educational scores", "The ratio of male and female teachers across state educational systems matches national trends", "The curriculum focuses heavily on training students in postal service logistics"],
+        "correct": 0,
+        "hint": "Hierarchies, uniforms, bells, and external rewards (grades/wages) exist in both schools and factories."
+      },
+      {
+        "q": "What is the main sociological argument behind the concept of 'the social construction of statistics'?",
+        "options": ["Statistics reflect the decisions and biases of institutional gatekeepers rather than objective reality", "Data charts are generated automatically by computers with zero human interaction", "Numbers are completely useless tools that sociologists should never incorporate into studies", "Government agencies lack the math skills to compile census questionnaires correctly"],
+        "correct": 0,
+        "hint": "Think about how police recording choices or definitions changes alter the look of crime charts over time."
+      },
+      {
+        "q": "Which sampling technique involves selecting every $n$-th name from a sampling frame list, such as a school register?",
+        "options": ["Systematic sampling", "Stratified sampling", "Snowball sampling", "Quota sampling"],
+        "correct": 0,
+        "hint": "An example would be picking every 10th person from a phone directory database."
+      },
+      {
+        "q": "What term did Max Weber use to describe an individual's opportunities to look forward to good health, material wealth, and success?",
+        "options": ["Life chances", "Status symbols", "Social capital", "Cultural capital"],
+        "correct": 0,
+        "hint": "Your social class background plays a massive role in shaping these structural opportunities."
+      },
+      {
+        "q": "What is institutional racism?",
+        "options": ["Collective failure of an organization to provide an appropriate service to people because of their color or culture", "Prejudice held secretly by a single individual working in an office building", "A government law that explicitly bans specific ethnic minorities from voting paths", "An obsolete historical concept that no longer impacts modern workplace systems"],
+        "correct": 0,
+        "hint": "This type of discrimination is embedded into the everyday procedures, culture, and policies of organizations."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "What does Kimberlé Crenshaw's concept of 'intersectionality' explain about social inequality?",
+        "options": ["Different axes of inequality like class, race, and gender interconnect to create distinct systemic oppression patterns", "Social inequality can be plotted cleanly on a single linear graph axis", "Gender inequality has completely replaced class inequality in late modern capitalist states", "Inequality is decreasing rapidly across global economic indicators"],
+        "correct": 0,
+        "hint": "A working-class black woman faces a combination of barriers that cannot be understood by looking at race or gender alone."
+      },
+      {
+        "q": "How does Charles Murray explain the growth of the 'underclass' in post-industrial societies?",
+        "options": ["Over-generous welfare benefits create a culture of dependency, undermining traditional family structures", "Capitalist restructuring exploits low-wage workers systematically to boost corporate margins", "A lack of quality vocational training paths inside inner-city educational centers", "Systemic racial discrimination within corporate hiring routines"],
+        "correct": 0,
+        "hint": "This controversial New Right perspective blames the welfare state for creating work-shy, lone-parent subcultures."
+      },
+      {
+        "q": "What is 'triangulation' in sociological research strategy?",
+        "options": ["Combining multiple research methods or data sources to cross-check validity and reliability", "Using a three-person team to complete covert observation studies securely", "Restricting a questionnaire project sample to exactly three distinct urban cities", "An obsolete mapping tool used to locate criminal patterns across maps"],
+        "correct": 0,
+        "hint": "For example, pairing quantitative survey stats with qualitative interview text to build a fuller picture."
+      },
+      {
+        "q": "What does French sociologist Pierre Bourdieu mean by the term 'cultural capital'?",
+        "options": ["The elite language codes, knowledge, tastes, and lifestyle habits passed down to middle-class children", "The physical cash reserves stored inside national artistic heritage museum trusts", "The volume of overseas vacation trips a family takes during a single calendar year", "Learning a foreign language to secure jobs inside global multi-national corporations"],
+        "correct": 0,
+        "hint": "The education system values this middle-class culture, giving these children an unfair advantage from day one."
+      },
+      {
+        "q": "According to Robert Merton's Strain Theory, how does an individual react via 'innovation' to realize social goals?",
+        "options": ["They accept cultural goals of wealth success but use illegitimate, criminal means to achieve them", "They reject both societal success goals and conventional working means to become dropouts", "They abandon success goals completely but stick rigidly to safe, routine working patterns", "They try to overthrow the entire capitalist state system via political revolution pathways"],
+        "correct": 0,
+        "hint": "Think of a drug dealer or corporate fraudster who wants the flashy lifestyle but sidesteps the standard career route."
+      },
+      {
+        "q": "Explain the difference between structural consensus theories and structural conflict theories.",
+        "options": ["Consensus theories assume society is built on shared values; conflict theories assume society is divided by group struggles", "Consensus theories ignore families; conflict theories ignore educational institutions completely", "Consensus theories use qualitative methods exclusively; conflict theories only use statistics", "There is no actual difference; they are alternative names for the same core perspective"],
+        "correct": 0,
+        "hint": "Functionalism is a consensus theory; Marxism and Feminism are conflict theories."
+      },
+      {
+        "q": "What does David Donnison mean by the 'poverty trap' concept?",
+        "options": ["Low-income individuals find that taking a job or getting a raise reduces welfare benefits, leaving them no better off", "The physical geographical pockets where cheap housing is concentrated inside industrial towns", "The psychological depression patterns experienced by long-term unemployed individuals", "A criminal subculture pattern that targets wealthy suburbs for property theft"],
+        "correct": 0,
+        "hint": "High marginal tax rates mean that earning more money can sometimes lead to losing housing or childcare subsidies."
+      },
+      {
+        "q": "What is the Hawthorne Effect in sociological fieldwork operations?",
+        "options": ["Research participants alter their natural behavior simply because they know they are being actively studied", "The researcher loses objectivity and over-identifies with the deviant group they are studying", "A questionnaire file gets corrupted during computer statistical analysis processes", "The sample size shrinks dramatically due to people dropping out of a long-term study"],
+        "correct": 0,
+        "hint": "This classic methodological problem threatens the validity of overt observation and interview methods."
+      },
+      {
+        "q": "How does the concept of 'the globalization of crime' alter modern sociological study fields?",
+        "options": ["Transnational crime networks operate across borders, utilizing technology for cybercrime and human trafficking", "Crime rates are dropping to zero because countries are cooperating on border security", "Street gang behavior has become completely identical across all global cities", "Criminal codes have been unified into a single global lawbook system"],
+        "correct": 0,
+        "hint": "It shifts focus away from local street crime toward complex, multi-country syndicates and internet financial scams."
+      },
+      {
+        "q": "What is 'social solidarity' according to Durkheim?",
+        "options": ["The sense of belonging and connection that binds individuals together into a cohesive society", "The trade union movements that organize factory strikes to demand higher wages", "The military protocols that protect a country border line during wartime events", "A political voting alliance formed between separate radical parties"],
+        "correct": 0,
+        "hint": "Agencies of socialization help pass on shared values to maintain this vital social glue."
+      },
+      {
+        "q": "What structural factor defines a 'reconstituted family' setup?",
+        "options": ["A step-family formed when one or both partners have children from a previous relationship", "A multi-generational household where grandparents handle all daily cooking tasks", "A cohabiting couple who choose to legally marry after decades of living together", "An adoptive family network that cares for foster children long-term"],
+        "correct": 0,
+        "hint": "This family form has grown due to rising divorce rates and subsequent remarriages."
+      },
+      {
+        "q": "Which research tool uses a small-scale trial run before the main project to spot flaws in questions or sampling?",
+        "options": ["Pilot study", "Content analysis", "Ethnographic monograph", "Longitudinal panel review"],
+        "correct": 0,
+        "hint": "It saves time and money by checking if people understand your questions before printing 1,000 copies."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "What is an ascribed social status?",
+        "options": ["A social position assigned to an individual at birth or involuntarily later in life", "A career position won through intensive university training and exams", "Your political party affiliation ranking choice", "Your personal choice of religious lifestyle alignment"],
+        "correct": 0,
+        "hint": "Examples include your age, biological sex, or inheriting a hereditary noble title."
+      },
+      {
+        "q": "Which classical perspective focuses heavily on capitalism, exploitation, and class conflict?",
+        "options": ["Marxism", "Functionalism", "Interactionism", "Pluralism"],
+        "correct": 0,
+        "hint": "This school of thought grew out of the writings of Karl Marx during the Industrial Revolution."
+      },
+      {
+        "q": "What term describes the state of being completely blocked from accessing the basic material resources needed to survive, like clean food and shelter?",
+        "options": ["Absolute poverty", "Relative poverty", "Subjective poverty", "Environmental poverty"],
+        "correct": 0,
+        "hint": "This is a fixed, life-threatening standard of poverty, independent of location or era."
+      },
+      {
+        "q": "What do sociologists call the group chosen from a wider target population to participate in a research study?",
+        "options": ["A sample", "A sampling frame", "A cohort", "A focus matrix"],
+        "correct": 0,
+        "hint": "It must be carefully selected to ensure it reflects the characteristics of the wider group."
+      },
+      {
+        "q": "Which agency of socialization is responsible for formal testing, qualifications, and sorting individuals into career tracks?",
+        "options": ["The education system", "The mass media channels", "The peer group network", "The family household unit"],
+        "correct": 0,
+        "hint": "This institution acts as a bridge between the personal rules of home and the public rules of society."
+      },
+      {
+        "q": "What is corporate or 'white-collar' crime?",
+        "options": ["Non-violent crimes committed by business professionals and corporations for financial gain", "Vandalism and street property damage committed by youth subcultures", "Crimes committed exclusively against government building locations", "Offenses that carry automatic life imprisonment sentences"],
+        "correct": 0,
+        "hint": "Examples include insider trading, tax evasion, and cutting workplace safety corners to boost profit."
+      },
+      {
+        "q": "What term describes the trend where divorce rates rise and marriage rates fall across late modern societies?",
+        "options": ["Secularisation and individualisation changes", "The return to traditional nuclear family values", "The total disappearance of household family structures", "The global expansion of extended family networks"],
+        "correct": 0,
+        "hint": "Societies have become more secular (less religious) and individual choices are valued over traditional duties."
+      },
+      {
+        "q": "What is the glass ceiling concept?",
+        "options": ["An invisible barrier caused by discrimination that blocks women from reaching top corporate executive jobs", "A architectural design feature used inside modern state university campuses", "The trend of lower working-class boys dropping out of secondary school lines", "The transparent nature of open financial reporting rules in public companies"],
+        "correct": 0,
+        "hint": "Women can see the top jobs, but subtle institutional biases block them from breaking through."
+      },
+      {
+        "q": "Which data collection tool consists of a list of questions read out face-to-face by a researcher using a fixed script?",
+        "options": ["Structured interview", "Covert field diary", "Open focus group", "Secondary personal document review"],
+        "correct": 0,
+        "hint": "This method behaves like a spoken questionnaire, keeping things uniform across all participants."
+      },
+      {
+        "q": "What term describes the unfair, negative attitude held toward a whole group of people, often based on stereotypes?",
+        "options": ["Prejudice", "Discrimination", "Marginalisation", "Alienation"],
+        "correct": 0,
+        "hint": "This refers to the internal thought or belief pattern; acting on this thought is discrimination."
+      },
+      {
+        "q": "What is the definition of a symmetrical family structure according to Willmott and Young?",
+        "options": ["A nuclear family where the home duties and wages are balanced and shared more equally", "An extended family that shares a single large farming estate plot", "A household where children hold equal legal decision authority to parents", "A family form that cuts out all contact with external relatives"],
+        "correct": 0,
+        "hint": "While tasks aren't perfectly identical, the overall balance of work and leisure is split down the middle."
+      },
+      {
+        "q": "What type of sociologists choose to study society by focusing on face-to-face interactions and the meanings individuals attach to actions?",
+        "options": ["Interactionists / Action theorists", "Macro-structural Marxists", "Radical Feminist structures", "Systems-theory Functionalists"],
+        "correct": 0,
+        "hint": "They use micro-level observation to explore how people build reality through symbols and speech."
+      },
+      {
+        "q": "Which document acts as the master list from which a research sample is drawn, such as a utility database or electoral register?",
+        "options": ["Sampling frame", "Pilot brief", "Census summary", "Data archive matrix"],
+        "correct": 0,
+        "hint": "If this list is incomplete or out of date, your final sample will be biased from the start."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Explain the functionalist concept of 'universalistic standards' within the education system.",
+        "options": ["Schools judge all students by the same objective rules and exam benchmarks, preparing them for wider society", "Schools modify grading criteria to match the personal class background of each family", "Teachers evaluate children using individual emotional criteria similar to parenting styles", "The practice of teaching identical historical facts across every global school system"],
+        "correct": 0,
+        "hint": "At home, you are judged by particularistic rules (you are special to your parents); in the real world, the law treats everyone the same."
+      },
+      {
+        "q": "What is the primary difference between relative poverty and absolute poverty definitions?",
+        "options": ["Relative poverty is measured against the average standard of living within a specific society", "Absolute poverty changes every year based on fashion and entertainment trends", "Relative poverty applies exclusively to developing economies across global regions", "There is no actual difference in statistical tracking definitions"],
+        "correct": 0,
+        "hint": "You are relatively poor if you cannot afford the normal things your neighbors take for granted, like internet access or school trips."
+      },
+      {
+        "q": "How do Radical Feminists explain domestic violence within family households?",
+        "options": ["It is a structural tool used by men to assert power and control over women within a patriarchal system", "It is a product of financial stress hitting lower-class households exclusively during recessions", "It is a genetic biological trait that cannot be altered by social conditioning", "It is a minor behavioral issue caused by a lack of communication skills"],
+        "correct": 0,
+        "hint": "They see the home as a political arena where male dominance is maintained through force and threat."
+      },
+      {
+        "q": "What is the main purpose of utilizing a 'stratified sample' in sociological research?",
+        "options": ["To ensure that sub-groups within a population are represented proportionally within the final sample", "To make sure that only upper-class individuals are selected for interviews", "To gather data quickly from volunteers standing on a busy street corner", "To keep the research study completely secret from government inspectors"],
+        "correct": 0,
+        "hint": "If a school population is 60% female and 40% male, your final sample is divided to match that exact ratio."
+      },
+      {
+        "q": "According to interactionist Becker, what is a 'moral entrepreneur'?",
+        "options": ["An individual or group that leads a campaign to pressure society into creating new rules and laws", "A business owner who donates all corporate profits to religious charities", "A criminal who rationalizes their illegal acts through moral reasoning paths", "A researcher who runs laboratory experiments on human subjects"],
+        "correct": 0,
+        "hint": "These people lead moral crusades to redefine certain behaviors as illegal or socially unacceptable."
+      },
+      {
+        "q": "What did Marxist sociologist Louis Althusser mean by the term 'Ideological State Apparatus'?",
+        "options": ["Institutions like education, media, and religion that control people's ideas to protect ruling-class power", "The physical military forces and police units used to crush political street protests", "The automated factory assembly lines that monitor working-class productivity patterns", "The legislative committee rooms inside national parliament buildings"],
+        "correct": 0,
+        "hint": "It controls the mind through ideas, unlike the Repressive State Apparatus (the police/army) which uses physical force."
+      },
+      {
+        "q": "What is 'validity' in social research methodology evaluation standards?",
+        "options": ["The extent to which a research method obtains a true, accurate picture of what it claims to measure", "The likelihood that another researcher repeating the study would get the exact same numerical result", "Ensuring that the total cost of running the fieldwork matches the budget profile", "The legal permission granted by university boards to publish the data report"],
+        "correct": 0,
+        "hint": "An unstructured interview often has high validity because it uncovers deep, honest personal meanings."
+      },
+      {
+        "q": "Which subcultural theory explains crime as a result of young working-class boys experiencing 'status frustration'?",
+        "options": ["Albert Cohen's Delinquent Boys theory", "Walter Miller's Focal Concerns framework", "Cloward and Ohlin's Opportunity Structure model", "Travis Hirschi's Social Bonds perspective"],
+        "correct": 0,
+        "hint": "Failing to achieve middle-class success at school drives these boys to flip mainstream values upside down to win peer status."
+      },
+      {
+        "q": "What is the dual burden concept within feminist analysis of family life?",
+        "options": ["Women going out to do paid employment while still handling the bulk of domestic house chores", "The financial cost of caring for both young dependent children and aging grandparents simultaneously", "The emotional stress of managing both a career and a political campaign profile", "A household layout that relies on two separate full-time income checks to survive"],
+        "correct": 0,
+        "hint": "It is often summarized as women working a 'double shift'—one at the office, one at home."
+      },
+      {
+        "q": "What did Max Weber identify as the three distinct dimensions of social stratification, breaking away from pure economic determinism?",
+        "options": ["Class, Status, and Power (Party)", "Income, Wealth, and Property holdings", "Occupation, Education, and Accent profiles", "Age, Ethnicity, and Geographic location indices"],
+        "correct": 0,
+        "hint": "Weber argued that honor/prestige (status) and political organization (party) matter just as much as bank balances."
+      },
+      {
+        "q": "What does a sociologist mean by 'informed consent' when dealing with human research subjects?",
+        "options": ["Participants fully understand the aims and risks of the study and voluntarily agree to take part", "The police grant full permission to the researcher to run interviews inside cells", "The university ethics board signs off on a project without reading the methods section", "Using hidden cameras to film people without their knowledge for a TV documentary"],
+        "correct": 0,
+        "hint": "This is a core ethical rule; participants must never be tricked or coerced into taking part."
+      },
+      {
+        "q": "Which sociological theory argues that traditional gender roles are biologically natural and essential for smooth societal survival?",
+        "options": ["Functionalism", "Marxist Feminism", "Liberal Feminism", "Radical Interactionism"],
+        "correct": 0,
+        "hint": "This consensus perspective sees a clear benefit in dividing expressive and instrumental duties cleanly."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Analyze how step-labeling and streaming within secondary schools can amplify social class inequalities over time.",
+        "options": ["Working-class students are disproportionately placed in lower streams, damaging their self-esteem and limiting curriculum access", "Streaming ensures that lower-income students receive higher funding allocations automatically", "It encourages cross-class friendships by mixing all ability levels inside single classrooms", "It eliminates the need for teachers to apply individual student grades entirely"],
+        "correct": 0,
+        "hint": "Being stuck in the bottom set can trigger a anti-school subculture and confirm a self-fulfilling prophecy of failure."
+      },
+      {
+        "q": "What did postmodernist sociologists mean when they declared that late modern identities are shaped by 'consumption' rather than production?",
+        "options": ["People pick lifestyle choices, brands, and subcultures to construct who they are, rather than relying on traditional job classes", "Individuals consume higher volumes of processed food items due to modern factory logistics", "Social class has become the only factor that dictates individual identities", "The total collapse of all manufacturing industries across modern countries"],
+        "correct": 0,
+        "hint": "In the past, being a miner or docker defined your life; today, people build identities around music, fashion, and shopping choices."
+      },
+      {
+        "q": "Explain the concept of 'reliability' in research methodology, using examples.",
+        "options": ["The consistency of a method and the ease with which it can be repeated to yield identical numerical results", "The truthfulness and emotional honesty of an interview statement profile", "The geographic size of the sample population chosen for a study", "Whether the research findings match the political opinions of the government"],
+        "correct": 0,
+        "hint": "A closed, pre-coded questionnaire is highly reliable because anyone can repeat it exactly using the same steps."
+      },
+      {
+        "q": "How does dynamic Chivalry Thesis explain the historical statistical differences in crime rates between men and women?",
+        "options": ["The criminal justice system treats female offenders more leniently because male police and judges hold protective biases", "Women possess a biological aversion to committing any deviant acts patterns", "Police forces refuse to deploy female officers to high-crime urban areas", "Female criminal syndicates utilize more advanced encryption tools to mask fraud"],
+        "correct": 0,
+        "hint": "It suggests that women are let off with warnings more often, making them look less criminal on paper than they actually are."
+      },
+      {
+        "q": "What did feminist sociologist Ann Oakley discover about the reality of the symmetrical family model in her classic study of housework?",
+        "options": ["The symmetry was a myth; women still carried the vast majority of domestic burden chores despite superficial male help", "Men had taken over the majority of childcare duties inside urban households", "Housework had become entirely automated by technological kitchen equipment items", "Working-class families were significantly more equal than middle-class setups"],
+        "correct": 0,
+        "hint": "Oakley challenged Willmott and Young's optimism, showing that a husband doing the dishes once a week didn't mean equality."
+      },
+      {
+        "q": "What is 'operationalisation' in the design stage of a sociological research project?",
+        "options": ["Breaking down an abstract concept like 'poverty' or 'social class' into measurable, concrete indicators", "Securing the financial funding checks needed to pay fieldwork assistants", "Publishing the final data text files in a peer-reviewed academic journal layout", "Translating a English questionnaire document into foreign languages"],
+        "correct": 0,
+        "hint": "Before counting 'poor' people, you must define exactly what income line or resource lack puts someone in that category."
+      },
+      {
+        "q": "According to corporate white-collar crime expert Edwin Sutherland, why are elite financial offenses rarely prosecuted compared to street crimes?",
+        "options": ["They are complex, hidden from public view, and corporate actors possess the power and legal resources to avoid detection", "Elite business figures never commit acts that break formal laws", "The financial scale of white-collar fraud is too tiny for the police to notice", "Private companies manage all criminal investigations internally without courts"],
+        "correct": 0,
+        "hint": "These crimes are often victimless in a direct physical sense, hiding behind complex accounting grids and international shell companies."
+      },
+      {
+        "q": "How does the radical concept of 'gatekeeping' apply to mass media organizations' selection of news agendas?",
+        "options": ["Media editors and owners filter and select which stories are broadcast, shaping what the public thinks about", "Security guards block unauthorized journalists from entering corporate headquarters", "Software firewalls prevent computer hackers from hijacking broadcast signals", "Government censors rewrite every script before it hits television screens"],
+        "correct": 0,
+        "hint": "They act as gatekeepers, deciding what becomes a headline and what gets buried or ignored entirely."
+      },
+      {
+        "q": "What did structural Marxist David Harvey mean when he critiqued social mobility statistics as a 'safety valve' device?",
+        "options": ["Allowing a few talented working-class individuals to move up prevents wider class revolution by keeping the myth of fairness alive", "The physical safety nets deployed inside dangerous industrial engineering plants", "The psychological counseling provided to low-achieving secondary school children", "A welfare payment system that triggers during periods of sudden high unemployment"],
+        "correct": 0,
+        "hint": "It gives a false impression of an open society, distracting people from the fact that the structural class base remains unequal."
+      },
+      {
+        "q": "Which major ethical issue is raised when a researcher uses 'covert observation' to study a criminal gang?",
+        "options": ["Deception and a lack of informed consent, alongside putting the researcher in danger of witnessing illegal acts", "The high cost of buying recording equipment items for the field site", "The sample size becoming too massive to compile into statistical data charts", "The group changing their behavior because they know an inspector is watching"],
+        "correct": 0,
+        "hint": "Because you are lying about who you are, you violate their right to choose whether to be studied, and you might get dragged into crime."
+      },
+      {
+        "q": "What is the primary thesis of the 'secularisation' debate in late modern sociology?",
+        "options": ["Traditional religious beliefs and institutions are losing their social significance and influence across society", "Religious fundamentalism is completely replacing scientific education modules", "The state is banning all places of worship from operating within urban areas", "Church organizations are buying up major media networks to boost membership rates"],
+        "correct": 0,
+        "hint": "Falling church attendance and a shift toward viewing life events through science rather than divine rules are key indicators."
+      },
+      {
+        "q": "What did Paul Willis discover about the working-class 'lads' in his classic 1977 study Learning to Labour?",
+        "options": ["Their anti-school counter-culture prepared them perfectly for coping with monotonous factory line manual labor jobs", "They studied hard to achieve upward social mobility into corporate management positions", "They were pushed out of school purely due to systemic racial discrimination tracks", "They founded a successful political party to challenge education spending cuts"],
+        "correct": 0,
+        "hint": "By choosing to muck about and reject school rules, they ironically trapped themselves into the exact factory floor lives their fathers had."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Critically analyze the structural distinction between Anthony Giddens' 'Structuration Theory' and traditional deterministic macro theories.",
+        "options": ["Giddens argues structure and individual agency are two sides of the same coin, constantly producing and reproducing each other", "He claims that social structures hold absolute power, making individual choices completely impossible", "He rejects all empirical scientific observation, focusing purely on philosophical theory texts", "He focuses entirely on analyzing international military spending allocations"],
+        "correct": 0,
+        "hint": "It moves past the old micro vs macro debate, showing how structures shape human action, but human actions also change structures."
+      },
+      {
+        "q": "How does Michel Foucault's concept of 'biopower' explain the regulation of bodies in modern institutional states?",
+        "options": ["The state uses subtle, pervasive systems of surveillance, categorization, and expert knowledge to discipline and control populations", "The state relies exclusively on public physical executions to terrify citizens into obedience", "The corporate takeover of genetic modification food technologies across countries", "A health framework that gives individuals total freedom over lifestyle tracks"],
+        "correct": 0,
+        "hint": "Think of clinics, prisons, and schools tracking data, setting standards of 'normality' to get people to police themselves."
+      },
+      {
+        "q": "Evaluate how Zygmunt Bauman's concept of 'Liquid Modernity' alters the sociological understanding of family and community life.",
+        "options": ["Social bonds and relationships have become temporary, fragile, and easily dissolved, driven by consumer choice logic", "Family structures have become frozen into a rigid, unbreakable state-controlled model", "Urban communities have become highly unified hubs due to local industrial factory lines", "The complete collapse of all liquid asset monetary banking networks globally"],
+        "correct": 0,
+        "hint": "Relationships are now viewed through a consumer lens—kept as long as they satisfy, discarded when they require too much hard work."
+      },
+      {
+        "q": "What did Marxist feminist Heidi Hartmann mean by the term 'dual-systems theory' when analyzing women's oppression?",
+        "options": ["Women are oppressed by two distinct but intersecting structures: capitalism and patriarchy working together", "Women must balance both a full-time corporate office job and a political campaign career track", "The division of state legal control between family court systems and criminal trial judges", "The biological differences in cognitive processing speeds between male and female brains"],
+        "correct": 0,
+        "hint": "Hartmann argued that capitalism exploits women as low-wage workers, while patriarchy exploits them for unpaid domestic labor at home."
+      },
+      {
+        "q": "How does the methodology of 'Ethnomethodology,' pioneered by Harold Garfinkel, uncover the hidden rules of social order?",
+        "options": ["By running deliberate 'breaching experiments' that disrupt everyday routines to expose the unwritten rules people rely on", "By compiling huge statistical databases of national census data over decades", "By analyzing the historical development of legal systems in ancient civilisations", "By performing laboratory experiments on animals to track basic social behaviors"],
+        "correct": 0,
+        "hint": "Garfinkel had students act like lodgers in their own homes or bargain for fixed-price items to see how people reacted when normal rules broke."
+      },
+      {
+        "q": "What does Ulrich Beck mean by the term 'Risk Society' when describing late modern civilisations?",
+        "options": ["Modern society is primarily organized around managing and distributing man-made, technological risks like climate change and nuclear threats", "The financial investment strategies chosen by venture capitalist firms inside stock markets", "The danger of street gang violence expanding into rural geographic locations", "A society that encourages individuals to take extreme physical stunts paths for entertainment"],
+        "correct": 0,
+        "hint": "In the past, society focused on distributing wealth; today, the main concern is avoiding or managing the invisible global dangers created by science."
+      },
+      {
+        "q": "Analyze the structural role of the 'Alienation' concept in Marx's critique of the worker's experience on an industrial assembly line.",
+        "options": ["Workers lose control over their labor, the product, and their human essence, becoming mere cogs in a capitalist machine", "Workers feel deeply connected to their corporate managers, building strong community bonds", "The process of migration where foreign workers feel isolated from local urban subcultures", "The psychological joy experienced by craftsmen when completing a complex manual task"],
+        "correct": 0,
+        "hint": "They are disconnected from what they make, separated from their fellow workers, and turned into extensions of a machine."
+      },
+      {
+        "q": "What does Jean Baudrillard's concept of 'hyperreality' suggest about the impact of media images on modern society?",
+        "options": ["The lines between media simulations and reality have blurred, so that the simulation becomes more real than actual reality", "High-definition television screens improve the public's objective understanding of world news events", "Media channels have completely lost their funding models, causing a return to print newspapers", "Individuals are smart enough to spot and reject all media propaganda and biases instantly"],
+        "correct": 0,
+        "hint": "Think of idealized social media feeds or themed tourist spots; we consume the sign or image rather than the physical reality it represents."
+      },
+      {
+        "q": "How does the 'Underclass' perspective of Loïc Wacquant differ from the cultural dependency arguments of the New Right?",
+        "options": ["Wacquant argues the underclass is created by structural state abandonment, mass incarceration, and racial segregation rather than lazy culture", "He claims the underclass is a completely fictional idea invented by media editors to sell papers", "He attributes poverty entirely to the genetic inheritance profiles of specific demographic groups", "He argues that high trade union membership rates lock lower-income families into poverty"],
+        "correct": 0,
+        "hint": "Wacquant looks at macro-economic changes, urban decline, and punitive state laws that trap poor minorities in ghettos."
+      },
+      {
+        "q": "What does a 'Realist' approach to the methodology of studying crime demand from researchers?",
+        "options": ["Focusing on the practical, real-world harms of crime on victims and developing actionable policies to reduce offenses", "Rejecting all quantitative police statistics to focus purely on philosophical poetry about deviance", "Running laboratory experiments inside maximum-security prison cell environments", "Assuming that crime is a beautiful artistic expression of human freedom patterns"],
+        "correct": 0,
+        "hint": "Whether from a Left Realist or Right Realist perspective, they agree crime is a real problem that needs real policy answers, not just theory."
+      },
+      {
+        "q": "Explain how Standpoint Epistemology, utilized by Feminist sociologists like Sandra Harding, challenges traditional scientific research paradigms.",
+        "options": ["It argues that knowledge should be constructed from the specific viewpoint of marginalized groups, revealing insights elite groups miss", "It claims that only male researchers possess the objective capacity to map social statistics accurately", "It demands that all sociological research projects be completed without using written text materials", "It seeks to combine sociology with advanced chemical and physical laboratory experiments"],
+        "correct": 0,
+        "hint": "It critiques mainstream science as 'malestream' (male-dominated), arguing that starting research from women's lives uncovers a more complete truth."
+      },
+      {
+        "q": "What does Jurgen Habermas mean by the 'colonization of the lifeworld' by bureaucratic systems?",
+        "options": ["Economic and state systems of money and power are taking over everyday communicative spaces of family and community life", "The physical military colonization of overseas territories by western imperial superpowers", "The process of large retail corporations building massive distribution centers in rural towns", "The legal expansion of voting access rights to teenagers across democratic nations"],
+        "correct": 0,
+        "hint": "Everyday choices, connections, and discussions are increasingly driven by efficiency, legal codes, and market calculations rather than simple human understanding."
+      }
+    ]
+  }
+}
