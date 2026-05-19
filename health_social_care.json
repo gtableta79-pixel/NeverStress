@@ -1,0 +1,118 @@
+{
+  "Foundation": {
+    "Easy": [
+      {
+        "q": "What does the 'P' stand for in the acronym 'PIES' regarding human growth and development?",
+        "options": ["Physical", "Personal", "Psychological", "Primary"],
+        "correct": 0,
+        "hint": "Think about changes to the body, height, and motor skills."
+      },
+      {
+        "q": "Which of the following is considered an expected life event?",
+        "options": ["Starting secondary school", "A sudden serious illness", "Winning the lottery", "An unexpected redundancy"],
+        "correct": 0,
+        "hint": "Expected events are milestones that most people can anticipate happening."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Which of the following is an example of an informal support network?",
+        "options": ["A close family friend or neighbor", "A registered general practitioner (GP)", "A social worker from the council", "An occupational therapist"],
+        "correct": 0,
+        "hint": "Informal support is provided by people who are not paid professionals."
+      },
+      {
+        "q": "What type of development involves learning how to control emotions and express feelings properly?",
+        "options": ["Emotional development", "Intellectual development", "Social development", "Physical development"],
+        "correct": 0,
+        "hint": "This relates to self-concept, bonding, and handling internal feelings."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "How can a low income socio-economic factor directly impact a person's physical health?",
+        "options": ["By limiting access to a balanced, nutritious diet", "By reducing their genetic height potential", "By automatically causing a viral infection", "By stopping them from reading books"],
+        "correct": 0,
+        "hint": "Think about how financial constraints limit choices at the supermarket."
+      },
+      {
+        "q": "Which care value is being demonstrated when a nurse draws curtains around a patient's bed before a checkup?",
+        "options": ["Maintaining confidentiality and privacy", "Promoting anti-discriminatory practice", "Encouraging communication styles", "Preserving financial assets"],
+        "correct": 0,
+        "hint": "This prevents other individuals from seeing the patient during treatment."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Analyze the role of the Care Quality Commission (CQC) in health and social care settings.",
+        "options": ["They inspect facilities to ensure safety standards are maintained", "They diagnose complex medical conditions", "They calculate employee payroll and tax brackets", "They provide daily transport to service users"],
+        "correct": 0,
+        "hint": "The CQC acts as an independent regulatory watchdog."
+      },
+      {
+        "q": "What is the primary objective of a multi-disciplinary team (MDT) approach in patient care?",
+        "options": ["To combine expertise from different professionals for holistic care", "To reduce the overall financial budget of the clinic", "To allow one doctor to make all final treatment decisions", "To speed up administrative filing times"],
+        "correct": 0,
+        "hint": "Holistic care focuses on treating the whole person across multiple areas."
+      }
+    ]
+  },
+  "Higher": {
+    "Easy": [
+      {
+        "q": "Identify a major psychological effect of experiencing discrimination in a care home.",
+        "options": ["Low self-esteem and anxiety", "Improved cardiorespiratory fitness", "Increased cognitive processing speed", "Stronger social relationships"],
+        "correct": 0,
+        "hint": "Discrimination affects how a person feels about themselves mentally."
+      },
+      {
+        "q": "Which type of non-verbal communication is most vital for showing empathy to a distressed individual?",
+        "options": ["Maintaining open body language and eye contact", "Checking your watch frequently during conversations", "Standing with your arms tightly crossed across your chest", "Speaking loudly from across the hallway"],
+        "correct": 0,
+        "hint": "Open postures signal that you are present and listening attentively."
+      }
+    ],
+    "Medium": [
+      {
+        "q": "Which of these legislation acts primarily protects individual data and medical records in care environments?",
+        "options": ["Data Protection Act / GDPR", "Health and Safety at Work Act", "The Equality Act", "The Care Act"],
+        "correct": 0,
+        "hint": "This legislation dictates how sensitive information must be securely handled."
+      },
+      {
+        "q": "What does 'holistic care' refer to in a health and social care context?",
+        "options": ["Addressing physical, intellectual, emotional, and social needs entirely", "Focusing strictly on treating biological symptoms with medication", "Providing care services exclusively in a hospital environment", "Letting the service user manage their own medication without help"],
+        "correct": 0,
+        "hint": "Think back to the full PIES spectrum of developmental needs."
+      }
+    ],
+    "Hard": [
+      {
+        "q": "Explain how a chronic health condition can cause a secondary impact on an individual's social development.",
+        "options": ["Isolation due to regular hospital stays prevents peer interaction", "It instantly alters their inherited DNA structure", "It removes their legal right to access educational tutoring", "It directly stops them from understanding written vocabulary"],
+        "correct": 0,
+        "hint": "Consider how missing school or community events impacts friendships."
+      },
+      {
+        "q": "An advocate's primary responsibility when representing a service user with dementia is to:",
+        "options": ["Ensure the individual's preferences and rights are voiced", "Make financial investments on the individual's behalf", "Prescribe alternative medications for the condition", "Take over complete legal guardianship of the family home"],
+        "correct": 0,
+        "hint": "Advocates help individuals express what they want when they struggle to speak up."
+      }
+    ],
+    "Challenger": [
+      {
+        "q": "Evaluate the impact of applying the principle of 'Empowerment' to a vulnerable service user.",
+        "options": ["It builds independence and control over their own lifestyle choices", "It increases their reliance on emergency medical support networks", "It removes their responsibility to adhere to health safety codes", "It automatically eliminates any genetic disease conditions"],
+        "correct": 0,
+        "hint": "Empowerment gives individuals autonomy over their care plan decisions."
+      },
+      {
+        "q": "Which of the following describes a systemic institutional barrier to accessing health services?",
+        "options": ["A clinic lacking wheelchair ramps and translation arrangements", "An individual choosing to visit a private physical therapist", "A patient forgetting the time slot of their afternoon consultation", "A pharmacy running out of a single brand of vitamins"],
+        "correct": 0,
+        "hint": "Institutional barriers are built-in structural blocks created by an organization."
+      }
+    ]
+  }
+}
